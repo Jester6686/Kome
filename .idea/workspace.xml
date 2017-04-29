@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b99e28-6064-46d9-a084-fbbc46559c76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media768x1024.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media_inner_768x1024.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/js768x1024.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/katalog_page1366.css" afterPath="$PROJECT_DIR$/css/katalog_page1366.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/katalog_page.html" afterPath="$PROJECT_DIR$/katalog_page.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about_us.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about_us.html">
+      <file leaf-file-name="about_us1366.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/about_us1366.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state relative-caret-position="238">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -53,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -63,10 +62,44 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="katalog_page1366.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/katalog_page1366.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="174" column="25" lean-forward="false" selection-start-line="174" selection-start-column="25" selection-end-line="174" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="katalog_page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katalog_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="94" column="30" lean-forward="true" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>footr</find>
+      <find>footer</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/katalog_page.html" />
+        <option value="$PROJECT_DIR$/css/katalog_page1366.css" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -158,14 +191,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.about_us.html">
+  <component name="RunManager" selected="JavaScript Debug.prod_item.html">
     <configuration default="false" name="katalog_page.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/katalog_page.html">
       <method />
     </configuration>
-    <configuration default="false" name="about_us.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/about_us.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/index.html">
+    <configuration default="false" name="item_page.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/item_page.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="categor_page.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/categor_page.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="prod_item.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/prod_item.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -234,16 +273,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.katalog_page.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.about_us.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.item_page.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.categor_page.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.prod_item.html" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.about_us.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.katalog_page.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.prod_item.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.categor_page.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.item_page.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.katalog_page.html" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +303,7 @@
       <workItem from="1493462300687" duration="122000" />
       <workItem from="1493463021683" duration="1071000" />
       <workItem from="1493478373910" duration="721000" />
-      <workItem from="1493480287621" duration="83000" />
+      <workItem from="1493480287621" duration="4695000" />
     </task>
     <task id="LOCAL-00001" summary="first comit (second variant)">
       <created>1493463288409</created>
@@ -269,11 +312,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493463288409</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all new file">
+      <created>1493480410899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1493480410899</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1997000" />
+    <option name="totallyTimeSpent" value="6609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,7 +357,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first comit (second variant)" />
-    <option name="LAST_COMMIT_MESSAGE" value="first comit (second variant)" />
+    <MESSAGE value="all new file" />
+    <option name="LAST_COMMIT_MESSAGE" value="all new file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -354,14 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -382,6 +425,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katalog_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="94" column="30" lean-forward="true" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="175" column="43" lean-forward="false" selection-start-line="175" selection-start-column="43" selection-end-line="175" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/about_us1366.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/katalog_page1366.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="174" column="25" lean-forward="false" selection-start-line="174" selection-start-column="25" selection-end-line="174" selection-end-column="25" />
           <folding />
         </state>
       </provider>

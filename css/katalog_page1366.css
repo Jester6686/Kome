@@ -11,7 +11,86 @@
         width: 81%;
         margin-left: 9%;
     }
+    .inner_page_breadcrumbs{
+        display: none;
+    }
+    .catalog_one_mode_sec2 .page_inner_wrapper{
+        width: 81%;
+        margin-left: 9%;
+    }
+    .section_footer .page_inner_wrapper{
+        width: 86%;
+        margin-left: 7%;
+    }
+    /*****animet_Katalog********/
+    .page_block_5 .page_title {
+        left: 40%;
+    }
+    .page_block_5 .page_title .page_title_under {
+        top: 29px;
+        left: 3px;
+        font-size: 300px;
+        line-height: 200px;
+        height: 180px;
+    }
+    .page_block_5 .page_title .page_title_over{
+        top: 9px;
+        width: 37vw;
+    }
+    .page_title .page_title_over > div > span{
+        font-size: 67px;
+        line-height: 81px;
+        height: 85px;
+    }
+    .page_title .page_title_over > div > span:nth-child(1) > span:last-child,
+    .page_title .page_title_over > div > span:nth-child(2) > span:last-child,
+    .page_title .page_title_over > div > span:nth-child(3) > span:last-child,
+    .page_title .page_title_over > div > span:nth-child(4) > span:last-child,
+    .page_title .page_title_over > div > span:nth-child(5) > span:last-child,
+    .page_title .page_title_over > div > span:nth-child(6n) > span:last-child,
+    .page_title .page_title_over > div > span:nth-child(7n) > span:last-child,
+    .page_title .page_title_over > div > span:nth-child(8n) > span:last-child,
+    .page_title .page_title_over > div > span:nth-child(9n) > span:last-child,
+    .page_title .page_title_over > div > span:nth-child(11n) > span:last-child,
+    .page_title .page_title_over > div > span:nth-child(12n) > span:last-child,
+    .page_title .page_title_over > div > span:nth-child(10n) > span:last-child {
+        top: 100%;
+        opacity: 0;
+        margin: 1vh 0 0 0;
+        height: 80%;
+        width: 1px;
+    }
 
+    .page_title .page_title_over > div > span:nth-child(1) > span:first-child,
+    .page_title .page_title_over > div > span:nth-child(2) > span:first-child,
+    .page_title .page_title_over > div > span:nth-child(3) > span:first-child,
+    .page_title .page_title_over > div > span:nth-child(4) > span:first-child,
+    .page_title .page_title_over > div > span:nth-child(5) > span:first-child,
+    .page_title .page_title_over > div > span:nth-child(6n) > span:first-child,
+    .page_title .page_title_over > div > span:nth-child(7n) > span:first-child,
+    .page_title .page_title_over > div > span:nth-child(8n) > span:first-child,
+    .page_title .page_title_over > div > span:nth-child(9n) > span:first-child,
+    .page_title .page_title_over > div > span:nth-child(11n) > span:first-child,
+    .page_title .page_title_over > div > span:nth-child(12n) > span:first-child,
+    .page_title .page_title_over > div > span:nth-child(10n) > span:first-child {
+        top: 100%;
+        opacity: 0;
+        margin: 1vh 0 0 0;
+        height: 80%;
+        width: 1px;
+    }
+
+    .page_title_over_line_1, .page_title_over_line_2 {
+        height: 1px;
+    }
+
+    .Midline {
+        display: block;
+        top: 49%;
+        height: 1px;
+    }
+
+    /************for_page_Katalog*********/
     .block_5_slider_wrapper::before {
         background: url(../images/page_block_title_bg.jpg) no-repeat left top,
         url(../images/page_block_title_bg.jpg) no-repeat left 277px,
@@ -81,8 +160,20 @@
     #block_5_slider > li:nth-child(2) > .block_5_slider_item {
         margin-top: 301px;
     }
-
-
+    .about_katalog_txt div{
+        width: 31.7%;
+        padding: 0;
+    }
+    .about_katalog_txt div:first-child{
+        margin-right: 2vw;
+        padding: 0;
+    }
+    .about_katalog_txt div:last-child{
+        padding: 0;
+    }
+    .catalog_one_mode_sec2{
+        min-height: 42vh;
+    }
     /**************Footer************/
     .section_footer .page_outer_wrapper{
         min-height: 90vh;
