@@ -2,10 +2,287 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b99e28-6064-46d9-a084-fbbc46559c76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Kome.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueBold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueBold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueBold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueBook.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueBook.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueBook.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueBook.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueRegular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueRegular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueRegular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about_us_photo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/allnews_img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/articles_controls_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/articles_photo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/articles_slider_controls_all_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/articles_slider_controls_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/articles_slider_controls_prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/articles_slider_controls_top_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/black_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_5_slider_1_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_5_slider_1_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_5_slider_2_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_5_slider_3_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_5_slider_3_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_gallery_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_gallery_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_gallery_prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_gallery_title_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_gallery_title_gray_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_gallery_title_gray_b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_gallery_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_img_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_img_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_img_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_lens.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/block_6_popup_closed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/footer_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ie_mainpage_lines.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/katalog_gallery_title_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/main_menu_contacts_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/main_menu_links_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/main_menu_links_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/main_menu_links_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/main_menu_links_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/main_menu_links_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/main_menu_links_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mouse_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_1_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_1_slogan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_2_img_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_2_img_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_2_img_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_2_img_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_2_title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_3_slider_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_3_slider_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_3_slider_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_4_gallery_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_4_gallery_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_4_gallery_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_block_5_main_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_block_7_main_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_block_9_outer_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_block_title_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_inner_wrapper.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/page_inner_wrapper_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/Logo9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/partner9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/news_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/news_th_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/product/catalog_t.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/product/product_slide_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/product/product_slide_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/product/product_slide_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/product/product_slide_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/product/product_slide_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/product/product_slide_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/right_gallery.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/right_gallery_a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/right_gallery_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider_3_controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider_3_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider_3_link_gr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider_3_sight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider_5_controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/to_top_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueBold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueBold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueBold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueBook.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueBook.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueBook.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueBook.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueRegular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueRegular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueRegular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/about_us_photo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/allnews_img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/articles_controls_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/articles_photo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/articles_slider_controls_all_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/articles_slider_controls_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/articles_slider_controls_prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/articles_slider_controls_top_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/black_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_5_gallery_title_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_5_slider_1_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_5_slider_1_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_5_slider_2_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_5_slider_3_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_5_slider_3_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_6_gallery_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_6_gallery_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_6_gallery_prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_6_gallery_title_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_6_gallery_title_gray_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_6_gallery_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_6_img_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_6_img_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_6_img_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_6_lens.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/block_6_popup_closed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/footer_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/ie_mainpage_lines.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/katalog_gallery_title_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/main_menu_contacts_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/main_menu_links_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/main_menu_links_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/main_menu_links_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/main_menu_links_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/main_menu_links_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/main_menu_links_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/mouse_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_1_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_1_slogan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_2_img_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_2_img_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_2_img_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_2_img_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_2_title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_3_slider_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_3_slider_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_3_slider_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_4_gallery_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_4_gallery_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_4_gallery_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_block_5_main_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_block_7_main_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_block_9_outer_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_block_title_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_inner_wrapper.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/page_inner_wrapper_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/right_gallery.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/right_gallery_a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/right_gallery_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/slider_3_controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/slider_3_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/slider_3_sight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/slider_5_controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/social.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/to_top_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_us.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article_one.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articleslist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categor_page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categor_page_wo_t.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contakt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/about_us1366.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/article_one1366.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/articleslist1366.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/categor_page1366.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ieonly.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/katalog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/katalog_page1366.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/lightslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main1366.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main_katalog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/news1366.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/newslist1366.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/pageitem.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/prod_item.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueBold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueBook.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/BebasNeueRegular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider3_arrow_left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider3_arrow_right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider5_arrow_left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider5_arrow_right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index_2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/item_page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/backgroundfigures.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.fullPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.inview.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lightslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/maskedinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/page_item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/scrollpref.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/wow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/katalog_page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main_menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newslist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prod_item.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/_last_w/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/bak_04/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/bak_07/katalog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/bak_07/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/ieonly.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/katalog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/lightslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/main_2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/main_bak.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/main_katalog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/css/prod_item.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueBold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueBook.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/fonts/BebasNeueRegular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/slider3_arrow_left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/slider3_arrow_right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/slider5_arrow_left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/images/slider5_arrow_right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/_last_w/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/backgroundfigures.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/bak/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/bak_04/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/bak_04/scrollpref.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/bak_07/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/bak_10/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/index_sections.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/jquery.fullPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/jquery.inview.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/jquery.scrollify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/lightslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/maskedinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/my_/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/page_item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/scrolloverflow.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/scrollpref.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/temp/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/js/wow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/katalog_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,12 +326,26 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForKome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForKome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,6 +359,68 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -79,24 +432,25 @@
       <option name="presentableId" value="Default" />
       <updated>1493462299022</updated>
       <workItem from="1493462300687" duration="122000" />
+      <workItem from="1493463021683" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122000" />
+    <option name="totallyTimeSpent" value="193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
