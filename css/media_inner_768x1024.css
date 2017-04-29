@@ -1,0 +1,49 @@
+
+
+@media  (max-width : 1024px)  {
+     /*==========  hide bloks & elements  ==========*/
+     .katalog_virtual{}
+     .main_menu_wrapper  .logo.katalog_virtual{
+         left: 12%;
+     }
+     .category_page_breadcrumbs, .invisible_inner1024{
+        display: none;
+    }
+    .right_menu_wrapper  .inner_page_inview  {
+        margin: 0 0 0 0;
+        height: 80px;
+        
+    }
+    .right_menu_wrapper   .inner_page_inview  ul{
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+   .right_menu_wrapper   .inner_page_inview  ul  li{
+        line-height: 12px;   
+    }
+    .catalog_one_mode .page_title {
+        top: 12vh;
+    }
+     .gallery_right.katalog_virtual{
+         margin-top: 2vh;
+     }
+     .right_menu_wrapper .gallery_right.katalog_virtual span{
+        font-size: 30px;
+        margin-left: -25px;
+     }
+      .main_menu_closed .main_menu_phones  .katalog_virtual{
+          display: none;
+      }
+    /* =============================== show blocks & elements ============= */
+
+}
+@media  (max-width : 800px)  {
+     /*==========  hide bloks & elements  ==========*/
+ 
+    .catalog_one_mode .page_title {
+        top: 15vh;
+    }
+    
+    /* =============================== show blocks & elements ============= */
+
+}
