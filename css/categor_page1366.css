@@ -4,15 +4,22 @@
         line-height: 0.9em;
 
     }
+    .tables_main, .page_block_5{
+        background-image: none;
+    }
     .catalog_one_mode .page_title, .catalog_one_mode .block_5_slider_wrapper{
-        top: 1vh;
+        top: 4vh;
     }
     .page_block_5  .page_inner_wrapper{
         width: 81%;
         margin-left: 9%;
     }
-    .inner_page_breadcrumbs{
+    .inner_page_logo{
         display: none;
+    }
+    .category_page_breadcrumbs {
+        margin-top: -30px;
+        margin-left: -15px;
     }
     .catalog_one_mode_sec2 .page_inner_wrapper{
         width: 81%;
@@ -24,6 +31,7 @@
     }
     /*****animet_Katalog********/
     .page_block_5 .page_title {
+        display: none;
         left: 40%;
     }
     .page_block_5 .page_title .page_title_under {
@@ -93,22 +101,22 @@
     /************for_page_Katalog*********/
     .block_5_slider_wrapper::before {
         background: url(../images/page_block_title_bg.jpg) no-repeat left top,
-        url(../images/page_block_title_bg.jpg) no-repeat left 277px,
-        url(../images/page_block_title_bg.jpg) no-repeat left 301px,
-        url(../images/page_block_title_bg.jpg) no-repeat left 603px;
+        url(../images/page_block_title_bg.jpg) no-repeat left 267px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 291px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 559px;
     }
 
     .block_5_slider_wrapper {
         background: url(../images/page_block_title_bg.jpg) no-repeat left 8px,
-        url(../images/page_block_title_bg.jpg) no-repeat left 285px,
-        url(../images/page_block_title_bg.jpg) no-repeat left 309px,
-        url(../images/page_block_title_bg.jpg) no-repeat left 587px;
+        url(../images/page_block_title_bg.jpg) no-repeat left 275px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 299px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 567px;
     }
     .block_5_slider_wrapper::after {
         background: url(../images/page_block_title_bg.jpg) no-repeat left top,
-        url(../images/page_block_title_bg.jpg) no-repeat left 277px,
-        url(../images/page_block_title_bg.jpg) no-repeat left 301px,
-        url(../images/page_block_title_bg.jpg) no-repeat left 603px;
+        url(../images/page_block_title_bg.jpg) no-repeat left 267px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 291px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 559px;
     }
     .block_5_slider_lines, .block_5_slider_lines::before, .block_5_slider_lines::after {
         background-size: 100% 1px;
@@ -118,25 +126,27 @@
         top: 218px;
     }
     .block_5_slider_prev {
+        background: url(../images/slider3_arrow_left.svg) no-repeat top left;
         left: -31px;
     }
     .block_5_slider_next {
+        background: url(../images/slider3_arrow_right.svg) no-repeat top right;
         right: -40px;
     }
     .block_5_slider_lines #block_5_slider > li {
         background-size: 1px 100%;
     }
     .block_5_slider_item {
-        height: 275px;
+        height: 265px;
     }
     #block_5_slider .block_5_slider_bg {
-        height: 275px;
+        height: 265px;
     }
     #block_5_slider .block_5_slider_bg > a {
         background: url(../images/slider_3_sight.png) no-repeat scroll center 100px;
     }
     #block_5_slider .block_5_slider_text {
-        min-height: 235px;
+        min-height: 225px;
     }
     #block_5_slider .block_5_slider_text span {
         font-size: 32px;
@@ -158,7 +168,10 @@
         margin: 0 6px 11px 0;
     }
     #block_5_slider > li:nth-child(2) > .block_5_slider_item {
-        margin-top: 301px;
+        margin-top: 0px;
+    }
+    #block_5_slider > li:nth-child(5) > .block_5_slider_item{
+        margin-top: 0px;
     }
     .about_katalog_txt div{
         width: 31.7%;

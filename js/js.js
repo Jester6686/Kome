@@ -488,7 +488,7 @@ $(function(){
                 enableDrag: true,
                 enableTouch: true
             });
-	} else if ($(window).width() > 768 && $(window).width() < 1367) {
+	} else if ($(window).width() > 768 && $(window).width() < 1024) {
 		var pageThreeSlider = $('#page_3_slider').lightSlider({ 
 				gallery: false,
 				item: 2,

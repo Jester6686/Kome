@@ -160,6 +160,9 @@
     #block_5_slider > li:nth-child(2) > .block_5_slider_item {
         margin-top: 301px;
     }
+    #block_5_slider > li:nth-child(5) > .block_5_slider_item{
+        margin-top: 301px;
+    }
     .about_katalog_txt div{
         width: 31.7%;
         padding: 0;
