@@ -18,6 +18,23 @@
         display: none;
     }
 
+ /********test galtgi***********/
+    .block_6_gallery_big_img{
+        display: none;
+        width: 58%;
+        height: 294px;
+        margin: 0 8% 0 5%;
+    }
+    .block_6_gallery_container{
+        width: 100%;
+        height: 480px;
+    }
+    .block_6_gallery_title {
+        border-bottom: 1px solid #c1c1c1;
+        width: 80%;
+        margin-left: 21%;
+        height: 40px;
+    }
     /**************Footer************/
     .section_footer .page_outer_wrapper{
         min-height: 90vh;
