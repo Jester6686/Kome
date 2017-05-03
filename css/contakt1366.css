@@ -1,9 +1,12 @@
-@media  (max-width: 1366px) {
+@media  (max-width: 1366px) and  (min-width: 1025px) {
     p{
         font-size: 18px;
         line-height: 18px;
         margin-top: 20px;
         letter-spacing: 0.04em;
+    }
+    .inner_page_breadcrumbs > a >img{
+        width: 55%;
     }
     .page_title .page_title_over{
         top: 30px;

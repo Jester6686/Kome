@@ -1,4 +1,4 @@
-@media  (max-width: 1366px) {
+@media  (max-width: 1366px) and  (min-width: 1025px) {
     p{
         font-size: 18px;
         line-height: 18px;
@@ -116,7 +116,11 @@
         line-height: 0.8em;
         letter-spacing: .04em;
     }
-
+    .about_txt_vertical{
+        padding-bottom: 9px;
+        margin-bottom: -6px;
+        margin: 0 0 0 -48px;
+    }
     .vertical_txt_last{
         margin: 0 0 0 -50px;
     }
@@ -130,7 +134,7 @@
         margin-left: 39px;
     }
     .first_big_digit {
-        margin-left: 30px;
+        margin-left: 26px;
         letter-spacing: 0.04em;
     }
 
@@ -139,6 +143,9 @@
     }
     .for_last_underdigit{
         margin: 14px 0 15.5vh 50px;
+    }
+    .about_underdigil_first{
+        margin: 6px 0 18.5vh 50px;
     }
     .about_midlle, .news_one_midlle {
         margin: 5vh 0 0 0;
@@ -259,8 +266,8 @@
         float: left;
         width: 100%;
         text-align: left;
-        margin-top: -28px;
-        padding-left: 59%;
+        margin-top: -22px;
+        margin-left: 59%;
         font-size: 24px;
         letter-spacing: 1.01px;
     }

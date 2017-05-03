@@ -1,4 +1,4 @@
-@media  (max-width: 1366px) {
+@media  (max-width: 1366px) and  (min-width: 1025px) {
     p{
         font-size: 18px;
         line-height: 18px;
@@ -17,7 +17,8 @@
     }
     .section_footer .page_inner_wrapper{
         width: 86%;
-        margin-left: 7%;
+        margin-left: 8.3%;
+        padding-top: 5.3vh;
     }
 
     .inner_page_breadcrumbs {
@@ -39,9 +40,10 @@
         top: 275px;
         left: 60px;
     }
-    .news_one_title {
-        top: 5px;
-        margin-right: 28%;
+    .news_add_title {
+        top: 17px;
+        margin-right: 31%;
+        float: right;
     }
     .news_one_conteiner{
         left: 9vw;
@@ -153,16 +155,23 @@
         margin-right: 8.5%;
         margin-bottom: 26vh;
     }
+    .news_one_top_txt_body .articles_slider_controls_wrapper > a{
+        top: 127px;
+        background: url(../images/articles_slider_controls_all_a.png) no-repeat right 11px top -1px;
+        font-size: 19px;
+        left: 0;
+    }
     .articles_slider_controls_wrapper > a{
-        top: 98px;
+        top: 95px;
         background: url(../images/articles_slider_controls_all_a.png) no-repeat right 0px top 0;
         letter-spacing: 0.05em;
-        font-size: 18px;
+        font-size: 19px;
+        padding-right: 21px;
     }
     .page_no_switcher{
         width: 95%;
-        z-index: -1;
-        top: 633px;
+        z-index: 30;
+        top: 614px;
         font-size: 23px
     }
     .page_no_switcher  span{
