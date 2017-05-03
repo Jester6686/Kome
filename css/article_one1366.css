@@ -4,6 +4,9 @@
         line-height: 18px;
         letter-spacing: 0.05em;
     }
+    .inner_page_breadcrumbs > a >img {
+        width: 55%;
+    }
     .news_one .page_outer_wrapper{
         min-height: 148.5vh;
     }
@@ -54,7 +57,7 @@
         font-size: 64px;
         line-height: 79px;
         height: 83px;
-        margin-right: 15px;
+        margin-right: 11px;
     }
 
     .page_title .page_title_over > div > span:nth-child(1) > span:last-child,
@@ -206,6 +209,7 @@
         margin-right: 46px;
         margin-bottom: 20px;
         font-size: 23px;
+        letter-spacing: 0.03em;
     }
     .footer_map_text > span:last-child{
         margin-left: 8%;
@@ -254,19 +258,26 @@
     .right_menu_wrapper{
         width: 97px;
     }
-    .lang_selector {
+    .right_menu_wrapper .lang_selector{
+        margin-top: 43px;
         margin-left: 52px;
-        /* margin-top: 9vh; */
+    }
+
+    .main_menu_closed .main_menu_contacts a{
+        margin-left: 1px;
+    }
+    .main_menu_open .main_menu_links li a {
+        margin-bottom: 1.7vh;
     }
     .right_menu_wrapper .lang_selector ul, .right_menu_wrapper .lang_selector ul li{
-        height: 25px;
+        height: 24px;
+    }
+    .right_menu_wrapper .gallery_right {
+        margin-top: 16vh;
     }
     .right_menu_wrapper .lang_selector ul li a {
         margin-bottom: 0px;
         font-size: 17px;
-    }
-    .right_menu_wrapper .gallery_right {
-        margin-top: 16.3vh;
     }
     .right_menu_wrapper .gallery_right span {
         font-size: 28px;

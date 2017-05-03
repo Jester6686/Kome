@@ -5,6 +5,9 @@
         word-spacing: 1px;
         letter-spacing: 0.05em;
     }
+    .inner_page_breadcrumbs > a >img {
+        width: 55%;
+    }
     .news_list .page_outer_wrapper{
         min-height: 201vh;
     }
@@ -205,6 +208,14 @@
         font-size: 18px;
     }
     /********foooter*****/
+    .footer_social_wrapper > div span{
+        width: 28px;
+        height: 32px;
+    }
+    .footer_social_wrapper > div{
+        height: 31px;
+        margin-right: 5px;
+    }
     .section_footer .page_outer_wrapper{
         min-height: 90vh;
     }
@@ -244,7 +255,7 @@
     }
     .footer_social_wrapper > div span::after {
         width: 1px;
-        right: -1px;
+        right: -4px;
     }
     .footer_map_text {
         padding-top: 133px;
@@ -256,6 +267,7 @@
         margin-right: 57px;
         margin-bottom: 20px;
         font-size: 23px;
+        letter-spacing: 0.03em;
     }
     .footer_map_text > span:last-child{
         margin-left: 6%;

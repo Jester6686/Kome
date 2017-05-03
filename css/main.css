@@ -1476,6 +1476,7 @@ font-variant: small-caps;
 	background-repeat: no-repeat;
 	background-size: 100% 350px;
 	background-position: top 1px;
+	padding-left: -1px;
 	position: absolute;
 	top:0px;
 	-webkit-transition: all 0.3s linear;
@@ -1834,6 +1835,7 @@ font-variant: small-caps;
 	background-position: top center;
 	position: relative;
 }
+#block_5_slider > li:nth-child(1) > .block_5_slider_item .block_5_slider_bg {background-image: url('../images/block_5_slider_2_1.jpg');}
 #block_5_slider > li:nth-child(1) > .block_5_slider_item:nth-child(1) .block_5_slider_bg {background-image: url('../images/block_5_slider_1_1.jpg');}
 #block_5_slider > li:nth-child(1) > .block_5_slider_item:nth-child(2) .block_5_slider_bg {background-image: url('../images/block_5_slider_1_2.jpg');}
 #block_5_slider > li:nth-child(2) > .block_5_slider_item {
@@ -1842,15 +1844,18 @@ font-variant: small-caps;
 #block_5_slider > li:nth-child(2) > .block_5_slider_item .block_5_slider_bg {
 	background-image: url('../images/block_5_slider_2_1.jpg');
 }
+#block_5_slider > li:nth-child(3) > .block_5_slider_item .block_5_slider_bg {background-image: url('../images/block_5_slider_1_2.jpg');}
 #block_5_slider > li:nth-child(3) > .block_5_slider_item:nth-child(1) .block_5_slider_bg {background-image: url('../images/block_5_slider_3_1.jpg');}
 #block_5_slider > li:nth-child(3) > .block_5_slider_item:nth-child(2) .block_5_slider_bg {background-image: url('../images/block_5_slider_3_2.jpg');}
 /* copy prev slides */
+#block_5_slider > li:nth-child(4) > .block_5_slider_item .block_5_slider_bg {background-image: url('../images/block_5_slider_3_1.jpg');}
 #block_5_slider > li:nth-child(4) > .block_5_slider_item:nth-child(1) .block_5_slider_bg {background-image: url('../images/block_5_slider_1_1.jpg');}
 #block_5_slider > li:nth-child(4) > .block_5_slider_item:nth-child(2) .block_5_slider_bg {background-image: url('../images/block_5_slider_1_2.jpg');}
 #block_5_slider > li:nth-child(5) > .block_5_slider_item {
 	margin-top: 376px;
 }
 #block_5_slider > li:nth-child(5) > .block_5_slider_item .block_5_slider_bg {background-image: url('../images/block_5_slider_2_1.jpg');}
+#block_5_slider > li:nth-child(6) > .block_5_slider_item .block_5_slider_bg {background-image: url('../images/block_5_slider_1_2.jpg');}
 #block_5_slider > li:nth-child(6) > .block_5_slider_item:nth-child(1) .block_5_slider_bg {background-image: url('../images/block_5_slider_3_1.jpg');}
 #block_5_slider > li:nth-child(6) > .block_5_slider_item:nth-child(2) .block_5_slider_bg {background-image: url('../images/block_5_slider_3_2.jpg');}
 #block_5_slider .block_5_slider_bg > a {

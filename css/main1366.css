@@ -139,7 +139,7 @@
         margin-top: 10vh;
     }
     .main_menu_closed .main_menu_contacts a{
-        margin-left: 5px;
+        margin-left: 1px;
     }
     .main_menu_open .main_menu_links li a {
         margin-bottom: 1.7vh;
@@ -204,6 +204,10 @@
     .page_block_2 .page_title_over {
         left: -2px;
         width: 80vw;
+    }
+    .page_2_top_text .page_2_top_text_inner{
+        top: 2px;
+        right: 1px;
     }
 
     .page_2_top_text {
@@ -275,7 +279,7 @@
     }
 
     .page_2_texts > div {
-        margin-top: 0px;
+        margin-top: 3px;
         font-size: 19px;
         line-height: 18px;
         letter-spacing: 0.04em;
@@ -1029,6 +1033,7 @@
         margin-right: 88px;
         margin-bottom: 20px;
         font-size: 24px;
+        letter-spacing: 0.03em;
     }
     .footer_menu_wrapper{
         margin-top: 40px;
