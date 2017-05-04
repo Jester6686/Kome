@@ -261,8 +261,8 @@
         float: left;
         width: 100%;
         text-align: left;
-        margin-top: -28px;
-        padding-left: 59%;
+        margin-top: -22px;
+        margin-left: 59.5%;
         font-size: 24px;
         letter-spacing: 1.01px;
     }
@@ -284,15 +284,28 @@
         margin-left: 52px;
         /* margin-top: 9vh; */
     }
+    .right_menu_wrapper .lang_selector{
+        margin-top: 43px;
+        margin-left: 52px;
+    }
+    .main_menu_closed .main_menu_contacts a{
+        margin-left: 1px;
+    }
+    .main_menu_open .main_menu_links{
+        margin-top: 10vh;
+    }
+    .main_menu_open .main_menu_links li a {
+        margin-bottom: 1.7vh;
+    }
     .right_menu_wrapper .lang_selector ul, .right_menu_wrapper .lang_selector ul li{
-        height: 25px;
+        height: 24px;
     }
     .right_menu_wrapper .lang_selector ul li a {
         margin-bottom: 0px;
         font-size: 17px;
     }
     .right_menu_wrapper .gallery_right {
-        margin-top: 16.3vh;
+        margin-top: 16vh;
     }
     .right_menu_wrapper .gallery_right span {
         font-size: 28px;

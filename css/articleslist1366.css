@@ -20,7 +20,8 @@
     }
     .section_footer .page_inner_wrapper{
         width: 86%;
-        margin-left: 7%;
+        margin-left: 8.4%;
+        padding-top: 5.4vh;
     }
 
     .inner_page_breadcrumbs {
@@ -159,23 +160,36 @@
         margin-right: 8.5%;
         margin-bottom: 26vh;
     }
-    .articles_slider_controls_wrapper > a{
+    .news_one_top_txt_body .articles_slider_controls_wrapper > a{
         top: 127px;
+
+        font-size: 19px;
+        left: 0;
+        padding-right: 21px;
+    }
+    .articles_slider_controls_wrapper > a{
+        top: 95px;
         background: url(../images/articles_slider_controls_all_a.png) no-repeat right 0px top 0;
         letter-spacing: 0.05em;
-        font-size: 18px;
+        font-size: 19px;
+        padding-right: 21px;
     }
     .read_main_news a{
         right: 84%;
     }
     .page_no_switcher{
+        text-align: left;
+        padding-left: 35.3%;
         width: 95%;
-        z-index: -1;
-        top: 633px;
-        font-size: 23px
+        z-index: 30;
+        top: 616px;
+        font-size: 23px;
+    }
+    .page_no_switcher a span, .page_no_switcher a{
+        margin-right: 7px;
     }
     .page_no_switcher  span{
-        margin: 0px 15px 0 15px;
+        margin: 0px 10px 0 12px;
     }
     .articles_slider_controls_wrapper{
         bottom: 5px;
@@ -219,7 +233,7 @@
         min-height: 90vh;
     }
     .footer_social_wrapper{
-        padding: 0 0 23px 0;
+        padding: 3px 0 20px 0;
     }
     .footer_slogan_wrapper {
         font-family: 'BebasNeueBook';
@@ -263,12 +277,13 @@
     .footer_map_text > span {
         display: block;
         float: left;
-        margin-right: 57px;
+        margin-right: 7%;
         margin-bottom: 20px;
         font-size: 23px;
+        letter-spacing: 0.03em;
     }
     .footer_map_text > span:last-child{
-        margin-left: 6%;
+        margin-left: 7.5%;
     }
     .footer_map_container {
         width: 41%;
@@ -294,8 +309,8 @@
         float: left;
         width: 100%;
         text-align: left;
-        margin-top: -28px;
-        padding-left: 59%;
+        margin-top: -22px;
+        margin-left: 59%;
         font-size: 24px;
         letter-spacing: 1.01px;
     }
@@ -304,7 +319,7 @@
         line-height: 23px;
     }
     .section_footer{
-        background-position: left 234.27px !important;
+        background-position: left 242.27px !important;
     }
     /*******************for oll**********/
 
@@ -317,6 +332,19 @@
     .lang_selector {
         margin-left: 52px;
         /* margin-top: 9vh; */
+         }
+    .right_menu_wrapper .lang_selector{
+        margin-top: 43px;
+        margin-left: 52px;
+    }
+    .main_menu_closed .main_menu_contacts a{
+        margin-left: 1px;
+    }
+    .main_menu_open .main_menu_links{
+        margin-top: 10vh;
+    }
+    .main_menu_open .main_menu_links li a {
+        margin-bottom: 1.7vh;
     }
     .right_menu_wrapper .lang_selector ul, .right_menu_wrapper .lang_selector ul li{
         height: 25px;
@@ -326,7 +354,7 @@
         font-size: 17px;
     }
     .right_menu_wrapper .gallery_right {
-        margin-top: 16.3vh;
+        margin-top: 16vh;
     }
     .right_menu_wrapper .gallery_right span {
         font-size: 28px;

@@ -25,7 +25,7 @@
         display: none;
     }
 
- /********test galtgi***********/
+    /********test galtgi***********/
     .block_6_slider_item{
         padding: 0 1px 0 0;
 
@@ -49,6 +49,10 @@
     }
     .block_6_gallery_wrapper{
         margin-top: 0;
+    }
+    #prod_gallery_title_one{
+        margin-left: 60%;
+
     }
     .inner_page .block_6_gallery_title span{
         font-size: 69px;

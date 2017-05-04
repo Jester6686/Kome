@@ -582,8 +582,11 @@
         top: 9px;
     }
     .page_block_5 .page_title .page_title_under{
-        top: 29px;
+        top: 59px;
         left: 3px;
+        font-size: 316px;
+        line-height: 152px;
+        height: 165px;
     }
     .block_5_slider_wrapper::before {
         background: url(../images/page_block_title_bg.jpg) no-repeat left top,
@@ -734,7 +737,7 @@
         top: 232px !important;
     }
     .block_6_slider_prev{
-        left: 15px !important;
+        left: 40px !important;
     }
     .block_6_gallery_title {
         border-bottom: 1px solid #c1c1c1;
@@ -750,6 +753,7 @@
         text-align: left;
         font-size: 38px;
         letter-spacing: 0.05em;
+        width: 9%;
     }
 
     .block_6_gallery_title a {
@@ -1047,13 +1051,6 @@
         height: 333px;
     }
 
-   .footer_copyright {
-        float: left;
-        width: 100%;
-        text-align: right;
-        margin-top: -27px;
-    }
-
     .to_top {
         bottom: 5px;
     }
@@ -1244,18 +1241,17 @@
     .footer_copyright {
         float: left;
         width: 100%;
-        text-align: right;
-        margin-top: -25px;
+        text-align: left;
+        margin-top: -22px;
+        margin-left: 59%;
         font-size: 24px;
+        letter-spacing: 1.01px;
     }
     .footer_map_text > span p{
         font-size: 22px;
         letter-spacing: 0.04em;
     }
-    .footer_copyright{
-        margin-left: 59%;
-        text-align: left;
-    }
+
     .section_footer{
         background-position: left 266.27px !important;
     }

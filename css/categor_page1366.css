@@ -4,6 +4,9 @@
         line-height: 0.9em;
 
     }
+    .invisible_at800{
+        display: none;
+    }
     .tables_main, .page_block_5{
         background-image: none;
     }
@@ -18,8 +21,8 @@
         display: none;
     }
     .category_page_breadcrumbs {
-        margin-top: -30px;
-        margin-left: -15px;
+        margin-top: -33px;
+        margin-left: 122px;
     }
     .catalog_one_mode_sec2 .page_inner_wrapper{
         width: 81%;
@@ -31,12 +34,12 @@
     }
     /*****animet_Katalog********/
     .page_block_5 .page_title {
-        display: none;
+        display: block;
         left: 40%;
     }
     .page_block_5 .page_title .page_title_under {
         top: 29px;
-        left: 3px;
+        left: 5px;
         font-size: 300px;
         line-height: 200px;
         height: 180px;
@@ -123,7 +126,7 @@
     }
     .block_5_slider_prev, .block_5_slider_next {
         height: 154px;
-        top: 218px;
+        top: 209px;
     }
     .block_5_slider_prev {
         background: url(../images/slider3_arrow_left.svg) no-repeat top left;
@@ -131,7 +134,7 @@
     }
     .block_5_slider_next {
         background: url(../images/slider3_arrow_right.svg) no-repeat top right;
-        right: -40px;
+        right: -32px;
     }
     .block_5_slider_lines #block_5_slider > li {
         background-size: 1px 100%;
@@ -168,10 +171,10 @@
         margin: 0 6px 11px 0;
     }
     #block_5_slider > li:nth-child(2) > .block_5_slider_item {
-        margin-top: 0px;
+        margin-top: 291px;
     }
     #block_5_slider > li:nth-child(5) > .block_5_slider_item{
-        margin-top: 0px;
+        margin-top: 291px;
     }
     .about_katalog_txt div{
         width: 31.7%;
@@ -291,6 +294,10 @@
         margin-left: 52px;
         /* margin-top: 9vh; */
     }
+    .right_menu_wrapper .lang_selector{
+        margin-top: 43px;
+        margin-left: 52px;
+    }
     .right_menu_wrapper .lang_selector ul, .right_menu_wrapper .lang_selector ul li{
         height: 25px;
     }
@@ -299,7 +306,7 @@
         font-size: 17px;
     }
     .right_menu_wrapper .gallery_right {
-        margin-top: 16.3vh;
+        margin-top: 16vh;
     }
     .right_menu_wrapper .gallery_right span {
         font-size: 28px;

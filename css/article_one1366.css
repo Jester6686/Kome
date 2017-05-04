@@ -158,6 +158,14 @@
     }
 
     /**************Footer************/
+    .footer_social_wrapper > div span{
+        width: 28px;
+        height: 32px;
+    }
+    .footer_social_wrapper > div{
+        height: 31px;
+        margin-right: 5px;
+    }
     .section_footer .page_outer_wrapper{
         min-height: 90vh;
     }
@@ -197,7 +205,7 @@
     }
     .footer_social_wrapper > div span::after {
         width: 1px;
-        right: -1px;
+        right: -4px;
     }
     .footer_map_text {
         padding-top: 133px;
@@ -265,6 +273,9 @@
 
     .main_menu_closed .main_menu_contacts a{
         margin-left: 1px;
+    }
+    .main_menu_open .main_menu_links{
+        margin-top: 10vh;
     }
     .main_menu_open .main_menu_links li a {
         margin-bottom: 1.7vh;

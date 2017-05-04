@@ -305,7 +305,9 @@
         margin-top: 43px;
         margin-left: 52px;
     }
-
+    .main_menu_open .main_menu_links{
+        margin-top: 10vh;
+    }
     .main_menu_closed .main_menu_contacts a{
         margin-left: 1px;
     }

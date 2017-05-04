@@ -45,14 +45,17 @@
         font-size: 300px;
         line-height: 200px;
         height: 180px;
-        top: 42px;
-        left: 3px;
+        top: 44px;
+        left: 2px;
     }
-
+    .page_title .page_title_over{
+        top: 25px;
+    }
     .page_title .page_title_over > div > span {
         font-size: 64px;
         line-height: 79px;
         height: 83px;
+        margin: -18px 11px -22px 0;
     }
 
     .page_title .page_title_over > div > span:nth-child(1) > span:last-child,
@@ -121,12 +124,12 @@
     }
     .news_one_top_txt_body{
         width: 42.5%;
-        margin: 11px 7.5% 0 0;
+        margin: 12px 7.5% 0 0;
         padding-top: 19px;
         height: 271px;
     }
     .news_one_line_ontop{
-        top: -1px;
+        top: 1px;
     }
     .news_one_line_onbottom{
         top: 54.5vh;
@@ -135,14 +138,14 @@
     }
     .news_one_bottom_txt_body{
         width: 42.5%;
-        margin: 0 7.2% 0 1.1%;;
+        margin: 2px 7.35% 0 10px;;
     }
     .news_one_bottom_cont{
         margin-top: -9px;
     }
     .test{
         width: 41.5%;
-        margin: 0 4.5% 0 1.1%;
+        margin: 2px 4.5% 0 1.1%;
     }
     .read_all_news{
         margin-right: 8.5%;
@@ -209,13 +212,13 @@
     .footer_map_text > span {
         display: block;
         float: left;
-        margin-right: 57px;
+        margin-right: 6%;
         margin-bottom: 20px;
         font-size: 23px;
         letter-spacing: 0.03em;
     }
     .footer_map_text > span:last-child{
-        margin-left: 6%;
+        margin-left: 8.8%;
     }
     .footer_map_container {
         width: 41%;
@@ -241,8 +244,8 @@
         float: left;
         width: 100%;
         text-align: left;
-        margin-top: -28px;
-        padding-left: 59%;
+        margin-top: -22px;
+        margin-left: 59%;
         font-size: 24px;
         letter-spacing: 1.01px;
     }
@@ -265,6 +268,10 @@
         margin-left: 52px;
         /* margin-top: 9vh; */
     }
+    .right_menu_wrapper .lang_selector{
+        margin-top: 43px;
+        margin-left: 52px;
+    }
     .right_menu_wrapper .lang_selector ul, .right_menu_wrapper .lang_selector ul li{
         height: 25px;
     }
@@ -273,7 +280,7 @@
         font-size: 17px;
     }
     .right_menu_wrapper .gallery_right {
-        margin-top: 16.3vh;
+        margin-top: 16vh;
     }
     .right_menu_wrapper .gallery_right span {
         font-size: 28px;
@@ -290,6 +297,9 @@
     }
     .main_menu_wrapper .main_menu_closed{
         width: 50px;
+    }
+    .main_menu_open .main_menu_links{
+        margin-top: 10vh;
     }
     .main_menu_closed .open_menu_btn{
         margin-left: 5px;
