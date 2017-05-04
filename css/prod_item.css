@@ -146,6 +146,9 @@
 .category_page_breadcrumbs span a:hover {
 	text-decoration: underline; 
 }
+.inner_page_breadcrumbs.categor_virtual{
+	position: absolute; z-index: 1; width: 400px; height: 50px; opacity: 1; top: 50px;  left: 10.5%; float:left;
+}
 
 /*	#block_5_slider.categori_slide > li:nth-child(2) > .block_5_slider_item {
 		margin-top: 0;

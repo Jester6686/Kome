@@ -133,7 +133,7 @@ p{
     font-family: 'BebasNeueRegular';
     font-size: 22px;
     margin-top: 1em;
-    line-height: 22px;
+    line-height: 1em;
     letter-spacing: .02em;
 }
 .about_col_2_conteiner .about_us_photo{
