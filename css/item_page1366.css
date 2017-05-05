@@ -138,7 +138,8 @@
         margin-right: 57px;
         margin-bottom: 20px;
         font-size: 23px;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.05em;
+        font-family: 'BebasNeueBook';
     }
     .footer_map_text > span:last-child{
         margin-left: 6%;

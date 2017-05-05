@@ -163,6 +163,7 @@
     }
     .about_col_2_conteiner{
         width: 79%;
+        padding-bottom: 0;
     }
     .line_right_about{
         top: 0vh;
@@ -184,12 +185,17 @@
         margin: 67px 0 10px 13px;
     }
     .partners_floo{
-        width: 80%;
+        margin-left: -20px;
+        width: 81%;
         margin-top: 0;
+    }
+    .partners_floo:first-child{
+        margin-right: 16px;
     }
     .partners_floo > img{
         height: 100%;
-        margin: -18px 24px 0 -23px;
+        margin: 0 13px -6px 0;
+        width: 150px;
     }
 
 /**************Footer************/
@@ -253,7 +259,8 @@
         margin-right: 48px;
         margin-bottom: 20px;
         font-size: 23px;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.05em;
+        font-family: 'BebasNeueBook';
     }
     .footer_map_text > span:last-child{
         margin-left: 8%;
@@ -290,6 +297,7 @@
     .footer_map_text > span p, .footer_map_text > span p{
         font-size: 22px;
         line-height: 23px;
+        margin-top: 9px;
     }
     .section_footer{
         background-position: left 234.27px !important;

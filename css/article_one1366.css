@@ -27,7 +27,7 @@
     }
 
     .katalog_page_breadcrumbs, .category_page_breadcrumbs {
-        margin-top: 81px;
+        margin-top: 79px;
         margin-left: 26px;
     }
     .category_page_breadcrumbs span, .category_page_breadcrumbs span a{
@@ -154,6 +154,7 @@
         margin-bottom: 26vh;
     }
     .articles_slider_controls_wrapper > a{
+        margin-right: -5px;
         background: url(../images/articles_slider_controls_all_a.png) no-repeat right 3px top 0;
     }
 
@@ -217,7 +218,8 @@
         margin-right: 46px;
         margin-bottom: 20px;
         font-size: 23px;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.05em;
+        font-family: 'BebasNeueBook';
     }
     .footer_map_text > span:last-child{
         margin-left: 8%;
@@ -254,6 +256,7 @@
     .footer_map_text > span p, .footer_map_text > span p{
         font-size: 22px;
         line-height: 23px;
+        margin-top: 8px;
     }
     .section_footer{
         background-position: left 251.27px !important;

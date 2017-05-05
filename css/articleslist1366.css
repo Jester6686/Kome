@@ -6,7 +6,7 @@
         letter-spacing: 0.05em;
     }
     .inner_page_breadcrumbs > a >img {
-        width: 55%;
+        width: 56%;
     }
     .news_list .page_outer_wrapper{
         min-height: 201vh;
@@ -29,8 +29,8 @@
     }
 
     .katalog_page_breadcrumbs, .category_page_breadcrumbs {
-        margin-top: 25px;
-        margin-left: 20px;
+        margin-top: 23px;
+        margin-left: 23px;
     }
     .category_page_breadcrumbs span, .category_page_breadcrumbs span a{
         letter-spacing: 0.01em;
@@ -185,14 +185,25 @@
         top: 616px;
         font-size: 23px;
     }
+    .page_no_switcher:nth-child(3) > a:first-child {
+        margin-right: 15px;
+    }
     .page_no_switcher a span, .page_no_switcher a{
-        margin-right: 7px;
+        margin-right: 4px;
     }
     .page_no_switcher  span{
         margin: 0px 10px 0 12px;
     }
     .articles_slider_controls_wrapper{
         bottom: 5px;
+    }
+    /*
+    .page_no_switcher:nth-child(3) {
+        margin-right: 15px;
+    }*/
+    .page_no_switcher .tochka{
+        margin: 0px -8px 0 13px;
+        text-decoration: none;
     }
     .news_list_main_line_onbottom{
         top: 350px;
@@ -277,10 +288,11 @@
     .footer_map_text > span {
         display: block;
         float: left;
-        margin-right: 7%;
+        margin-right: 6.7%;
         margin-bottom: 20px;
         font-size: 23px;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.05em;
+        font-family: 'BebasNeueBook';
     }
     .footer_map_text > span:last-child{
         margin-left: 7.5%;
@@ -317,6 +329,7 @@
     .footer_map_text > span p, .footer_map_text > span p{
         font-size: 22px;
         line-height: 23px;
+        margin-top: 8px;
     }
     .section_footer{
         background-position: left 242.27px !important;
