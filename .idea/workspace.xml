@@ -3,19 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f2b99e28-6064-46d9-a084-fbbc46559c76" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/about_us1366.css" afterPath="$PROJECT_DIR$/css/about_us1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/article_one1366.css" afterPath="$PROJECT_DIR$/css/article_one1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/articleslist1366.css" afterPath="$PROJECT_DIR$/css/articleslist1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/categor_page1366.css" afterPath="$PROJECT_DIR$/css/categor_page1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/contakt1366.css" afterPath="$PROJECT_DIR$/css/contakt1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/item_page1366.css" afterPath="$PROJECT_DIR$/css/item_page1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/katalog_page1366.css" afterPath="$PROJECT_DIR$/css/katalog_page1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main1366.css" afterPath="$PROJECT_DIR$/css/main1366.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_us.html" afterPath="$PROJECT_DIR$/about_us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categor_page.html" afterPath="$PROJECT_DIR$/categor_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media768x1024.css" afterPath="$PROJECT_DIR$/css/media768x1024.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/news1366.css" afterPath="$PROJECT_DIR$/css/news1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/newslist1366.css" afterPath="$PROJECT_DIR$/css/newslist1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/prod_item1366.css" afterPath="$PROJECT_DIR$/css/prod_item1366.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.js" afterPath="$PROJECT_DIR$/js/js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newslist.html" afterPath="$PROJECT_DIR$/newslist.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,35 +30,25 @@
       <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="283" column="31" lean-forward="true" selection-start-line="283" selection-start-column="31" selection-end-line="283" selection-end-column="31" />
+            <state relative-caret-position="527">
+              <caret line="280" column="44" lean-forward="false" selection-start-line="280" selection-start-column="44" selection-end-line="280" selection-end-column="44" />
               <folding>
-                <marker date="1494241209279" expanded="true" signature="1964:2232" ph="/*...*/" />
-                <marker date="1494241209279" expanded="true" signature="2299:2772" ph="{...}" />
-                <marker date="1494241209279" expanded="true" signature="2332:2616" ph="{...}" />
-                <marker date="1494241209279" expanded="true" signature="2622:2768" ph="{...}" />
-                <marker date="1494241209279" expanded="true" signature="25628:26115" ph="{...}" />
-                <marker date="1494241209279" expanded="true" signature="27679:27836" ph="{...}" />
+                <marker date="1494241702080" expanded="true" signature="1964:2232" ph="/*...*/" />
+                <marker date="1494241702080" expanded="true" signature="2299:2772" ph="{...}" />
+                <marker date="1494241702080" expanded="true" signature="2332:2616" ph="{...}" />
+                <marker date="1494241702080" expanded="true" signature="2622:2768" ph="{...}" />
+                <marker date="1494241702080" expanded="true" signature="25692:26179" ph="{...}" />
+                <marker date="1494241702080" expanded="true" signature="27743:27900" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newslist1366.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/newslist1366.css">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="182" column="19" lean-forward="true" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main1366.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/main1366.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="1231" column="5" lean-forward="true" selection-start-line="1231" selection-start-column="5" selection-end-line="1231" selection-end-column="5" />
+            <state relative-caret-position="-655">
+              <caret line="3344" column="5" lean-forward="true" selection-start-line="3344" selection-start-column="5" selection-end-line="3344" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -81,7 +65,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\/\*\*\*\*\*\*\*\*foooter\*\*\*\*\*\/\n    \.footer_social_wrapper \&gt; div span\{\n        width\: 28px\;\n        height\: 32px\;\n    \}\n    \.footer_social_wrapper \&gt; div\{\n        height\: 31px\;\n        margin\-right\: 5px\;\n    \}\n    \.section_footer \.page_outer_wrapper\{\n        min\-height\: 90vh\;\n    \}\n    \.footer_social_wrapper\{\n        padding\: 3px 0 20px 0\;\n    \}\n    \.footer_slogan_wrapper \{\n        font\-family\: \'BebasNeueBook\'\;\n        font\-size\: 38px\;\n        padding\-bottom\: 18px\;\n        padding\-left\: 23px\;\n        line\-height\: 28px\;\n        letter\-spacing\: 0\.01em\;\n    \}\n    \.footer_map_wrapper\:\:before \{\n        width\: 1px\;\n        top\: \-72px\;\n        left\: 57\.1\%\;\n        height\: 110\%\;\n    \}\n    \.footer_slogan_wrapper\:\:after \{\n        height\: 1px\;\n        width\: 67\%\;\n        margin\-left\: 23px\;\n    \}\n    \.footer_social_wrapper \&gt; div\:\:before \{\n        height\: 1px\;\n        top\: \-1px\;\n    \}\n    \.footer_social_wrapper \&gt; div\:\:after \{\n        height\: 1px\;\n        bottom\: \-1px\;\n    \}\n    \.footer_social_wrapper \&gt; div span\:first\-child\:\:before \{\n        width\: 1px\;\n        left\: \-1px\;\n    \}\n    \.footer_social_wrapper \&gt; div span\:\:after \{\n        width\: 1px\;\n        right\: \-4px\;\n    \}\n    \.footer_map_text \{\n        padding\-top\: 133px\;\n        width\: 57\%\;\n    \}\n    \.footer_map_text \&gt; span \{\n        display\: block\;\n        float\: left\;\n        margin\-right\: 7\%\;\n        margin\-bottom\: 20px\;\n        font\-size\: 23px\;\n        letter\-spacing\: 0\.03em\;\n    \}\n    \.footer_map_text \&gt; span\:last\-child\{\n        margin\-left\: 7\.5\%\;\n    \}\n    \.footer_map_container \{\n        width\: 41\%\;\n        height\: 333px\;\n        padding\-top\: 20px\;\n        overflow\: hidden\;\n    \}\n    \.footer_map_wrapper \{\n        margin\-bottom\: 10px\;\n    \}\n    \.footer_menu_wrapper \{\n        margin\-top\: 11px\;\n    \}\n    \.footer_menu li \{\n        padding\-right\: 34px\;\n    \}\n    \.footer_menu li a \{\n        z\-index\: 1\;\n        font\-size\: 30px\;\n        letter\-spacing\: 0\.5px\;\n    \}\n    \.footer_copyright \{\n        float\: left\;\n        width\: 100\%\;\n        text\-align\: left\;\n        margin\-top\: \-22px\;\n        margin\-left\: 59\%\;\n        font\-size\: 24px\;\n        letter\-spacing\: 1\.01px\;\n    \}\n    \.footer_map_text \&gt; span p\, \.footer_map_text \&gt; span p\{\n        font\-size\: 22px\;\n        line\-height\: 23px\;\n    \}\n    \.section_footer\{\n        background\-position\: left 242\.27px \!important\;\n    \}\n    \/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*for oll\*\*\*\*\*\*\*\*\*\*\/\n\n    \.to_top \{\n        bottom\: 5px\;\n    \}\n    \.right_menu_wrapper\{\n        width\: 97px\;\n    \}\n    \.lang_selector \{\n        margin\-left\: 52px\;\n        \/\* margin\-top\: 9vh\; \*\/\n         \}\n    \.right_menu_wrapper \.lang_selector\{\n        margin\-top\: 43px\;\n        margin\-left\: 52px\;\n    \}\n    \.main_menu_closed \.main_menu_contacts a\{\n        margin\-left\: 1px\;\n    \}\n    \.main_menu_open \.main_menu_links\{\n        margin\-top\: 10vh\;\n    \}\n    \.main_menu_open \.main_menu_links li a \{\n        margin\-bottom\: 1\.7vh\;\n    \}\n    \.right_menu_wrapper \.lang_selector ul\, \.right_menu_wrapper \.lang_selector ul li\{\n        height\: 25px\;\n    \}\n    \.right_menu_wrapper \.lang_selector ul li a \{\n        margin\-bottom\: 0px\;\n        font\-size\: 17px\;\n    \}\n    \.right_menu_wrapper \.gallery_right \{\n        margin\-top\: 16vh\;\n    \}\n    \.right_menu_wrapper \.gallery_right span \{\n        font\-size\: 28px\;\n        width\: 100\%\;\n        box\-sizing\: border\-box\;\n        padding\-right\: 16px\;\n        text\-align\: right\;\n        letter\-spacing\: 1\.1px\;\n        margin\-bottom\: 12px\;\n    \}\n    \.right_menu_wrapper \.gallery_right ul li img \{\n        margin\-left\: 65px\;\n        margin\-bottom\: 16px\;\n    \}\n    \.main_menu_wrapper \.main_menu_closed\{\n        width\: 50px\;\n    \}\n    \.main_menu_closed \.open_menu_btn\{\n        margin\-left\: 5px\;\n        margin\-top\: 8vh\;\n        font\-size\: 20px\;\n    \}\n    \.main_menu_closed \.open_menu_btn \&gt; span\{\n        margin\-bottom\: 11px\;\n    \}\n    \.main_menu_closed \.main_menu_links\{\n        width\: 100\%\;\n        top\: 53\%\;\n    \}\n    \.main_menu_closed \.main_menu_links li a\{\n        margin\-bottom\: 3\.7vh\;\n    \}\n    \.main_menu_closed \.main_menu_phones  a\:last\-child\{\n        top\: 84vh\;\n    \}\n    \/\*\*\*\*\*\*\*\*\*\*\*\*\*galllery\*\*\*\*\*\*\*\*\*\*\*\/\n    \.block_6_popup_gallery \{\n        max\-width\: 872px\;\n    \}\n\n    \.block_6_popup_slider_big_img \{\n        height\: 460px\;\n    \}\n    \.block_6_popup_gallery_close \{\n        right\: \-34px\;\n    \}\n\n    \.block_6_popup_gallery_next \{\n        right\: \-67px\;\n        top\: 214px\;\n        height\: 154px\;\n        background\-size\: 197\% 100\%\;\n    \}\n\n    \.block_6_popup_gallery_prev \{\n        left\: \-67px\;\n        top\: 214px\;\n        height\: 154px\;\n        background\-size\: 197\% 100\%\;\n    \}\n</find>
       <find>lSSlide</find>
       <find>catalog_one_mode</find>
       <find>.block_6_slider_prev</find>
@@ -110,6 +93,7 @@
       <find>14</find>
       <find>.footer_map_text &gt; span</find>
       <find>.category_page_breadcrumbs</find>
+      <find>.page_title .page_title_over &gt; div &gt; span</find>
       <find>block_6_popup_slider</find>
     </findStrings>
     <replaceStrings>
@@ -136,17 +120,17 @@
         <option value="$PROJECT_DIR$/prod_item.html" />
         <option value="$PROJECT_DIR$/css/item_page1366.css" />
         <option value="$PROJECT_DIR$/articleslist.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/main1366.css" />
         <option value="$PROJECT_DIR$/css/about_us1366.css" />
         <option value="$PROJECT_DIR$/css/prod_item1366.css" />
         <option value="$PROJECT_DIR$/css/article_one1366.css" />
         <option value="$PROJECT_DIR$/css/articleslist1366.css" />
         <option value="$PROJECT_DIR$/css/categor_page1366.css" />
-        <option value="$PROJECT_DIR$/css/news1366.css" />
         <option value="$PROJECT_DIR$/newslist.html" />
         <option value="$PROJECT_DIR$/css/newslist1366.css" />
         <option value="$PROJECT_DIR$/js/js.js" />
+        <option value="$PROJECT_DIR$/css/news1366.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -228,8 +212,8 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="C:/job/my_kome/js/js.js" />
-    <property name="two.files.diff.last.used.file" value="C:/job/my_kome/js/js.js" />
+    <property name="last_opened_file_path" value="C:/job/my_kome/css/main.css" />
+    <property name="two.files.diff.last.used.file" value="C:/job/my_kome/css/main.css" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -249,19 +233,19 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="about_us.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/about_us.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="articleslist.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/articleslist.html">
+      <method />
+    </configuration>
     <configuration default="false" name="news.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/news.html">
       <method />
     </configuration>
     <configuration default="false" name="newslist.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/newslist.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="prod_item.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/prod_item.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="index_2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForKome/index_2.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -331,19 +315,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.news.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.newslist.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.prod_item.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index_2.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.about_us.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.articleslist.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.news.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.newslist.html" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index_2.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.prod_item.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.newslist.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.news.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.newslist.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.news.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.articleslist.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.about_us.html" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +354,7 @@
       <workItem from="1493969236672" duration="8249000" />
       <workItem from="1493986285226" duration="4174000" />
       <workItem from="1494001438976" duration="1851000" />
-      <workItem from="1494228648414" duration="7215000" />
+      <workItem from="1494228648414" duration="12299000" />
     </task>
     <task id="LOCAL-00001" summary="first comit (second variant)">
       <created>1493463288409</created>
@@ -456,11 +440,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493997864921</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="final pixel perfekt">
+      <created>1494241335875</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1494241335875</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110289000" />
+    <option name="totallyTimeSpent" value="115373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,7 +507,8 @@
     <MESSAGE value="finash all (about as - nid help)" />
     <MESSAGE value="load to server version(animat first page not good)" />
     <MESSAGE value="work day (footer mast do (bold &gt; book))" />
-    <option name="LAST_COMMIT_MESSAGE" value="work day (footer mast do (bold &gt; book))" />
+    <MESSAGE value="final pixel perfekt" />
+    <option name="LAST_COMMIT_MESSAGE" value="final pixel perfekt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -564,12 +556,12 @@
         <state relative-caret-position="11849">
           <caret line="697" column="19" lean-forward="false" selection-start-line="697" selection-start-column="19" selection-end-line="697" selection-end-column="19" />
           <folding>
-            <marker date="1494241209279" expanded="true" signature="1964:2232" ph="/*...*/" />
-            <marker date="1494241209279" expanded="true" signature="2299:2772" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="2332:2616" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="2622:2768" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="25628:26115" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="27679:27836" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="1964:2232" ph="/*...*/" />
+            <marker date="1494241702080" expanded="true" signature="2299:2772" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="2332:2616" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="2622:2768" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="25692:26179" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="27743:27900" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -636,12 +628,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1494241209279" expanded="true" signature="1964:2232" ph="/*...*/" />
-            <marker date="1494241209279" expanded="true" signature="2299:2772" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="2332:2616" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="2622:2768" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="25628:26115" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="27679:27836" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="1964:2232" ph="/*...*/" />
+            <marker date="1494241702080" expanded="true" signature="2299:2772" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="2332:2616" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="2622:2768" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="25692:26179" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="27743:27900" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -686,12 +678,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1494241209279" expanded="true" signature="1964:2232" ph="/*...*/" />
-            <marker date="1494241209279" expanded="true" signature="2299:2772" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="2332:2616" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="2622:2768" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="25628:26115" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="27679:27836" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="1964:2232" ph="/*...*/" />
+            <marker date="1494241702080" expanded="true" signature="2299:2772" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="2332:2616" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="2622:2768" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="25692:26179" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="27743:27900" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -833,14 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="75" column="31" lean-forward="false" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/prod_item1366.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -873,14 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/news1366.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="223" column="27" lean-forward="true" selection-start-line="223" selection-start-column="27" selection-end-line="223" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/categor_page1366.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -889,25 +865,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
+    <entry file="file://$PROJECT_DIR$/css/news1366.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="283" column="31" lean-forward="true" selection-start-line="283" selection-start-column="31" selection-end-line="283" selection-end-column="31" />
-          <folding>
-            <marker date="1494241209279" expanded="true" signature="1964:2232" ph="/*...*/" />
-            <marker date="1494241209279" expanded="true" signature="2299:2772" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="2332:2616" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="2622:2768" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="25628:26115" ph="{...}" />
-            <marker date="1494241209279" expanded="true" signature="27679:27836" ph="{...}" />
-          </folding>
+        <state relative-caret-position="262">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/newslist1366.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
-          <caret line="182" column="19" lean-forward="true" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
+          <caret line="182" column="19" lean-forward="false" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -915,7 +884,30 @@
     <entry file="file://$PROJECT_DIR$/css/main1366.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
-          <caret line="1231" column="5" lean-forward="true" selection-start-line="1231" selection-start-column="5" selection-end-line="1231" selection-end-column="5" />
+          <caret line="1231" column="5" lean-forward="false" selection-start-line="1231" selection-start-column="5" selection-end-line="1231" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="280" column="44" lean-forward="false" selection-start-line="280" selection-start-column="44" selection-end-line="280" selection-end-column="44" />
+          <folding>
+            <marker date="1494241702080" expanded="true" signature="1964:2232" ph="/*...*/" />
+            <marker date="1494241702080" expanded="true" signature="2299:2772" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="2332:2616" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="2622:2768" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="25692:26179" ph="{...}" />
+            <marker date="1494241702080" expanded="true" signature="27743:27900" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-655">
+          <caret line="3344" column="5" lean-forward="true" selection-start-line="3344" selection-start-column="5" selection-end-line="3344" selection-end-column="5" />
           <folding />
         </state>
       </provider>

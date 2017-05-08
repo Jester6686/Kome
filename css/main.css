@@ -3340,6 +3340,15 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 
 
 @media (max-width: 1800px) {
+    .page_2_texts_after_right{
+        height: 95%;
+    }
+    .block_6_gallery_title span{
+        margin-left: 210px;
+    }
+    .block_6_gallery_title a{
+        width: 30%;
+    }
 	.footer_slogan_wrapper {
 		font-size: 36px;
 	}

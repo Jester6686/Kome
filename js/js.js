@@ -188,7 +188,7 @@ $(function(){
 							}, 280);
 							setTimeout(function(){
 								$('.slogan_text_2').animate({
-									right: '0'
+									right: '0%'
 								}, 120);
 							}, 280);
 						}, 240)
@@ -495,6 +495,7 @@ $(function(){
 			$('.page_2_texts > div').eq($(this).index()).addClass('active');
 			$('.page_2_img_block > div').eq($(this).index()).addClass('active');
 			$(this).addClass('active');
+			$('.page_2_h320.visible_if_less_350').html($(this).html());
 		}
 	});
 	if ($(window).width() > 1366) {
@@ -635,12 +636,12 @@ $(function(){
     });
     $('#block_5_slider .block_5_slider_item').hover(
 		function() {
-			if ($(window).width() > 750) {
+			if ($(window).width() > 300) {
 				$(this).closest('li').siblings().find('.block_5_slider_item').removeClass('block_5_slider_item_hover');
 				$(this).addClass('block_5_slider_item_hover');
 			};
 		}, function() {
-			if ($(window).width() > 750) {
+			if ($(window).width() > 300) {
 				$(this).removeClass('block_5_slider_item_hover');
 			}
 		}
