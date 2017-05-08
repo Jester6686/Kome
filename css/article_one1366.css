@@ -216,13 +216,13 @@
         display: block;
         float: left;
         margin-right: 46px;
-        margin-bottom: 20px;
-        font-size: 23px;
+        margin-bottom: 21px;
+        font-size: 21px;
         letter-spacing: 0.05em;
         font-family: 'BebasNeueBook';
     }
     .footer_map_text > span:last-child{
-        margin-left: 8%;
+        margin-left: 7.9%;
     }
     .footer_map_container {
         width: 41%;
@@ -256,7 +256,7 @@
     .footer_map_text > span p, .footer_map_text > span p{
         font-size: 22px;
         line-height: 23px;
-        margin-top: 8px;
+        margin-top: 11px;
     }
     .section_footer{
         background-position: left 251.27px !important;

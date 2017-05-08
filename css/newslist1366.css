@@ -182,7 +182,7 @@
         padding-left: 35.3%;
         width: 95%;
         z-index: 30;
-        top: 616px;
+        top: 615px;
         font-size: 23px;
     }
     .page_no_switcher  span{
@@ -214,6 +214,13 @@
     .news_list_bottom p{
         margin-top: 12px;
         font-size: 18px;
+    }
+    .page_no_switcher a span, .page_no_switcher a {
+        margin-right: 4px;
+    }
+    .page_no_switcher .tochka {
+        margin: 0px -8px 0 13px;
+        text-decoration: none;
     }
     /********foooter*****/
     .footer_social_wrapper > div span{
@@ -273,14 +280,14 @@
     .footer_map_text > span {
         display: block;
         float: left;
-        margin-right: 6%;
+        margin-right: 6.1%;
         margin-bottom: 20px;
-        font-size: 23px;
+        font-size: 21px;
         letter-spacing: 0.05em;
         font-family: 'BebasNeueBook';
     }
     .footer_map_text > span:last-child{
-        margin-left: 8.5%;
+        margin-left: 8.7%;
     }
     .footer_map_container {
         width: 41%;
@@ -314,6 +321,7 @@
     .footer_map_text > span p, .footer_map_text > span p{
         font-size: 22px;
         line-height: 23px;
+        margin-top: 11px;
     }
     .section_footer{
         background-position: left 243.27px !important;

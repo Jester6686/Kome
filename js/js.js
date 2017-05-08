@@ -110,9 +110,15 @@ $(function(){
 				width : $('.slogan_text_1').width() + 'px'
 			});
 			var sloganLinesWidth = ($('.slogan_text_1').width() / 100) * 66.81;
-			$('.slogan_top_lines, .slogan_bottom_lines').css({
-				width : ( sloganLinesWidth - 10 )+ 'px'
-			});
+            if (($(window).width() > 1024) && ($(window).width() < 1367)) {
+                $('.slogan_top_lines, .slogan_bottom_lines').css({
+                    width: ( sloganLinesWidth - 10 ) + 'px'
+                });
+            } else {
+                $('.slogan_top_lines, .slogan_bottom_lines').css({
+                    width:  sloganLinesWidth + 'px'
+                });
+            }
 		}, 500);
 
 		if(!normalBrowser) {
@@ -147,7 +153,7 @@ $(function(){
 							}, 120);
 						});
 						$('.slogan_bottom_lines').animate({
-							top : ((sloganFirstHeight * 1.14) - 10) + 'px',
+							top : (sloganFirstHeight * 1.14) + 'px',
 							opacity: '1'
 						}, 300, function(){
 							$('.slogan_bottom_lines').animate({
@@ -182,7 +188,7 @@ $(function(){
 							}, 280);
 							setTimeout(function(){
 								$('.slogan_text_2').animate({
-									right: '0%'
+									right: '0'
 								}, 120);
 							}, 280);
 						}, 240)
@@ -229,7 +235,7 @@ $(function(){
 						};
 
 						$('.slogan_bottom_lines').animate({
-							top : ((sloganFirstHeight * 1.14) - 10) + 'px',
+							top : (sloganFirstHeight * 1.14) + 'px',
 							opacity: '1'
 						}, 300, function(){
 							$('.slogan_bottom_lines').animate({
@@ -262,11 +268,19 @@ $(function(){
 								right: '2%',
 								opacity: '1'
 							}, 280);
-							setTimeout(function(){
-								$('.slogan_text_2').animate({
-									right: '0%'
-								}, 120);
-							}, 280);
+                            if (($(window).width() > 1024) && ($(window).width() < 1367)){
+                                setTimeout(function(){
+                                    $('.slogan_text_2').animate({
+                                        right: '-2%'
+                                    }, 120);
+                                }, 280);
+							}else{
+                                setTimeout(function(){
+                                    $('.slogan_text_2').animate({
+                                        right: '0%'
+                                    }, 120);
+                                }, 280);
+							}
 						}, 240)
 					}, 650);
 				}, 1000);

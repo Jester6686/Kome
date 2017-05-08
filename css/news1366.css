@@ -212,14 +212,14 @@
     .footer_map_text > span {
         display: block;
         float: left;
-        margin-right: 6%;
+        margin-right: 6.8%;
         margin-bottom: 20px;
-        font-size: 23px;
+        font-size: 21px;
         letter-spacing: 0.05em;
         font-family: 'BebasNeueBook';
     }
     .footer_map_text > span:last-child{
-        margin-left: 8.8%;
+        margin-left: 8.1%;
     }
     .footer_map_container {
         width: 41%;

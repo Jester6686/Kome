@@ -22,7 +22,7 @@
     }
     .category_page_breadcrumbs {
         margin-top: -33px;
-        margin-left: 122px;
+        margin-left: -20px;
     }
     .catalog_one_mode_sec2 .page_inner_wrapper{
         width: 81%;
@@ -241,7 +241,7 @@
         float: left;
         margin-right: 57px;
         margin-bottom: 20px;
-        font-size: 23px;
+        font-size: 21px;
         letter-spacing: 0.05em;
         font-family: 'BebasNeueBook';
     }

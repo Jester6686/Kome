@@ -1145,7 +1145,7 @@
     }
     .page_block_9 .page_title .page_title_under {
         top: 42px;
-        left: -1px;
+        left: 0;
         z-index: 1;
         font-size: 300px;
     }
