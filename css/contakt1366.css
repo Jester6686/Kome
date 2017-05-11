@@ -1,3 +1,28 @@
+@media  (max-width: 1800px) and  (min-width: 1025px) {
+    .contact_phones  span p, .contact_phones  span a{
+        font-size: 27px;
+    }
+    .contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_social_wrapper{
+        padding: 30px 0 40px 0;
+    }
+}
+@media  (max-width: 1600px) and  (min-width: 1025px) {
+    .contact_section > .page_outer_wrapper {
+        min-height: 142vh;
+    }
+    .contact_phones  span p, .contact_phones  span a{
+        font-size: 25px;
+    }
+    .contact_phones {
+        width: 30%;
+    }
+    .order_on_contact .to_order_form .to_order_title{
+        font-size: 27px;
+    }
+    .to_order_submit input{
+        font-size: 27px;
+    }
+}
 @media  (max-width: 1366px) and  (min-width: 1025px) {
     p{
         font-size: 18px;

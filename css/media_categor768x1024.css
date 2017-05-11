@@ -1,0 +1,12 @@
+@media  (max-width : 1024px) {
+    .catalog_one_mode .block_5_slider_wrapper {
+        top: 5vh;
+    }
+}
+@media  (max-width : 800px)  {
+     /*==========  hide bloks & elements  ==========*/
+    
+    .catalog_one_mode .block_5_slider_wrapper {
+        top: 0;
+    }
+}

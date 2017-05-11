@@ -1,3 +1,31 @@
+@media  (max-width: 1800px) and  (min-width: 1025px) {
+    p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .catalog_one_mode_sec2 {
+        min-height: 37vh;
+    }
+    .footer_map_text > span{
+        margin-right: 7vw;
+    }
+}
+@media  (max-width: 1600px) and  (min-width: 1025px) {
+    .page_outer_wrapper {
+        min-height: 120vh;
+    }
+    p {
+        font-size: 19px;
+        line-height: 19px;
+    }
+    .katalog_page_breadcrumbs, .category_page_breadcrumbs{
+        margin-top: 11px;
+    }
+    .footer_map_text > span{
+        margin-right: 6vw;
+    }
+
+}
 @media  (max-width: 1366px) and  (min-width: 1025px) {
     p {
         font-size: 18px;

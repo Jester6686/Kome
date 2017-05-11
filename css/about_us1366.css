@@ -1,4 +1,79 @@
+@media  (max-width: 1800px) and  (min-width: 1025px) {
+    p{
+        font-size: 20px;
+    }
+    .about_col_2_conteiner .about_us_photo{
+        width: 50%;
+    }
+    .about_underdigit, .about_txt_vertical{
+        font-size: 55px
+    }
+    .big_digit, first_big_digit{
+        font-size: 130px;
+    }
+    .partners_floo{
+        width: 75%;
+        padding: 1vw 0 0 0;
+    }
+    .partners_floo > img {
+        float: inherit;
+        height: 80%;
+        width: 16%;
+        margin: -30px 0 0 0%;
+    }
+    .footer_map_text > span{
+        margin-right: 7vw;
+    }
+}
+@media  (max-width: 1600px) and  (min-width: 1025px) {
+    .about_one .page_outer_wrapper{
+        min-height: 178vh;
+    }
+    .line_after_about{
+        top: 176vh;
+    }
+    p{
+        font-size: 19px;
+        line-height: 19px;
+    }
+    .about_col_2_conteiner .about_us_photo{
+        width: 50%;
+    }
+    .about_underdigit, .about_txt_vertical{
+        font-size: 45px
+    }
+    .big_digit, first_big_digit{
+        font-size: 110px;
+    }
+    .partners_floo{
+        width: 75%;
+        padding: 1vw 0 0 0;
+    }
+    .about_underdigil_first{
+        margin: 18px 0 13vh 80px;
+    }
+    .about_underdigit {
+        margin: 25px 0 10vh 80px;
+    }
+    .big_digit, first_big_digit{
+        margin-left: 80px;
+    }
+    .teen_digit {
+        margin-left: 70px;
+    }
+    .about_underdigil_last {
+        margin: 5px 0 10vh 80px;
+    }
+    .vertical_txt_last{
+        margin: 0 0 0 -50px;
+    }
+    .footer_map_text > span{
+        margin-right: 6vw;
+    }
+
+}
 @media  (max-width: 1366px) and  (min-width: 1025px) {
+
     p{
         font-size: 18px;
         line-height: 18px;
