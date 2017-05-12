@@ -8,13 +8,16 @@
 }
 @media  (max-width: 1600px) and  (min-width: 1025px) {
     .contact_section > .page_outer_wrapper {
-        min-height: 142vh;
+        min-height: 149vh;
     }
     .contact_phones  span p, .contact_phones  span a{
         font-size: 25px;
     }
     .contact_phones {
         width: 30%;
+    }
+    .wellcome_box{
+        width: 15%;
     }
     .order_on_contact .to_order_form .to_order_title{
         font-size: 27px;

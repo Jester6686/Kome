@@ -57,6 +57,14 @@
         min-height: 93vh;
     }
 }
+@media  (max-width: 1500px) and  (min-width: 1025px) {
+   .news_one .page_outer_wrapper {
+        min-height: 155vh;
+    }
+    .news_one_midlle{
+        min-height: 68vh;
+    }
+}
 @media  (max-width: 1366px) and  (min-width: 1025px) {
     p{
         font-size: 18px;

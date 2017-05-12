@@ -72,6 +72,15 @@
     }
 
 }
+@media  (max-width: 1500px) and  (min-width: 1025px) {
+    .about_one .page_outer_wrapper {
+        min-height: 180vh;
+    }
+
+    .line_after_about {
+        top: 179vh;
+    }
+}
 @media  (max-width: 1366px) and  (min-width: 1025px) {
 
     p{

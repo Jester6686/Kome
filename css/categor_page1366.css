@@ -4,7 +4,7 @@
         line-height: 20px;
     }
     .catalog_one_mode_sec2 {
-        min-height: 37vh;
+        min-height: 40vh;
     }
     .footer_map_text > span{
         margin-right: 7vw;
@@ -23,6 +23,9 @@
     }
     .footer_map_text > span{
         margin-right: 6vw;
+    }
+    .section_footer  .page_outer_wrapper {
+        min-height: 100vh;
     }
 }
 @media  (max-width: 1366px) and  (min-width: 1025px) {

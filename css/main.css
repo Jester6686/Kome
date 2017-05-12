@@ -3368,7 +3368,7 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
         height: 95%;
     }
     .block_6_gallery_title span{
-        margin-left: 210px;
+        margin-left: 184px;
     }
     .block_6_gallery_title a{
         width: 30%;
@@ -3378,6 +3378,7 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 	}
 	.footer_slogan_wrapper {
 		font-size: 36px;
+
 	}
 	.articles_slider_text_left{
 		font-size: 20px;
@@ -3446,11 +3447,11 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 		margin-left: 12px;
 	}
 	.page_title .page_title_under {
-		top: 47px;
+		top: 48px;
 		font-size: 346px;
 		line-height: 236px;
 		height: 242px;
-		margin: 0 0 42px 0;
+		margin: 0 0 42px 1px;
 		/* old ver/
 			font-size: 346px;
 		line-height: 276px;
@@ -3509,6 +3510,10 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 	.page_block_4 .page_title {
 		margin-left: 8%;
 	}
+	.page_block_4 .page_title .page_title_under {
+		top: 49px;
+		margin: 0 0 42px 6px;
+	}
 	.page_4_top_text {
 		font-size: 20px;
 		margin-top: 0px;
@@ -3536,6 +3541,10 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 		padding: 5px 40px;
 	}
 	/********poage_5*******/
+	.page_block_5 .page_title .page_title_under {
+		top: 49px;
+		margin: 0 0 42px 3px;
+	}
 	#block_5_slider .block_5_slider_text span {
 		font-size: 40px;
 	}
@@ -3547,6 +3556,9 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 		font-size: 24px;
 	}
 	/********poage_6*******/
+	.page_block_6 .page_title .page_title_under{
+		margin: 0 0px 42px -26px;
+	}
 	.block_6_gallery_big_img{
 		height: 449px
 	}
@@ -3587,6 +3599,10 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 		line-height: 20px;
 	}
 	/********poage_7*******/
+	.page_block_7 .page_title .page_title_under {
+		top: 49px;
+		margin: 0 0 42px 6px;
+	}
 	.about_us_text {
 		width: 74%;
 		margin: 1vh 0 8vh 14%;
@@ -3687,6 +3703,9 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 
 
 @media (max-width: 1500px) {
+	.main_menu_open .main_menu_links {
+		margin-top: 10vh;
+	}
 	.page_2_texts, .page_2_top_text {
 		width: 34.5vw;
 	}
@@ -3711,12 +3730,19 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 	.block_6_gallery_big_img {
 		height: 429px;
 	}
+	.about_us_text {
+		width: 80%;
+		margin: 1vh 0 8vh 14%;
+	}
 	.articles_slider_text{
 		padding-top: 38vh;
 	}
 	.articles_slider_text_left {
 		font-size: 19px;
 		line-height: 19px;
+	}
+	.page_block_9 .page_outer_wrapper{
+		background-size: 100% 49px;
 	}
 	.articles_slider_img_text {
 		font-size: 19px;

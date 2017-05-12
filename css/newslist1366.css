@@ -43,6 +43,11 @@
         margin-right: 6vw;
     }
 }
+@media (max-width: 1500px) and (min-width: 1025px) {
+    .news_list .page_outer_wrapper {
+        min-height: 215vh;
+    }
+}
 @media  (max-width: 1366px) and  (min-width: 1025px) {
     p{
         font-size: 18px;

@@ -16,6 +16,9 @@
     }
 }
 @media  (max-width: 1600px) and  (min-width: 1025px) {
+    .page_title .page_title_over {
+        width: 43vw;
+    }
     .news_list_bottom, .news_list_bottom p{
         font-size: 19px;
         line-height: 19px;
@@ -25,7 +28,7 @@
         line-height: 19px;
     }
     .news_list .page_outer_wrapper{
-        min-height: 200vh;
+        min-height: 215vh;
     }
     .news_list_bottom{
         max-height: 615px;
@@ -35,6 +38,11 @@
     }
     .footer_map_text > span{
         margin-right: 6vw;
+    }
+}
+@media (max-width: 1500px) and (min-width: 1025px) {
+    .news_list .page_outer_wrapper {
+        min-height: 215vh;
     }
 }
 @media  (max-width: 1366px) and  (min-width: 1025px){
