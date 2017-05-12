@@ -67,7 +67,7 @@ table {
 @font-face {
   font-family: 'BebasNeueBold';
   src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),  url('../fonts/BebasNeueBold.otf')  format('opentype'),
-	     url('../fonts/BebasNeueBold.woff') format('woff'), url('../fonts/BebasNeueBold.ttf')  format('truetype'), url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg');
+	     url('../fonts/BebasNeueBold.woff') format('woff'), url('../fonts/BebasNeueBold.ttf')  format('truetype'), url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg'), url('../fonts/bebasneuebold-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -3376,9 +3376,16 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 	.block_6_top_img_item{
 		height: 274px;
 	}
+	.block_6_text_block, .block_6_text_block p{
+		font-size: 21px;
+		line-height: 21px;
+	}
 	.footer_slogan_wrapper {
 		font-size: 36px;
 
+	}
+	.about_us_text{
+		width: 69%;
 	}
 	.articles_slider_text_left{
 		font-size: 20px;

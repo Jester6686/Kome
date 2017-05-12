@@ -441,6 +441,10 @@
 
     }
     */
+    .page_block_4 .page_title .page_title_under{
+        top: 43px;
+        margin: 0 0 42px 0px;
+    }
     .page_4_top_text_after{
         bottom: 0.5px;
     }
@@ -1260,5 +1264,262 @@
 
     .section_footer{
         background-position: left 266.27px !important;
+    }
+}
+@media  (max-width: 1300px) and  (min-width: 1025px) {
+    /**************************for_all**********************/
+    .main_menu_open .main_menu_links {
+        margin-top: 6vh;
+    }
+
+    /**************************page_2**********************/
+    .page_2_top_text {
+        width: 47%;
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .page_2_texts {
+        padding: 30px 24px 45px 15px;
+    }
+
+    .page_2_texts > div {
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    /**************************page_3**********************/
+    .page_3_top_block {
+        width: 50%;
+    }
+
+    .page_3_top_block > div > div {
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .page_3_slider_wrapper > div {
+        margin-left: 7.5%;
+    }
+    /**************************page_4**********************/
+
+    .page_block_4 .page_title {
+        margin-left: 5%;
+    }
+    .page_4_top_text{
+        margin-bottom: 16px;
+        padding: 34px 24px 30px 0;
+        width: 50%;
+    }
+    .page_4_top_text_active .page_4_top_text_inner{
+        font-size: 17px;
+        line-height: 17px;
+    }
+    /**************************page_5**********************/
+    .page_block_5 .page_title{
+        left: 38%;
+        top: 3px;
+    }
+    .block_5_slider_item{
+        height: 240px;
+    }
+    #block_5_slider .block_5_slider_bg{
+        height: 240px;
+    }
+    #block_5_slider .block_5_slider_bg > a{
+        height: 200px;
+    }
+    #block_5_slider .block_5_slider_text{
+        height: 200px;
+    }
+    #block_5_slider .block_5_slider_text p{
+        font-size: 17px;
+        line-height: 17px;
+    }
+    #block_5_slider > li:nth-child(2) > .block_5_slider_item {
+        margin-top: 267px;
+    }
+    #block_5_slider > li:nth-child(5) > .block_5_slider_item {
+        margin-top: 267px;
+    }
+    .block_5_slider_wrapper::before {
+        background: url(../images/page_block_title_bg.jpg) no-repeat left top,
+        url(../images/page_block_title_bg.jpg) no-repeat left 243px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 266px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 508px;
+    }
+
+    .block_5_slider_wrapper {
+        background: url(../images/page_block_title_bg.jpg) no-repeat left 8px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 251px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 274px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 517px;
+    }
+
+    .block_5_slider_wrapper::after {
+        background: url(../images/page_block_title_bg.jpg) no-repeat left top,
+        url(../images/page_block_title_bg.jpg) no-repeat left 243px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 265px,
+        url(../images/page_block_title_bg.jpg) no-repeat left 510px;
+    }
+    .block_5_slider_lines, .block_5_slider_lines::before, .block_5_slider_lines::after {
+        background-size: 100% 1px;
+    }
+    .block_5_slider_prev, .block_5_slider_next{
+        top: 186px;
+    }
+    /**************************page_6**********************/
+    .page_block_6 .page_inner_wrapper{
+        padding-top: 2vh;
+    }
+    .block_6_top_img_item {
+        height: 210px;
+    }
+    .block_6_text_block p {
+        font-size: 17px;
+        line-height: 17px;
+        height: 307px;
+    }
+    .block_6_gallery_big_img{
+        height: 269px;
+    }
+    /**************************page_7**********************/
+    .page_block_7 .page_inner_wrapper{
+        padding-top: 3vh;
+        margin-left: 11%;
+        width: 85%;
+    }
+    .about_us_text div p{
+        font-size: 18px;
+        line-height: 17px;
+    }
+}
+
+
+@media  (max-width: 1200px) and  (min-width: 1025px)  {
+    /**************************for_all**********************/
+    .page_title .page_title_over > div > span{
+        font-size: 61px;
+        line-height: 80px;
+        height: 83px;
+    }
+    .page_title .page_title_under{
+        font-size: 252px;
+        line-height: 163px;
+        height: 123px;
+    }
+    .main_menu_open .main_menu_phones{
+        margin-top: -1.5vh;
+    }
+    /**************************page_2**********************/
+    .page_block_2 .page_outer_wrapper{
+        margin-top: 1%;
+    }
+    .page_2_top_text {
+        width: 49%;
+        padding: 27px 28px 23px 16px;
+    }
+    .page_2_selects_block .page_2_selects{
+        width: 20.5%;
+        padding-bottom: 17px;
+    }
+    .page_2_selects_block .page_2_selects_before{
+        top: -4px;
+    }
+    .page_2_selects li{
+        padding: 2px 0 7px 20%;
+        width: 100%;
+        font-size: 29px;
+    }
+    .page_2_texts{
+        width: 78%;
+    }
+    /**************************page_3**********************/
+    .page_3_top_block {
+        width: 55%;
+    }
+    .page_3_slider_wrapper > div {
+        margin-left: 5.5%;
+    }
+    .page_3_slider_text p {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .page_block_4 .page_title {
+        margin-left: 2%;
+    }
+    /**************************page_4**********************/
+    .page_4_gallery_item_bg {
+        height: 240px;
+        background: url(../images/slider_3_sight.png) no-repeat center 69px;
+    }
+    .page_4_gallery_item, .page_4_gallery_item_bg > a{
+        height: 240px;
+    }
+    .page_4_gallery_container .page_4_gallery_item:nth-child(1) .page_4_gallery_item_bg > span:nth-child(3), .page_4_gallery_container .page_4_gallery_item:nth-child(2) .page_4_gallery_item_bg > span:nth-child(3), .page_4_gallery_container .page_4_gallery_item:nth-child(1) .page_4_gallery_item_bg > span:nth-child(4), .page_4_gallery_container .page_4_gallery_item:nth-child(2) .page_4_gallery_item_bg > span:nth-child(4), .page_4_gallery_container .page_4_gallery_item:nth-child(2) .page_4_gallery_item_bg > span:nth-child(1), .page_4_gallery_container .page_4_gallery_item:nth-child(3) .page_4_gallery_item_bg > span:nth-child(1), .page_4_gallery_container .page_4_gallery_item:nth-child(2) .page_4_gallery_item_bg > span:nth-child(2), .page_4_gallery_container .page_4_gallery_item:nth-child(3) .page_4_gallery_item_bg > span:nth-child(2) {
+        height: 120px;
+    }
+    /**************************page_4**********************/
+    #block_5_slider .block_5_slider_text p{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    /**************************page_6**********************/
+    .block_6_gallery_title span{
+        width: 6%;
+        font-size: 36px;
+        margin-left: 20px
+    }
+    .block_6_gallery_title a{
+        width: 39%;
+    }
+    .page_block_6 .page_inner_wrapper{
+        padding-top: 1vh;
+    }
+    .block_6_top_img_item {
+        height: 200px;
+    }
+    .block_6_text_block p {
+        font-size: 17px;
+        line-height: 17px;
+        height: 290px;
+    }
+    .block_6_gallery_big_img{
+        height: 252px;
+    }
+    /**************************page_7**********************/
+    .page_block_7 .page_inner_wrapper{
+        padding-top: 2vh;
+        margin-left: 9%;
+        width: 87%;
+    }
+    .about_us_text div p{
+        font-size: 17px;
+        line-height: 16px;
+    }
+    .about_us_photo{
+        margin: 10px 90px 0px 0;
+        height: 230px;
+    }
+}
+@media  (max-width: 1100px) and  (min-width: 1025px)  {
+    /**************************page_2**********************/
+    .page_2_top_text {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .page_2_texts > div{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    /**************************page_3**********************/
+    .page_3_top_block > div > div {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    /**************************page_4**********************/
+    .page_4_top_text_active .page_4_top_text_inner {
+        font-size: 16px;
+        line-height: 16px;
     }
 }
