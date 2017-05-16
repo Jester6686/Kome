@@ -1038,9 +1038,18 @@ $(function(){
     $('.allnews_slider_next').click(function(){
         allNewsSlider.goToNextSlide(); 
     });
+    function disableFullPageScroll(){
+        $('.main_wrapper>section').not('.active').removeClass('fp-section');
+    }
+
+    function enableFullPageScroll(){
+        $('.main_wrapper>section').not('.active').addClass('fp-section');
+    }
+
     var popupTopMargin = ($(window).height() - 400) / 2;
 	var popupLeftMargin = ($(window).width() - 790) / 2;
     $(document).on('click', '.to_order, .main_menu_contacts', function(){
+        disableFullPageScroll();
     	$('.popup_overlay').css('display', 'block');
 		$('.to_order_wrapper').css('left', popupLeftMargin + 'px' );
     	$('.to_order_wrapper').animate({
@@ -1053,6 +1062,7 @@ $(function(){
 
     });
 	$(document).on('click', '.main_menu_closed .main_menu_phones a', function(){
+        disableFullPageScroll();
     	$('.popup_overlay').css('display', 'block');
 		$('.telephone_call_win').css('left', popupLeftMargin + 'px' );
     	$('.telephone_call_win').animate({
@@ -1064,6 +1074,7 @@ $(function(){
 		});
     });
 	$(document).on('click', '.to_order_submit input', function(){
+
         if($('.to_order_wrapper').position().top >0){
 			$('.to_order_wrapper').animate({
     			top: (popupTopMargin + 20) + 'px'
@@ -1084,6 +1095,7 @@ $(function(){
     		});
 
 		} else{
+
 			$('.popup_overlay').css('display', 'block');
 			$('.after_send_msg').css('left', popupLeftMargin + 'px' );
     				$('.after_send_msg').animate({
@@ -1096,7 +1108,7 @@ $(function(){
 		}
     });
 	 $(document).on('click', '.popup_overlay, .after_send_msg  > .order_glow > .to_order_form, .to_order_close_btn', function(){
-
+         enableFullPageScroll();
 	  if($('.to_order_wrapper').position().top > 0){
 		$('.to_order_wrapper').animate({
     		top: (popupTopMargin + 20) + 'px'
@@ -1137,6 +1149,7 @@ $(function(){
 	$(".to_order_text_input input").mask("+380 -- --- -- --",{placeholder:"+380 -- --- -- --"});
 
 	$(document).keyup(function(e){
+        enableFullPageScroll();
     	if(e.keyCode === 27){
         	$("#pannel").slideToggle();
 			$('.popup_gallery_overlay, .block_6_popup_gallery').css('display', 'none');

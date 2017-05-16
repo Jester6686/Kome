@@ -803,7 +803,9 @@
     }
     .articles_slider_img img{
         margin-left: 16%;
+        max-width: 90%;
     }
+
     .articles_slider_img_text {
         font-size: 19px;
         line-height: 19px;
@@ -1389,9 +1391,57 @@
         margin-left: 11%;
         width: 85%;
     }
+    /**************************page_**********************/
     .about_us_text div p{
         font-size: 18px;
         line-height: 17px;
+    }
+    /**************************page_8**********************/
+    .articles_slider_text_left {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .articles_slider_img_text {
+        font-size: 17px;
+        line-height: 17px
+    }
+    .articles_slider_controls_wrapper{
+        min-height: 19%;
+        bottom: 6px;
+    }
+    /**************************page_9**********************/
+    .allnews_slider_img img {
+        width: 85%;
+    }
+    .allnews_slider_img_text {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .allnews_slider_controls_wrapper{
+        margin-bottom: 0px;
+        min-height: 29%;
+    }
+    .allnews_slider_text_right {
+        margin-top: 250px;
+        font-size: 17px;
+        line-height: 17px;
+    }
+    /**************************section_footer**********************/
+    .footer_slogan_wrapper{
+        font-size: 37px;
+    }
+    .footer_social_wrapper {
+        padding: 10px 0 21px;
+    }
+    .footer_map_text > span:last-child {
+        margin-left: 4.4%;
+    }
+    .footer_copyright{
+        margin-left: 62.5%;
+        font-size: 22px;
+    }
+    .footer_map_text {
+        padding-top: 150px;
     }
 }
 
@@ -1501,6 +1551,63 @@
         margin: 10px 90px 0px 0;
         height: 230px;
     }
+    /**************************page_8**********************/
+    .articles_slider_date {
+        width: 122px;
+        height: 122px;
+    }
+    .articles_slider_day{
+        top: 5px;
+        width: 60px;
+    }
+    .articles_slider_month {
+        top: 61px;
+        width: 60px;
+    }
+    .articles_slider_year {
+        top: 41px;
+        left: 46px;
+    }
+    .articles_slider_controls_wrapper{
+        min-height: 23%;
+    }
+    /**************************page_9**********************/
+    .allnews_slider_date {
+        width: 122px;
+        height: 122px;
+    }
+    .allnews_slider_day{
+        top: 5px;
+        width: 60px;
+    }
+    .allnews_slider_month {
+        top: 61px;
+        width: 60px;
+    }
+    .allnews_slider_year {
+        top: 41px;
+        left: 46px;
+    }
+    /**************************section_footer**********************/
+    .footer_slogan_wrapper{
+        font-size: 33px;
+        padding-bottom: 15px;
+        padding-left: 8px;
+    }
+    .footer_map_text > span{
+        margin-right: 35px;
+        font-size: 21px;
+    }
+    .footer_map_text > span p{
+        font-size: 20px;
+    }
+    .footer_map_text > span:last-child {
+        margin-left: 2.4%;
+    }
+    .footer_menu li a{
+        font-size: 25px;
+    }
+
 }
 @media  (max-width: 1100px) and  (min-width: 1025px)  {
     /**************************page_2**********************/
@@ -1521,5 +1628,51 @@
     .page_4_top_text_active .page_4_top_text_inner {
         font-size: 16px;
         line-height: 16px;
+    }
+    /**************************page_5**********************/
+    #block_5_slider .block_5_slider_text p {
+        font-size: 17px;
+        line-height: 19px;
+    }
+    /**************************page_8**********************/
+    .articles_slider_text_left {
+        padding: 31px 0 48px 27%;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .articles_slider_img_text{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    /**************************page_9**********************/
+    .allnews_slider_text_right {
+
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .allnews_slider_img_text{
+        padding-left: 32.4%;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    /**************************section_footer**********************/
+    .footer_slogan_wrapper{
+        font-size: 31px;
+    }
+    .footer_map_text > span p {
+        font-size: 19px;
+    }
+    .footer_map_text > span{
+        font-size: 20px;
+    }
+    .footer_map_text > span:last-child {
+        margin-left: 1.4%;
+    }
+    .footer_menu li a {
+        font-size: 22px;
+    }
+    .footer_copyright {
+        margin-left: 64.5%;
+        font-size: 19px;
     }
 }

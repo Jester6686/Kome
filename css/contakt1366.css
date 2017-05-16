@@ -396,3 +396,36 @@
         background-size: 197% 100%;
     }
 }
+@media (max-width: 1360px) and (min-width: 1025px){
+    .section_footer .page_outer_wrapper {
+        min-height: 179vh;
+    }
+    .contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_slogan_wrapper{
+        margin-top: 30vh;
+    }
+    .footer_slogan_wrapper{
+        font-size: 34px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1025px){
+    .footer_slogan_wrapper{
+        font-size: 28px;
+    }
+    .contact_phones  span p, .contact_phones  span a{
+        line-height: 22px;
+        font-size: 20px;
+    }
+    .wellcome_box{
+        margin-left: 6px
+    }
+    .section_footer .page_outer_wrapper {
+        min-height: 187vh;
+    }
+}
+@media (max-width: 1100px) and (min-width: 1025px){
+    .contact_phones  span p, .contact_phones  span a {
+        line-height: 22px;
+        font-size: 17px;
+    }
+}
+/******down*****8*/

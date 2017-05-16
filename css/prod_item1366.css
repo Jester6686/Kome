@@ -287,3 +287,107 @@
         background-size: 197% 100%;
     }
 }
+
+@media  (max-width: 1300px) and  (min-width: 1025px) {
+    .page_outer_wrapper{
+        min-height: 110vh;
+    }
+    .block_6_text_block, .block_6_text_block p{
+        font-size: 22px;
+        line-height: 21px;
+    }
+    .section_footer .page_outer_wrapper {
+        min-height: 100vh;
+    }
+    .footer_slogan_wrapper{
+        font-size: 36px;
+        padding-left: 7px;
+    }
+    .footer_social_wrapper {
+        padding: 10px 0 21px;
+    }
+    .footer_map_text > span{
+        margin-right: 8%;
+    }
+    .footer_map_text > span:last-child {
+        margin-left: 1.4%;
+    }
+    .footer_copyright{
+        margin-left: 62.5%;
+        font-size: 22px;
+    }
+    .footer_map_text {
+        padding-top: 150px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1025px){
+    .page_inner_wrapper {
+        width: 80%;
+        margin-left: 9%;
+    }
+    .page_outer_wrapper{
+        min-height: 125vh;
+    }
+    .block_6_text_block, .block_6_text_block p{
+        font-size: 21px;
+        line-height: 20px;
+    }
+    .footer_slogan_wrapper{
+        font-size: 33px;
+        padding-bottom: 15px;
+        padding-left: 8px;
+    }
+    .footer_map_text > span{
+        margin-right: 35px;
+        font-size: 21px;
+    }
+    .footer_map_text > span p{
+        font-size: 20px;
+    }
+    .footer_map_text > span:last-child {
+        margin-left: 2.4%;
+    }
+    .footer_menu li a{
+        font-size: 25px;
+    }
+}
+@media (max-width: 1100px) and (min-width: 1025px){
+
+    .section_footer .page_outer_wrapper {
+        min-height: 108vh;
+    }
+    .page_inner_wrapper {
+        width: 79%;
+    }
+    .inner_page_breadcrumbs {
+        width: 35vw;
+    }
+    .block_6_text_block, .block_6_text_block p{
+        font-size: 20px;
+        line-height: 19px;
+    }
+    .footer_slogan_wrapper {
+        font-size: 30px;
+    }
+
+    .footer_map_text > span p {
+        font-size: 19px;
+    }
+
+    .footer_map_text > span {
+        font-size: 20px;
+    }
+
+    .footer_map_text > span:last-child {
+        margin-left: 1.4%;
+    }
+
+    .footer_menu li a {
+        font-size: 22px;
+    }
+
+    .footer_copyright {
+        margin-left: 64.5%;
+        font-size: 19px;
+    }
+}

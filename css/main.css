@@ -3484,7 +3484,7 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 	.page_2_selects li {
 		font-size: 40px;
 	}
-	.page_2_selects li:hover, 
+	.page_2_selects li:hover,
 	.page_2_selects li.active {
 		letter-spacing: 2.9px;
 	}
@@ -3600,7 +3600,7 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 		font-size: 19px;
 		width:33%;
 	}
-	.block_6_text_block, 
+	.block_6_text_block,
 	.block_6_text_block p {
 		font-size: 20px;
 		line-height: 20px;
@@ -3686,7 +3686,7 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 		margin-bottom: 13px
 	}
 	.footer_slogan_wrapper {
-		font-size: 30px; 
+		font-size: 30px;
 	}
 	.footer_map_text > span {
 	    font-size: 22px;
