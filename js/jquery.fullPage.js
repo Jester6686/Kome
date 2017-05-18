@@ -2726,7 +2726,14 @@
         /*
         * Destroys fullpage.js plugin events and optinally its html markup and styles
         */
+        var  destroyScroll;
+        destroyScroll = function(){
+            setAutoScrolling(false, 'internal');
+            setAllowScrolling(false);
+            setKeyboardScrolling(false);
+        }
         function destroy(all){
+
             setAutoScrolling(false, 'internal');
             setAllowScrolling(false);
             setKeyboardScrolling(false);

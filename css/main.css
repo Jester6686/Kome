@@ -67,10 +67,56 @@ table {
 @font-face {
   font-family: 'BebasNeueBold';
   src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),  url('../fonts/BebasNeueBold.otf')  format('opentype'),
-	     url('../fonts/BebasNeueBold.woff') format('woff'), url('../fonts/BebasNeueBold.ttf')  format('truetype'), url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg'), url('../fonts/bebasneuebold-webfont.woff2') format('woff2');
+	     url('../fonts/BebasNeueBold.woff') format('woff'), url('../fonts/BebasNeueBold.ttf')  format('truetype'), url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+/*
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: url('../wf2/bebasneuebold-webfont.eot');
+    src: url('../wf2/bebasneuebold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../wf2/bebasneuebold-webfont.woff2') format('woff2'),
+         url('../wf2/bebasneuebold-webfont.woff') format('woff'),
+         url('../wf2/bebasneuebold-webfont.ttf') format('truetype'),
+         url('../wf2/bebasneuebold-webfont.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'BebasNeueBook';
+    src: url('../wf2/bebasneuebook-webfont.eot');
+    src: url('../wf2/bebasneuebook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../wf2/bebasneuebook-webfont.woff2') format('woff2'),
+         url('../wf2/bebasneuebook-webfont.woff') format('woff'),
+         url('../wf2/bebasneuebook-webfont.ttf') format('truetype'),
+         url('../wf2/bebasneuebook-webfont.svg#bebas_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../wf2/bebasneueregular-webfont.eot');
+    src: url('../wf2/bebasneueregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../wf2/bebasneueregular-webfont.woff2') format('woff2'),
+         url('../wf2/bebasneueregular-webfont.woff') format('woff'),
+         url('../wf2/bebasneueregular-webfont.ttf') format('truetype'),
+         url('../wf2/bebasneueregular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
 /* global */
 body {
 	font-family: 'BebasNeueBook';
@@ -111,12 +157,12 @@ body {
 	background-image: none;
 }
 .page_inner_wrapper {
+	padding-top: 1vh;
 	position: absolute;
 	width: 80%;
 	margin-left:10%;
-	padding-top: 4vh; /* 27px */
-	padding-bottom: 6vh; /* 27px */
-	
+	top: 50%;
+	transform: translateY(-50%);
 }
 .page_block_5  .page_inner_wrapper {
 	top: 50%;
@@ -360,7 +406,7 @@ body {
 .main_menu_closed .main_menu_contacts  {
 	position: absolute;
 	top: 75vh;
-	margin-left: 32px;
+	margin-left: 13px;
 	background-size: 100%;
 }
 .main_menu_closed .main_menu_phones  a:first-child{
@@ -445,6 +491,7 @@ body {
 
 /* page blocks title */
 .page_title {
+
 	position: relative;
 	float: left;
 	top: 0px;
@@ -891,7 +938,7 @@ body {
 
 /* page 1 block 2 */
 .page_block_2 .page_inner_wrapper {
-	padding-bottom: 30px;
+
 }
 .page_2_top_text {
 	float: right;
@@ -1148,7 +1195,6 @@ font-variant: small-caps;
 
 /* page 3 slider */
 .page_3_slider_wrapper {
-	margin-bottom: 18px;
 	display: inline-block;
 	width: 100%;
 }
@@ -1168,7 +1214,7 @@ font-variant: small-caps;
 	url('../images/page_block_title_bg.jpg') no-repeat left 367px;
 	 background-size: 100% 2px;  */
 	 background: none;
-	 margin-bottom: 53px;
+
 
 }
 
@@ -1455,7 +1501,7 @@ font-variant: small-caps;
 	position: relative;
 	width: 100%;
 	height: 350px;
-	margin-bottom: 5%;
+
 }
 .page_4_gallery_container {
 	-webkit-transition: all 0.5s linear;
@@ -1845,7 +1891,7 @@ font-variant: small-caps;
 	background-image: url('../images/block_5_slider_2_1.jpg');
 }
 #block_5_slider > li:nth-child(3) > .block_5_slider_item .block_5_slider_bg {background-image: url('../images/block_5_slider_1_2.jpg');}
-#block_5_slider > li:nth-child(3) > .block_5_slider_item:nth-child(1) .block_5_slider_bg {background-image: url('../images/block_5_slider_3_1.jpg');}
+#block_5_slider > li:nth-child(3) > .block_5_slider_item:nth-child(1) .block_5_slider_bg {background-image: url('../images/product/product_slide_3.jpg');}
 #block_5_slider > li:nth-child(3) > .block_5_slider_item:nth-child(2) .block_5_slider_bg {background-image: url('../images/block_5_slider_3_2.jpg');}
 /* copy prev slides */
 #block_5_slider > li:nth-child(4) > .block_5_slider_item .block_5_slider_bg {background-image: url('../images/block_5_slider_3_1.jpg');}
@@ -1992,7 +2038,7 @@ font-variant: small-caps;
 	position: relative;
 	display: inline-block;
 	width: 100%;
-	margin-bottom: 50px;
+
 }
 .block_6_slider_wrapper {
 	overflow: hidden;
@@ -2193,7 +2239,7 @@ font-variant: small-caps;
 .block_6_gallery_container {
 	margin-right: 2.41%;
 	width: 138px;
-	height: 480px;
+	height: auto;
 	float: right;
 }
 .block_6_gallery_big_img {
@@ -2643,10 +2689,10 @@ font-variant: small-caps;
 	display: block;
 	content: '';
 	position: absolute;
-	top:-27px;
+	top: -50%;
 	right: -3.17%;
 	width: 20.47%;
-	height: 100%;
+	height: 200%;
 	background:#e5e8c9;
 }
 .allnews_slider_wrapper {
@@ -2663,7 +2709,7 @@ font-variant: small-caps;
 	background:url('../images/page_block_title_bg.jpg') no-repeat;
 	background-size: 73% 2px;
 	background-position: bottom left;
-	margin-bottom: 134px;
+
 	position: relative;
 	display: inline-block;
 }
@@ -3336,10 +3382,14 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 .arrow_down_lang{
 	display: none;
 }
+.page_no_switcher .tochka{
+
+	text-decoration: none;
+}
 
 
 
-@media (max-width: 1800px) {
+@media (max-width: 1800px) and  (min-width: 1025px) {
 	.page_2_top_text{
 		width: 32.5vw;
 	}
@@ -3416,7 +3466,7 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1600px)and  (min-width: 1025px) {
 	.main_menu_closed .main_menu_links{
 		left: -7px;
 	}
@@ -3426,8 +3476,10 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 	.page_title_over_line_1{
 		top: 3px;
 	}
+
 	/********inet_wrapper********/
 	.page_block_2 .page_inner_wrapper{
+
 		width: 84%;
 		margin-left: 7%;
 	}
@@ -3569,9 +3621,7 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 	.block_6_gallery_big_img{
 		height: 449px
 	}
-	.block_6_gallery_container{
-		height: 440px
-	}
+
 	.block_6_slider_item{
 		padding: 0 4.46vw 0 6.8vw;
 	}
@@ -3709,7 +3759,8 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 
 
 
-@media (max-width: 1500px) {
+@media (max-width: 1500px) and  (min-width: 1025px){
+
 	.main_menu_open .main_menu_links {
 		margin-top: 10vh;
 	}

@@ -365,6 +365,9 @@
     }
 
     /*******************for oll**********/
+    .main_menu_closed .main_menu_links {
+        left: -1px;
+    }
     .to_top {
         bottom: 5px;
     }

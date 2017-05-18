@@ -847,7 +847,7 @@
     }
     .footer_map_container{
         padding-top: 0;
-        margin-top: 20px;
+        margin-top: 18px;
     }
     .footer_map_container iframe{
         height: 333px;
@@ -856,6 +856,10 @@
         display: block;
         right: 20px;
         bottom:15px;
+    }
+   .news_list_virtual .news_list_bottom_container > ul > li{
+        margin-left: 0;
+        padding-left: 0;
     }
     
 }

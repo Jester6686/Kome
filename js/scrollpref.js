@@ -34,9 +34,38 @@ $(document).ready(function () {
 				});
 			}		
 		};
-fullPageEnable();
+
 
 //rounds main page anim and menu
+    fullPageEnable();
+    $(window).resize(function() {
+        if ($(window).height() > 1025) {
+            if ($(window).height() < $('.page_inner_wrapper').height()) {
+                $('.section').css({
+                    height: ($('.page_inner_wrapper').height()) + 70 + 'px'
+                });
+                $('.page_outer_wrapper').css({
+                    height: ($('.page_inner_wrapper').height()) + 50 + 'px'
+                });
+                $.fn.fullpage.setAllowScrolling(false);
+                $('.fullpage-wrapper').addClass('fp-destroyed');
+            } else if ($(window).height() > $('.page_block_2 .page_inner_wrapper').height()) {
+                if ($(window).height() > 1024) {
+                    $('.page_outer_wrapper').css({
+                        height: 100 + 'vh'
+                    });
+                    $.fn.fullpage.setAllowScrolling(true);
+                    $('.fullpage-wrapper').removeClass('fp-destroyed');
+                    window.dispatchEvent(new Event('resize'));
+                }
 
+            }
+        }
+
+	/*
+	 popupGalleryresize();
+	 telephoneCollresize();
+	 OrderWrapperresize()*/
+    });
 	
 });
