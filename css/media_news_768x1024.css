@@ -192,6 +192,10 @@
 		position:relative;
 	}
 	/* ========================== news list add ============================= */
+		.news_one_title{
+		margin-right: 34%;
+			margin-top: 35px;
+	}
 	.news_list_virtual .page_outer_wrapper, .news_list_virtual .page_inner_wrapper{
 		min-height: 1780px!important;
 		background: none;
@@ -425,11 +429,17 @@
         float: left;
     }
 	/* ============================================ news list ======================================= */
+	.news_one_title {
+		margin-right: 49%;
+	}
 	.news_list_virtual .articles_slider_controls_wrapper.read_main_news {
 		margin-top: -210px;
 	}
 	.news_list_virtual .page_outer_wrapper, .news_list_virtual .page_inner_wrapper{
 		min-height: 1820px!important;
+	}
+	.footer_map_text > span {
+		margin-left: 4%;
 	}
 }
 @-moz-document url-prefix(){

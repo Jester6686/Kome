@@ -4,6 +4,18 @@
  }
 
 @media  (max-width : 1024px)  {
+    @font-face {
+        font-family: 'Oswald-ExtraLight';
+        src:  url('../fonts/Oswald-ExtraLight.ttf')  format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Oswald-Bold';
+        src:  url('../fonts/Oswald-Bold.ttf')  format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
      /*==========  hide bloks & elements  ==========*/
     .page_3_slider_links, .page_4_gallery_item_links, .block_6_big_img_links, .block_5_slider_links, .main_menu_closed .main_menu_phones .katalog_virtual, #section_katalog_footer, .catalog_one_mode_sec2, .katalog_page_breadcrumbs, .inner_page_logo, .block_6_gallery_title a, .go_to_block_2_start, .go_to_block_2, #image_move_container, .page_block_1_svg, .footer_map_wrapper::before, 
      .allnews_slider_text_right, .articles_slider_img_wrapper, .articles_slider_img_text, 
@@ -47,10 +59,26 @@
 .page_title .page_title_over > div > span:nth-child(9n) > span:first-child ,
 .page_title .page_title_over > div > span:nth-child(10n) > span:first-child ,
 .page_title .page_title_over > div > span:nth-child(11n) > span:first-child,
-.page_title .page_title_over > div > span:nth-child(12n) > span:first-child {top: 0; opacity: 1;margin: 0 0 0 0; height: 120%;     clear: both;}
-   
+.page_title .page_title_over > div > span:nth-child(12n) > span:first-child {top: 0; opacity: 1;    margin: 0 0 0 0; height: 110%;     clear: both;}
+    .page_title .page_title_over > div > span:nth-child(1) > span:first-child{
+        left: 5px;
+    }
     /* ============================= common elements =====================  */
-
+    .page_title .page_title_over > div > span > span:first-child{
+        left: 2px;
+    }
+    .page_title .page_title_over > div > span > span:last-child{
+        right: 6px;
+    }
+    .page_block_8 .page_title .page_title_over > div > .title_span_nbsp > span:last-child{
+        left: 25px;
+    }
+    .page_title .page_title_over > div > .title_span_nbsp > span:last-child{
+        left: 40px;
+    }
+    .page_title .page_title_over > div > span.title_span_nbsp{
+        padding-right: 15px;
+    }
     .arrow_down_lang{
         position: absolute;
         top: 42px;
@@ -252,26 +280,46 @@
         top: 8px;
     }
     .page_title_over_line_2{
-        bottom: -2px;
+        bottom: 2px;
+    }
+    .page_title .page_title_over > div{
+        vertical-align: bottom;
+        display: table;
+    }
+    .test1024{
+
+    }
+    .page_title .page_title_over > div:first-child{
+        display: table;
+        vertical-align: bottom;
     }
     .page_title .page_title_over > div > span{
+        font-family: 'Oswald-ExtraLight';
+        text-transform: uppercase;
+        float: none;
+        display: table-cell;
+        vertical-align: bottom;
         font-size: 65px;
         box-sizing: border-box;
-        letter-spacing: 0;
+        letter-spacing: 4px;
         text-indent: 0;
-        line-height: 52pt;
-        height: 42pt;
-        margin: 0 8px 0 0;
+        line-height: 60px;
+        height: 65px;
+        margin: 0 10px 0 0;
+        padding-top: 6px;
+
     /* margin: -23px 10px -27px 0; */
     }
+
     .page_title .page_title_under{
-        font-size: 248px;
+        font-family: 'Oswald-Bold';
+        font-size: 211px;
         line-height: 236px;
         height: 242px;
         margin: 0;
         opacity: 1;
-        top: 9px;
-        left: 5px;
+        top: -4px;
+        left: 9px;
     }
     /* ========================== page #2 ========================================= */
     .page_block_2 .page_inner_wrapper{
@@ -497,9 +545,15 @@
         right: -40px;
     }
     /* =========================================== page 6 ======================================================= */
+    .block_6_slider_prev, .block_6_slider_next{
+        top: 350px !important;
+    }
    .page_block_6 .page_title_under{
-    left: -50px;
+    left: -25px;
    }
+    .block_6_slider_item{
+        padding: 24px 5.46vw 0 7.8vw;
+    }
     .block_6_slider{
         width: 90%;
         left: 5%;
@@ -565,9 +619,9 @@
         height: 16px;
     }
     .page_block_6 .page_title_over_level_2{
-        width: 80px;
-        top: 8px;
-        left: 210px;
+        width: 78px;
+        top: 26px;
+        left: 269px;
     }
     
     .block_6_gallery_title.invisible_if_big > a{
@@ -715,8 +769,14 @@
     }
     /* ========================================== page 9 (news) ====================================== */
     .page_block_9 .page_title {
-        left: 67.9%;
+        left: 64.9%;
         top: 30px;
+    }
+    .page_block_9 .page_title .page_title_under{
+        top: -8px;
+    }
+    .page_block_9 .page_title .page_title_over{
+        top: 19px;
     }
      .page_block_9 .page_inner_wrapper {
         padding-top: 100px;
@@ -870,9 +930,9 @@
         min-height: 889px;
     }
     .page_title .page_title_under{
-        font-size: 308px;
-        top: 30px;
-        left: 1px;
+        font-size: 248px;
+        top: 16px;
+        left: 6px;
     }
     .block_6_popup_gallery {
         top: 140px;
@@ -1000,7 +1060,10 @@
         margin-top: 55%;
         margin-left: 5%;
     }
-     /* ========================================= page 6 ================================================= */   
+     /* ========================================= page 6 ================================================= */
+    .block_6_slider_prev, .block_6_slider_next{
+        top: 557px !important;
+    }
     .block_6_text_block{
         top: 381px;
         left: 30px;
@@ -1115,9 +1178,11 @@
         bottom: 20px;
     }
     /* ================================================== page 9 ================================================= */
-
+    .page_block_9 .page_title .page_title_under {
+        top: 11px;
+    }
     .page_block_9 .page_title_color_square {
-        height: 235px;
+        height: 231px;
         width: 255px;
         left: -20px;
     }

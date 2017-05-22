@@ -82,7 +82,15 @@
     }
 }
 @media  (max-width: 1366px) and  (min-width: 1025px) {
+    .page_title .page_title_under {
+        font-size: 300px;
+        line-height: 195px;
+        height: 180px;
 
+    }
+    .main_menu_closed .main_menu_contacts{
+        margin-left: 6px;
+    }
     p{
         font-size: 18px;
         line-height: 18px;
@@ -119,7 +127,7 @@
         font-size: 22px;
     }
     .about_title {
-        top: 8px;
+        top: 32px;
         margin-right: 20%;
     }
     .page_title .page_title_over > div > span.title_span_nbsp{
@@ -295,7 +303,7 @@
         margin-right: 5px;
     }
     .section_footer .page_outer_wrapper{
-        min-height: 90vh;
+        min-height: 96vh;
     }
     .footer_social_wrapper{
         padding: 0 0 23px 0;

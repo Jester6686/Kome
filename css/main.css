@@ -118,6 +118,17 @@ table {
 } */
 
 /* global */
+#animetetest{
+	position: fixed;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	top: 0;
+	z-index: 1;
+}
 body {
 	font-family: 'BebasNeueBook';
 	font-style: normal;
@@ -162,7 +173,12 @@ body {
 	width: 80%;
 	margin-left:10%;
 	top: 50%;
-	transform: translateY(-50%);
+
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0,-50%);
+	-o-transform: translate(0,-50%);
+	transform: translate(0, -50%);
 }
 .page_block_5  .page_inner_wrapper {
 	top: 50%;
@@ -2346,7 +2362,7 @@ font-variant: small-caps;
 .block_6_popup_gallery_container {
 	display: block;
 	width: 100%;
-	margin: 0 0 0 0;
+	margin: 5% 0 0 0;
 	position: relative;
 	z-index: 100;
 }
@@ -2430,8 +2446,8 @@ font-variant: small-caps;
 	position: fixed;
 	z-index: 199;
 	top:0;
-	left: 0;
-	width: 100%;
+	left: -10%;
+	width: 125%;
 	height: 100%;
 	background: rgba(102,102,102,0.89);
 }
@@ -3760,6 +3776,9 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 
 
 @media (max-width: 1500px) and  (min-width: 1025px){
+	.block_6_popup_slider_big_img{
+		height: 500px;
+	}
 
 	.main_menu_open .main_menu_links {
 		margin-top: 10vh;

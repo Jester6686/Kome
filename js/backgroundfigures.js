@@ -1,4 +1,5 @@
-$(function(){
+
+/*$(function(){
 	var backgroundFigures = undefined;
 	if ($(window).width() > 992) {
 		backgroundFigures = {
@@ -69,4 +70,4 @@ $(function(){
 			});
 		});
 	};
-});
+});*/

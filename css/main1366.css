@@ -340,6 +340,9 @@
     .page_4_gallery_item_links{
         display: none;
     }
+    .page_3_top_block_div_before{
+        display: none;
+    }
     .page_3_slider_links span, .block_5_slider_links span, .page_4_gallery_item_links span {
         font-size: 23px;
         background: url(../images/slider_3_link.png) no-repeat right 4px top 6.5px;
@@ -393,7 +396,7 @@
         margin-top: 301px;
     }
     .hover1920{
-        display: none;
+        display: block;
     }
     .page_3_slider_text {
         min-height: 198px;
@@ -673,7 +676,7 @@
         background-size: 100% 60px
     }
     .page_block_6 .page_title .page_title_under{
-        left: -66px;
+        left: -42px;
     }
     .block_6_gallery_big_img {
         width: 58%;
@@ -691,7 +694,7 @@
     }
 
     .page_block_6 .page_title_over_level_2 {
-        top: 5px !important;
+        top: 3px !important;
         width: 27%;
 
         left: 213px !important;
@@ -1063,12 +1066,20 @@
     }
 
     /*************galllery***********/
+    .popup_gallery_overlay{
+        top: -15%;
+        left: -10%;
+        width: 125%;
+        height: 125%;
+    }
     .block_6_popup_gallery {
         max-width: 872px;
     }
-
+    .block_6_popup_gallery_container{
+        margin: 0 0 0 5%;
+    }
     .block_6_popup_slider_big_img {
-        height: 460px;
+        height: 380px;
     }
     .block_6_popup_gallery_close {
         right: -34px;
@@ -1149,8 +1160,8 @@
         left: -5px;
     }
     .page_block_9 .page_title .page_title_under {
-        top: 42px;
-        left: 0;
+        top: 61px;
+        left: -3px;
         z-index: 1;
         font-size: 300px;
     }

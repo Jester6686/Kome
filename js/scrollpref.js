@@ -38,9 +38,12 @@ $(document).ready(function () {
 
 //rounds main page anim and menu
     fullPageEnable();
+    var testfor = false;
     $(window).resize(function() {
-        if ($(window).height() > 1025) {
-            if ($(window).height() < $('.page_inner_wrapper').height()) {
+        if ($(window).width() > 1025) {
+        	if (testfor == false){
+            if ($(window).height() < $('.page_block_2 .page_inner_wrapper').height()) {
+
                 $('.section').css({
                     height: ($('.page_inner_wrapper').height()) + 70 + 'px'
                 });
@@ -49,10 +52,12 @@ $(document).ready(function () {
                 });
                 $.fn.fullpage.setAllowScrolling(false);
                 $('.fullpage-wrapper').addClass('fp-destroyed');
+                testfor = true;
+            }
             } else if ($(window).height() > $('.page_block_2 .page_inner_wrapper').height()) {
-                if ($(window).height() > 1024) {
+
                     $('.page_outer_wrapper').css({
-                        height: 100 + 'vh'
+                        height : $(window).height() + 'px'
                     });
                     $.fn.fullpage.setAllowScrolling(true);
                     $('.fullpage-wrapper').removeClass('fp-destroyed');
@@ -60,7 +65,7 @@ $(document).ready(function () {
                 }
 
             }
-        }
+
 
 	/*
 	 popupGalleryresize();

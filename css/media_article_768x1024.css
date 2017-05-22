@@ -288,6 +288,9 @@
     #section10{
         height: 850px;
     }
+	.footer_map_text > span {
+		margin-left: 4%;
+	}
 }
 @-moz-document url-prefix(){
 	@media  (max-width : 800px){

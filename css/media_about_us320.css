@@ -1,16 +1,16 @@
-@media  (max-width : 380px){
+@media  (max-width : 500px){
  /* ============================================ katalog ====================================== */
     .page_block_7 .page_outer_wrapper, .page_block_7 .page_inner_wrapper {
         min-height: 3650px;
         background-image: none;
         padding: 0;
     }
-    .page_title.about_title .page_title_under {
-        font-size: 158px;
-        line-height: 50px;
-        top: 55px;
-        height: 50px;
-        margin: 8px 0 0 0;
+
+    .page_title .page_title_over > div > span{
+        letter-spacing: 0;
+        text-indent: 0;
+        line-height: 35px;
+        height: 41px;
     }
     .about_title{
         top: 120px;
@@ -22,9 +22,10 @@
         position: relative;
         font-size: 158px;
         line-height: 50px;
-        top: 40px;
+        top: 46px;
         height: 50px;
         margin: 8px 0 0 0;
+        left: 0px;
     }
     .page_title.about_title  .page_title_over{
         position: relative;
@@ -42,6 +43,9 @@
     }
     .about_midlle {
         margin-left: 20%;
+    }
+    .about_us_photo img{
+        height: 238px;
     }
     .about_col_2_conteiner {
         margin-left: -20%;
@@ -81,5 +85,8 @@
     .footer_map_container {
          padding-top: 0;
          margin-top: 17px;
+    }
+    .footer_map_text > span:last-child {
+        margin-right: 10%;
     }
 }

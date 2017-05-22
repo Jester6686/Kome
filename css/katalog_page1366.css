@@ -1,4 +1,9 @@
+.page_inner_wrapper{
+    top:0;
+    transform: translateY(0);
+}
 @media  (max-width: 1800px) and  (min-width: 1025px) {
+
     p {
         font-size: 20px;
         line-height: 20px;
@@ -19,7 +24,7 @@
         line-height: 19px;
     }
     .katalog_page_breadcrumbs, .category_page_breadcrumbs{
-        margin-top: 11px;
+        margin-top: 5px;
     }
     .footer_map_text > span{
         margin-right: 6vw;
@@ -30,6 +35,14 @@
 
 }
 @media  (max-width: 1366px) and  (min-width: 1025px) {
+    .main_menu_closed .main_menu_contacts{
+        margin-left: 6px;
+    }
+    .page_title .page_title_under {
+        font-size: 300px;
+        line-height: 200px;
+        height: 180px;
+    }
     p {
         font-size: 18px;
         line-height: 18px;

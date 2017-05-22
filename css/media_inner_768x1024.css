@@ -109,10 +109,10 @@
     	margin-right: 24%;
 	}
 	.page_title.about_title  .page_title_under {
-    	font-size: 308px;
-    	line-height: 308px;
-    	height: 308px;
-    	margin: -25px 0 42px 0;
+		font-size: 244px;
+		line-height: 325px;
+		height: 238px;
+		margin: -29px 0 42px 0;
 	} 
 	.about_one .page_outer_wrapper {
     	min-height: 245vh;
@@ -408,15 +408,23 @@
 		display: none;
 	}
 	.partners_floo{
-		margin-left: 15%;
+		margin-left: 22%;
 	}
 	.about_us_photo img {
-    	width: 65%;
+    	width: 80%;
+		height: 344px;
 	}
 	
 }
 
 @media  (max-width : 800px)  {
+	.page_title.about_title .page_title_under {
+		margin: -46px 0px 42px 0;
+		left: 9px;
+	}
+	.about_one .page_outer_wrapper{
+		min-height: 217vh;
+	}
      /*==========  hide bloks & elements  ==========*/
     .main_menu_wrapper  .logo.katalog_virtual{
          left: 12%;
@@ -525,6 +533,9 @@
 	}
 	.news_list_virtual .page_outer_wrapper, .news_list_virtual .page_inner_wrapper{
 		min-height: 1820px!important;
+	}
+	.footer_map_text > span {
+		margin-left: 4%;
 	}
 	
 
