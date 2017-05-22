@@ -2,29 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b99e28-6064-46d9-a084-fbbc46559c76" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media320sqr.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media_art_one320.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media_articleslist320.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media_categor320.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media_contakt320.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media_inner320.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media_katalog320.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media_news320.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media_newslist320.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media_prod_item320.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/EasePack.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/TweenLite.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/prodgal320.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/start.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/testkome.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/about_us1366.css" afterPath="$PROJECT_DIR$/css/about_us1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/article_one1366.css" afterPath="$PROJECT_DIR$/css/article_one1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/articleslist1366.css" afterPath="$PROJECT_DIR$/css/articleslist1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/categor_page1366.css" afterPath="$PROJECT_DIR$/css/categor_page1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/contakt1366.css" afterPath="$PROJECT_DIR$/css/contakt1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/item_page1366.css" afterPath="$PROJECT_DIR$/css/item_page1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/katalog_page1366.css" afterPath="$PROJECT_DIR$/css/katalog_page1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main1366.css" afterPath="$PROJECT_DIR$/css/main1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media768x1024.css" afterPath="$PROJECT_DIR$/css/media768x1024.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media_about_us320.css" afterPath="$PROJECT_DIR$/css/media_about_us320.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media_article_768x1024.css" afterPath="$PROJECT_DIR$/css/media_article_768x1024.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media_inner_768x1024.css" afterPath="$PROJECT_DIR$/css/media_inner_768x1024.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media_news_768x1024.css" afterPath="$PROJECT_DIR$/css/media_news_768x1024.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/news1366.css" afterPath="$PROJECT_DIR$/css/news1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/newslist1366.css" afterPath="$PROJECT_DIR$/css/newslist1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/prod_item1366.css" afterPath="$PROJECT_DIR$/css/prod_item1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/backgroundfigures.js" afterPath="$PROJECT_DIR$/js/backgroundfigures.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.js" afterPath="$PROJECT_DIR$/js/js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scrollpref.js" afterPath="$PROJECT_DIR$/js/scrollpref.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/test" afterPath="$PROJECT_DIR$/js/test" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -107,8 +101,8 @@
       <file leaf-file-name="media768x1024.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/media768x1024.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="1069" column="27" lean-forward="true" selection-start-line="1069" selection-start-column="27" selection-end-line="1069" selection-end-column="27" />
+            <state relative-caret-position="113">
+              <caret line="1056" column="30" lean-forward="true" selection-start-line="1056" selection-start-column="30" selection-end-line="1056" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -476,7 +470,7 @@
       <workItem from="1495210043970" duration="927000" />
       <workItem from="1495349214090" duration="7609000" />
       <workItem from="1495410765197" duration="4193000" />
-      <workItem from="1495432869486" duration="15357000" />
+      <workItem from="1495432869486" duration="15487000" />
     </task>
     <task id="LOCAL-00001" summary="first comit (second variant)">
       <created>1493463288409</created>
@@ -611,11 +605,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495123963786</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="22/05 version">
+      <created>1495449809248</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1495449809248</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="345852000" />
+    <option name="totallyTimeSpent" value="345982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,7 +680,8 @@
     <MESSAGE value="adaptiv 1024x1366" />
     <MESSAGE value="adaptiv 1024x1366 + deaktiv sckroll fullpage" />
     <MESSAGE value="18/05 version" />
-    <option name="LAST_COMMIT_MESSAGE" value="18/05 version" />
+    <MESSAGE value="22/05 version" />
+    <option name="LAST_COMMIT_MESSAGE" value="22/05 version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1075,8 +1077,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/media768x1024.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="1069" column="27" lean-forward="true" selection-start-line="1069" selection-start-column="27" selection-end-line="1069" selection-end-column="27" />
+        <state relative-caret-position="113">
+          <caret line="1056" column="30" lean-forward="true" selection-start-line="1056" selection-start-column="30" selection-end-line="1056" selection-end-column="30" />
           <folding />
         </state>
       </provider>
