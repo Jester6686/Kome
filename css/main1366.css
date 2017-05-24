@@ -1,4 +1,4 @@
-@media  (max-width: 1366px) and  (min-width: 1025px)  {
+@media  (max-width: 1400px) and  (min-width: 1025px)  {
     .logo{
         left: 14.4vw;
     }
@@ -68,7 +68,7 @@
 
     .main_menu_closed .main_menu_links {
         width: 100%;
-        top: 54%;
+        top: 50%;
     }
     .main_menu_closed .main_menu_links li a{
         margin-bottom: 4vh;
@@ -557,7 +557,7 @@
         margin: 1vh 0 0 0;
         height: 80%;
     }
-    .page_4_top_text_active .page_4_top_text_inner {
+    .page_4_top_text_inner {
         -webkit-transition: none;
         transition: none;
         font-size: 18px;
@@ -1075,9 +1075,7 @@
     .block_6_popup_gallery {
         max-width: 872px;
     }
-    .block_6_popup_gallery_container{
-        margin: 0 0 0 5%;
-    }
+
     .block_6_popup_slider_big_img {
         height: 380px;
     }
@@ -1160,7 +1158,7 @@
         left: -5px;
     }
     .page_block_9 .page_title .page_title_under {
-        top: 61px;
+        top: 42px;
         left: -3px;
         z-index: 1;
         font-size: 300px;

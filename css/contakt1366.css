@@ -2,7 +2,23 @@
     top:0;
     transform: translateY(0);
 }
+.contact_section > .page_outer_wrapper{
+    min-height: 1284px;
+}
+.contact_phones{
+    margin-top: 180px;
+}
+.wellcome_box{
+    margin-top: 393px;
+}
+.contact_phones:before{
+    height: 450px;
+    top: 180px;
+}
 @media  (max-width: 1800px) and  (min-width: 1025px) {
+    .wellcome_box {
+        margin-top: 369px;
+    }
     .contact_phones  span p, .contact_phones  span a{
         font-size: 27px;
     }
@@ -11,14 +27,14 @@
     }
 }
 @media  (max-width: 1600px) and  (min-width: 1025px) {
+    .wellcome_box {
+        margin-top: 360px;
+    }
     .inner_page_breadcrumbs{
         top: 36px;
     }
     .katalog_page_breadcrumbs, .category_page_breadcrumbs {
         margin-top: 13px;
-    }
-    .contact_section > .page_outer_wrapper {
-        min-height: 149vh;
     }
     .contact_phones  span p, .contact_phones  span a{
         font-size: 25px;
@@ -131,7 +147,7 @@
         height: 1px;
     }
     .contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_slogan_wrapper{
-        margin-top: 27vh;
+        margin-top: 186px;
         width: 55%;
         padding-bottom: 13px;
     }
@@ -159,17 +175,20 @@
     }
     .contact_phones:before{
         width: 1px;
-        height: 51vh;
+        height: 360px;
         left: 56.3%;
-        top: 31vh;
+
     }
     .contact_phones{
-        margin-top: 23vh;
+
         margin-right: -12px;
         width: 19%;
         float: left;
         text-align: right;
         font-size: 24px;
+    }
+    .wellcome_box {
+        margin-top: 182px;
     }
     .contact_phones  span p, .contact_phones  span a{
         margin-top: 7px;
@@ -228,7 +247,7 @@
         margin-right: 5px;
     }
     .section_footer .page_outer_wrapper{
-        min-height: 153vh;
+
     }
     .footer_social_wrapper{
         padding: 0 0 23px 0;
@@ -419,12 +438,8 @@
     }
 }
 @media (max-width: 1360px) and (min-width: 1025px){
-    .section_footer .page_outer_wrapper {
-        min-height: 179vh;
-    }
-    .contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_slogan_wrapper{
-        margin-top: 30vh;
-    }
+
+
     .footer_slogan_wrapper{
         font-size: 34px;
     }

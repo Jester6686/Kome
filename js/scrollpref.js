@@ -38,39 +38,33 @@ $(document).ready(function () {
 
 //rounds main page anim and menu
     fullPageEnable();
-    var testfor = false;
+ var tetsting = false;
     $(window).resize(function() {
-        if ($(window).width() > 1025) {
-        	if (testfor == false){
-            if ($(window).height() < $('.page_block_2 .page_inner_wrapper').height()) {
-
-                $('.section').css({
-                    height: ($('.page_inner_wrapper').height()) + 70 + 'px'
-                });
-                $('.page_outer_wrapper').css({
-                    height: ($('.page_inner_wrapper').height()) + 50 + 'px'
-                });
-                $.fn.fullpage.setAllowScrolling(false);
-                $('.fullpage-wrapper').addClass('fp-destroyed');
-                testfor = true;
+        if ($(window).height() < $('.page_block_2 .page_inner_wrapper').height()) {
+        	if (tetsting == false){
+            $('.section').css({
+                height: ($('.page_inner_wrapper').height()) + 70 + 'px'
+            });
+            $('.page_outer_wrapper').css({
+                height: ($('.page_inner_wrapper').height()) + 50 + 'px'
+            });
+            $.fn.fullpage.setAllowScrolling(false);
+            $('.fullpage-wrapper').addClass('fp-destroyed');
+            tetsting = true;
             }
-            } else if ($(window).height() > $('.page_block_2 .page_inner_wrapper').height()) {
-
-                    $('.page_outer_wrapper').css({
-                        height : $(window).height() + 'px'
-                    });
-                    $.fn.fullpage.setAllowScrolling(true);
-                    $('.fullpage-wrapper').removeClass('fp-destroyed');
-                    window.dispatchEvent(new Event('resize'));
-                }
-
-            }
+        }else if ($(window).height() > $('.page_block_2 .page_inner_wrapper').height()) {
 
 
-	/*
-	 popupGalleryresize();
-	 telephoneCollresize();
-	 OrderWrapperresize()*/
+            $('.page_outer_wrapper').css({
+                height: '100vh'
+            });
+
+            $.fn.fullpage.setAllowScrolling(true);
+            $('.fullpage-wrapper').removeClass('fp-destroyed');
+            window.dispatchEvent(new Event('resize'));
+            tetsting = false;
+        }
+
+
     });
-	
 });

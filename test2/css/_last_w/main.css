@@ -1359,11 +1359,7 @@ font-variant: small-caps;
 	top: 0;
 	right: 0;
 	opacity: 1;
-	-webkit-transition: all 0.75s linear;
-	-moz-transition: all 0.75s linear;
-	-ms-transition: all 0.75s linear;
-	-o-transition: all 0.75s linear;
-	transition: all 0.75s linear;
+
 }
 .page_4_top_text_active .page_4_top_text_inner {
 	right: 0;

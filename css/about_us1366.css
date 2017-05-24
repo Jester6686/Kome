@@ -1,3 +1,19 @@
+.page_inner_wrapper {
+    padding-top: 1vh;
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    top: 0%;
+    -webkit-transform: translate(0, 0%);
+    -moz-transform: translate(0, 0%);
+    -ms-transform: translate(0,0%);
+    -o-transform: translate(0,0%);
+    transform: translate(0, 0%);
+    height: 1625px;
+}
+.section_footer .page_outer_wrapper{
+    height: 939px;
+}
 @media  (max-width: 1800px) and  (min-width: 1025px) {
     p{
         font-size: 20px;
@@ -26,13 +42,16 @@
     }
 }
 @media  (max-width: 1600px) and  (min-width: 1025px) {
+    .page_inner_wrapper{
+        height: 1539px;
+    }
     .about_one .page_outer_wrapper{
-        min-height: 178vh;
+        height: 1577px;
     }
-    .line_after_about{
-        top: 176vh;
+    .section_footer .page_outer_wrapper{
+        height: 789px;
     }
-    p{
+     p{
         font-size: 19px;
         line-height: 19px;
     }
@@ -50,10 +69,10 @@
         padding: 1vw 0 0 0;
     }
     .about_underdigil_first{
-        margin: 18px 0 13vh 80px;
+        margin: 18px 0 130px 80px;
     }
     .about_underdigit {
-        margin: 25px 0 10vh 80px;
+        margin: 25px 0 100px 80px;
     }
     .big_digit, first_big_digit{
         margin-left: 80px;
@@ -72,15 +91,7 @@
     }
 
 }
-@media  (max-width: 1500px) and  (min-width: 1025px) {
-    .about_one .page_outer_wrapper {
-        min-height: 180vh;
-    }
 
-    .line_after_about {
-        top: 179vh;
-    }
-}
 @media  (max-width: 1366px) and  (min-width: 1025px) {
     .page_title .page_title_under {
         font-size: 300px;
@@ -101,11 +112,12 @@
         width: 55%;
     }
     .about_one .page_outer_wrapper{
-        min-height: 198vh;
+        height: 1294px;
     }
     .page_inner_wrapper {
         width: 90%;
         margin-left: 6%;
+        height: 1269px;
     }
     .section_footer .page_inner_wrapper{
         width: 86%;
@@ -202,7 +214,7 @@
     .line_after_about {
         width: 75%;
         margin-right: 4%;
-        top: 193vh;
+
     }
 
     /***********pageitem**********/
@@ -212,7 +224,7 @@
         width: 105%;
     }
     .about_conteiner{
-        margin: 35.5vh 0 0 0;
+        margin: 290px 0 0 0;
     }
     .about_underdigit, .about_txt_vertical {
         font-size: 40px;
@@ -242,20 +254,21 @@
     }
 
     .about_underdigit {
-        margin: 14px 0 18.5vh 50px;
+        margin: 14px 0 100px 50px;
     }
     .for_last_underdigit{
-        margin: 14px 0 15.5vh 50px;
+        margin: 14px 0 100px 50px;
     }
     .about_underdigil_first{
-        margin: 6px 0 18.5vh 50px;
+        margin: 6px 0 100px 50px;
     }
     .about_midlle, .news_one_midlle {
-        margin: 5vh 0 0 0;
+        margin: 50px 0 0 0;
+        min-height: 870px;
     }
 
     .about_midlle_col1 {
-        padding: 15vh 0 0 0;
+        padding: 65px 0 0 0;
         width: 19%;
     }
     .about_col_2_conteiner{
@@ -303,7 +316,8 @@
         margin-right: 5px;
     }
     .section_footer .page_outer_wrapper{
-        min-height: 96vh;
+        min-height: 647px;
+        height: 605px;
     }
     .footer_social_wrapper{
         padding: 0 0 23px 0;
@@ -489,21 +503,27 @@
         height: 154px;
         background-size: 197% 100%;
     }
+    .page_inner_wrapper {
+        height: 1312px
+    }
+    .about_one .page_outer_wrapper {
+        height: 1331px;
+    }
 }
 @media (max-width: 1300px) and (min-width: 1025px){
+    .page_inner_wrapper {
+        height: 1332px
+    }
     .about_one .page_outer_wrapper {
-        min-height: 218vh;
+        height: 1351px;
     }
     .partners_floo {
         margin-top: 2%;
     }
     .line_after_about{
-        top: 211vh;
         width: 84%;
     }
-    .section_footer .page_outer_wrapper {
-        min-height: 100vh;
-    }
+
     .footer_slogan_wrapper{
         font-size: 37px;
     }
@@ -580,5 +600,11 @@
     }
     .about_underdigit, .about_txt_vertical{
         font-size: 32px;
+    }
+    .page_inner_wrapper {
+        height: 1242px;
+    }
+    .about_one .page_outer_wrapper {
+        height: 1272px;
     }
 }

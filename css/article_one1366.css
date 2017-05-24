@@ -1,6 +1,13 @@
 .page_inner_wrapper{
-    top:0;
-    transform: translateY(0);
+    top: 0%;
+    -webkit-transform: translate(0, 0%);
+    -moz-transform: translate(0, 0%);
+    -ms-transform: translate(0,0%);
+    -o-transform: translate(0,0%);
+    transform: translate(0, 0%);
+}
+.section_footer .page_outer_wrapper{
+    height: 939px;
 }
 @media  (max-width: 1800px) and  (min-width: 1025px) {
 
@@ -21,6 +28,15 @@
     }
 }
 @media  (max-width: 1600px) and  (min-width: 1025px) {
+    .page_block.page_block_7.news_one, .news_one .page_outer_wrapper{
+        min-height: 1378px;
+    }
+    .page_block_7 .page_title .page_title_under{
+        left: -4px;
+    }
+    .section_footer .page_outer_wrapper {
+        height: 783px;
+    }
     p {
         font-size: 19px;
         line-height: 19px;
@@ -31,11 +47,8 @@
     .news_one_bottom_txt_body {
        /* margin: 2.5vw 2.5% 0 1.1%;*/
     }
-    .news_one_midlle{
-        min-height: 66vh;
-    }
     .read_all_news{
-        margin-bottom: 13vh;
+        margin-bottom: 100px;
     }
     .articles_list_title{
         margin-right: 45%;
@@ -48,6 +61,13 @@
     }
     .footer_map_text > span{
         margin-right: 6vw;
+    }
+}
+@media (max-width: 1600px) and (min-width: 1025px) {
+
+    p {
+        font-size: 19px;
+        line-height: 18px;
     }
 }
 @media  (max-width: 1366px) and  (min-width: 1025px){
@@ -67,11 +87,10 @@
     .inner_page_breadcrumbs > a >img {
         width: 55%;
     }
-    .news_one .page_outer_wrapper{
-        min-height: 148.5vh;
-    }
+
     .page_block.page_block_7.news_one, .news_one .page_outer_wrapper{
-        min-height: 148.5vh;
+        min-height: 1225px;
+        height: 1224px;
     }
     .page_inner_wrapper {
         width: 90%;
@@ -183,7 +202,7 @@
 
 
     .news_one_midlle{
-        min-height: 60vh;
+        min-height: 425px;
     }
     .news_one_big_photo img{
         width: 46%;
@@ -206,7 +225,7 @@
         top: -1px;
     }
     .news_one_line_onbottom{
-        top: 59.5vh;
+        top: 402px;
         right: 7.5%;
         width: 90%;
     }
@@ -215,6 +234,7 @@
         margin: 0 7.2% 0 1.1%;;
     }
     .news_one_bottom_cont{
+        min-height: 340px;
         margin-top: -9px;
     }
     .test{
@@ -223,7 +243,7 @@
     }
     .read_all_news{
         margin-right: 8.5%;
-        margin-bottom: 26vh;
+        margin-bottom: 0;
     }
     .articles_slider_controls_wrapper > a{
         margin-right: -5px;
@@ -240,7 +260,7 @@
         margin-right: 5px;
     }
     .section_footer .page_outer_wrapper{
-        min-height: 90vh;
+     height: 630px;;
     }
     .footer_social_wrapper{
         padding: 18px 0 23px 0;
@@ -383,6 +403,9 @@
     .main_menu_wrapper .main_menu_closed{
         width: 50px;
     }
+    .main_menu_open .main_menu_links{
+        margin-top: 10vh;
+    }
     .main_menu_closed .open_menu_btn{
         margin-left: 5px;
         margin-top: 8vh;
@@ -433,20 +456,8 @@
         font-size: 17px;
         line-height: 17px;
     }
-    .news_one_line_onbottom {
-        top: 65.5vh;
-    }
-    .page_block.page_block_7.news_one, .news_one .page_outer_wrapper {
-        min-height: 156.5vh;
-    }
-    .read_all_news{
-        margin-bottom: 23vh;
-    }
-    .section_footer .page_outer_wrapper {
-        min-height: 100vh;
-    }
     .footer_slogan_wrapper{
-        font-size: 37px;
+        font-size: 36px;
     }
     .footer_social_wrapper {
         padding: 10px 0 21px;
@@ -476,20 +487,12 @@
     .news_one_big_photo img{
         width: 45%;
     }
-    .news_one_line_onbottom {
-        top: 70.5vh;
-    }
-    .page_block.page_block_7.news_one, .news_one .page_outer_wrapper {
-        min-height: 167.5vh;
-    }
-    .read_all_news{
-        margin-bottom: 12vh;
-    }
+
     .category_page_breadcrumbs{
         margin-left: 7px;
     }
     .footer_slogan_wrapper{
-        font-size: 33px;
+        font-size: 32px;
         padding-bottom: 15px;
         padding-left: 8px;
     }
@@ -523,7 +526,7 @@
         width: 49vw;
     }
     .footer_slogan_wrapper {
-        font-size: 31px;
+        font-size: 30px;
     }
 
     .footer_map_text > span p {

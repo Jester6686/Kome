@@ -118,11 +118,13 @@
          margin-bottom: 0;
     }
     .contact_phones.wellcome_box {
-        top: 600px;  
+        top: 625px;
         right: 0;
         left: 0;
-        margin: 0;  
-
+        margin: 0;
+    }
+    .page_inner_wrapper .contact_phones{
+        top: 736px;
     }
     .contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_social_wrapper {
         width: 100%;

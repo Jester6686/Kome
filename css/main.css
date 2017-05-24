@@ -158,7 +158,7 @@ body {
 .page_outer_wrapper {
 	position: relative;
 	width: 100%;
-	min-height: 100vh; /* 990 ? */
+	height: 100vh; /* 990 ? */
 	background-image: url('../images/page_inner_wrapper.jpg');
 	background-repeat: no-repeat;
 	background-position: left bottom;
@@ -422,7 +422,7 @@ body {
 .main_menu_closed .main_menu_contacts  {
 	position: absolute;
 	top: 75vh;
-	margin-left: 13px;
+	margin-left: 35px;
 	background-size: 100%;
 }
 .main_menu_closed .main_menu_phones  a:first-child{
@@ -431,7 +431,7 @@ body {
 }
 .main_menu_closed .main_menu_phones  a:last-child{
 	position: absolute;
-	top: 77vh;
+	top: 84vh;
 }
 
 /* right menu */
@@ -1469,13 +1469,9 @@ font-variant: small-caps;
 	top: 0;
 	right: 0;
 	opacity: 1;
-	-webkit-transition: all 0.75s linear;
-	-moz-transition: all 0.75s linear;
-	-ms-transition: all 0.75s linear;
-	-o-transition: all 0.75s linear;
-	transition: all 0.75s linear;
+
 }
-.page_4_top_text_active .page_4_top_text_inner {
+.page_4_top_text_inner {
 	right: 0;
 	opacity: 1;
 	color: #000000;
@@ -1528,6 +1524,9 @@ font-variant: small-caps;
 	width:100%;
 	height: 350px;
 	position: relative;
+}
+.page_4_gallery_item_links{
+	display: none;
 }
 .page_4_gallery_container .page_4_gallery_item:nth-child(1) {background-image: url('../images/page_4_gallery_1.jpg');}
 .page_4_gallery_container .page_4_gallery_item:nth-child(2) {background-image: url('../images/page_4_gallery_2.jpg');}
@@ -2362,7 +2361,7 @@ font-variant: small-caps;
 .block_6_popup_gallery_container {
 	display: block;
 	width: 100%;
-	margin: 5% 0 0 0;
+	margin: 0 0 0 0;
 	position: relative;
 	z-index: 100;
 }
@@ -2446,8 +2445,8 @@ font-variant: small-caps;
 	position: fixed;
 	z-index: 199;
 	top:0;
-	left: -10%;
-	width: 125%;
+	left: 0;
+	width: 100%;
 	height: 100%;
 	background: rgba(102,102,102,0.89);
 }
@@ -3406,7 +3405,8 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 
 
 @media (max-width: 1800px) and  (min-width: 1025px) {
-	.page_2_top_text{
+	/*************size_for_pixel********/
+		.page_2_top_text{
 		width: 32.5vw;
 	}
 	.page_2_texts{
@@ -3483,6 +3483,9 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 }
 
 @media (max-width: 1600px)and  (min-width: 1025px) {
+	.main_menu_closed .main_menu_contacts{
+		margin-left: 13px;
+	}
 	.main_menu_closed .main_menu_links{
 		left: -7px;
 	}
@@ -3580,6 +3583,7 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 	.page_3_slider_links span,
 	.page_3_slider_links a {
 		font-size: 20px;
+		background: url(../images/slider_3_link.png) no-repeat right 6px;
 	}
 
 	.page_block_4 .page_title {
@@ -3647,6 +3651,7 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 	.block_6_top_img_links span,
 	.block_6_top_img_links a {
 		font-size: 20px;
+		background: url(../images/slider_3_link.png) no-repeat right 6px;
 	}
 	.page_block_6 .page_title_over_level_2 {
 		top: 8px !important;
@@ -3663,6 +3668,7 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 		margin-left: 100px;
 	}
 	.block_6_gallery_title a {
+		background: url(../images/block_6_gallery_title_gray_a.png) no-repeat right 0px;
 		font-size: 19px;
 		width:33%;
 	}
@@ -3697,7 +3703,11 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 		line-height: 20px;
 	}
 	.articles_slider_controls_wrapper a {
+		padding-top: 18px;
 		font-size: 19px;
+	}
+	.articles_slider_controls_wrapper > a {
+		background: url(../images/articles_slider_controls_all_a.png) no-repeat right 18px;
 	}
 	.articles_slider_img_text {
 		font-size: 20px;
@@ -3746,7 +3756,11 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 	}
 	.allnews_slider_controls a,
 	.allnews_slider_controls_wrapper > a {
+		padding-top: 18px;
 		font-size: 19px;
+	}
+	.allnews_slider_controls_wrapper > a{
+		background: url(../images/articles_slider_controls_all_a.png) no-repeat right 18px;
 	}
 	.footer_map_wrapper{
 		margin-bottom: 13px
@@ -3776,6 +3790,9 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 
 
 @media (max-width: 1500px) and  (min-width: 1025px){
+	.main_menu_open .main_menu_contacts{
+		margin-top: 1.5vh;
+	}
 	.block_6_popup_slider_big_img{
 		height: 500px;
 	}

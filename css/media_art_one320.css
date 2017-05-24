@@ -1,7 +1,10 @@
 @media  (max-width : 500px){
  /* ============================================ katalog ====================================== */
+    .news_one .news_one_midlle {
+        margin-bottom: -327px;
+    }
    .page_block_7.news_one .page_outer_wrapper, .page_block_7.news_one .page_inner_wrapper {
-         min-height: 2050px!important;
+         min-height: 1920px!important;
     }
     .page_title .page_title_over > div > span{
         letter-spacing: 0;
@@ -70,9 +73,7 @@
         height: 212px;
         width: 320px;
     }
-    .news_one_bottom_cont{
-        margin-top: 100px;
-    }
+
     .news_one_conteiner .news_one_top_txt_body{
         width: 97%;
         padding: 0;
@@ -90,8 +91,8 @@
     
     }
     .news_one .articles_slider_controls_wrapper{
-        top: 450px;
-        margin-left: 11%;
+        top: 252px;
+        margin-left: 2%;
     }
    
     .section_footer .page_inner_wrapper{

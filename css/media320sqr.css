@@ -47,6 +47,37 @@
     font-style: normal;
 
 }
+@media  (max-width : 700px) and  (min-width: 500px){
+    .page_inner_wrapper{
+        min-height: 900px;
+    }
+    .page_2_texts, .page_2_texts .active{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .page_2_img_block{
+        width: 35%;
+    }
+    .page_block_4 .page_title {
+        margin-left: 1.86%;
+    }
+    .page_4_gallery_item_text span{
+        font-size: 30px;
+    }
+    .block_6_gallery_title.invisible_if_big > a{
+        width: 58%;
+        margin-right: 327px;
+    }
+    .articles_slider_controls_wrapper{
+        left: 30%;
+    }
+    .footer_map_text > span{
+        margin-left: 3%;
+    }
+    .footer_slogan_wrapper::after{
+        bottom: -92px;
+    }
+}
 @media  (max-width : 500px){
     
     .footer_slogan_wrapper::after,.allnews_slider_controls_wrapper::before, .page_block_9 .page_inner_wrapper::before, 
@@ -108,16 +139,22 @@
         margin-left: 10px;
     }
     .page_title .page_title_over > div > span {
-        font-size: 31pt;
+        font-size: 24pt;
         box-sizing: border-box;
         letter-spacing: 1px;
         text-indent: -1px;
-        line-height: 53px;
+        line-height: 47px;
         height: 53px;
         margin: -15px 10px -18px 0;
     }
+    .main_menu_wrapper .main_menu_open{
+        width: 153px;
+    }
     .right_menu_wrapper {
         height: 50px;
+    }
+    .main_menu_closed .open_menu_btn{
+        margin-left: 10px;
     }
     .block_6_gallery_wrapper{
         font-size: 22pt;
@@ -241,6 +278,8 @@
         top: 22px;
     }
     .to_order_form {
+        margin: 0 0;
+        margin-left: 21%;
         width: 100%;
         max-width: 320px;
      }
@@ -367,10 +406,10 @@
     }
     .page_2_h320.visible_if_less_350{
         background: #e3e3e3;
-         font-family: 'BebasNeueBook';
+         font-family: 'Oswald-ExtraLight';
         font-size: 32pt;
         letter-spacing: .03em;
-        padding: 0 10px 2px 10px;
+        padding: 0 10px 4px 10px;
         height: 30px;
         line-height: 25px;
         text-align: center;
@@ -474,11 +513,24 @@
         border: none;
     } 
     /*=========================================== page 4 ============================================= */
+    .page_4_gallery_item_hover .page_4_gallery_item_text p{
+        opacity: 1;
+    }
+    .page_4_gallery_item_hover .page_4_gallery_item_bg > a{
+        background: rgba(102, 102, 102, 0.65);
+    }
+    .page_block_4 .page_title{
+        margin-left: 0.86%;
+    }
     .page_block_4 .page_outer_wrapper{
-        min-height: 998px;
+        min-height: 1044px;
     }
     .page_block_4 .page_inner_wrapper{
-        min-height: 998px;
+        top: 20px;
+        min-height: 1004px;
+    }
+    .page_4_gallery_wrapper {
+        overflow: hidden;
     }
     .page_4_top_text .page_4_top_text_inner{
         width: 100%;
@@ -512,10 +564,10 @@
     }
     .page_4_gallery_item {
         width: 100%;
-        height: 300px;
+        height: 325px;
     }
     .page_4_gallery_container .page_4_gallery_item{
-         background-size: 130% 100%;
+        background-size: 100% 57%;
     }
     .page_4_gallery_item_bg{
         margin-top: 150px;
@@ -627,12 +679,20 @@
          margin-left: 15px;
          margin-right: 0;
     }
+    .page_title .page_title_under {
+        font-size: 158pt;
+        line-height: initial;;
+        top: 18px;
+        left: 5px;
+        height: 90px;
+        margin: 0;
+    }
     /* ====================================================== page 6 ===================================================== */
     .page_block_6 .page_title .page_title_over {
         width: 53vw;
     }
     .page_block_6 .page_title_under {
-        left: -103px;
+        left: -104px;
     }
     .page_block_6 .page_outer_wrapper, .page_block_6 .page_inner_wrapper {
         min-height: 800px;
@@ -656,7 +716,10 @@
     }
     .page_block_6 .page_title_over_level_2 div {
         border-bottom: none;
-        font-size: 22pt;
+        font-size: 24pt;
+    }
+    .page_block_6 .page_title_over_level_2 div:first-child {
+        margin-bottom: 12px;
     }
     .block_6_gallery_title {
         height: 160px;
@@ -665,9 +728,9 @@
         text-align: center;
     }
     .page_block_6 .page_title_over_level_2 {
-        top: 0;
-        left: 135px;
-        width: 100px;
+        top: 14px;
+        left: 138px;
+        width: 100px;;
     }
     .block_6_bottom_gallery{
         position: relative;
@@ -687,23 +750,19 @@
         height: 900px;
     }
     .block_6_gallery_title.invisible_if_big > a{
+        font-family: 'Oswald-ExtraLight';
+        font-weight: bold;
+        background: url(../images/block_6_gallery_title_gray_a.png) no-repeat right -3px;
         margin-top: 440px;
         width: 100%;
-        font-size: 16pt;
-        height: 22px;
-        line-height: 19px;
+        font-size: 13pt;
+        height: 18px;
+        line-height: 18px;
         text-align: center;
         background-position: 80% 2px;
         background-size: 5px 83%;
    }
-    .page_title .page_title_under {
-        font-size: 158pt;
-        line-height: initial;;
-        top: 18px;
-        left: 5px;
-        height: 90px;
-        margin: 0;
-    }
+
     .block_6_text_block {
         top: 200px;
         left: 0;
@@ -817,6 +876,7 @@
     .page_block_8 .articles_slider_controls div{
         width: 20px;
         background-size: 70% 70%;
+        margin-top: 19px;
     }
     .page_block_8 .articles_slider_controls_wrapper > a{
         right: 15vw;
@@ -882,9 +942,16 @@
     .articles_slider_controls_wrapper::before{
         display: none;
     }
+    .articles_slider_controls_wrapper > a{
+        bottom: 24px;
+    }
+
     /* ================================================================== page 9 ========================================================== */
     .page_block_9 .page_inner_wrapper {
         padding-top: 20px;
+    }
+    .page_block_9 .page_title .page_title_under{
+        top: 3px;
     }
     .page_block_9 .page_title {
         top:0;
@@ -937,7 +1004,8 @@
     
     .allnews_slider_controls_wrapper > a{
         right: 7%;
-        top: 112px;
+        top: 109px;
+        background: url(../images/articles_slider_controls_all_a.png) no-repeat right 3px;
     }
     .allnews_slider_controls {
         left: 15%;
@@ -946,6 +1014,7 @@
     .allnews_slider_controls div{
         width: 20px;
         background-size: 70% 70%;
+        margin-top: 19px;
     }
     .allnews_slider_item{
         margin-bottom: 0;

@@ -526,8 +526,7 @@ $(function(){
 					setTimeout(function(){
 						$('.page_4_gallery_container .page_4_gallery_item').eq(2).addClass('active_2');
 						setTimeout(function(){
-							$('.page_4_top_text').addClass('page_4_top_text_active');
-							$('.page_4_texts').addClass('page_4_texts_active');
+
 						}, 1000);
 					}, 500);
 				}, 1000);

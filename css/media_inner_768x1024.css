@@ -115,9 +115,11 @@
 		margin: -29px 0 42px 0;
 	} 
 	.about_one .page_outer_wrapper {
-    	min-height: 245vh;
-    	height: auto;
+		height: 2217px;
     	background: none;
+	}
+	.page_inner_wrapper{
+		height: 2180px;
 	}
 	.about_conteiner {
 		padding-top: 0;
@@ -137,12 +139,9 @@
 		width:80%;
 	}
 	.about_midlle_col1{
-		width:65%;
-		
-	}
-	.about_midlle_col1{
 		width: 25%;
-		
+		margin-left: -20px;
+		padding: 80px 20px 0 0;
 	}
 	.about_underdigit, .about_txt_vertical {
     	font-size: 40px;
@@ -168,12 +167,12 @@
 		margin-left: -45px;
 	}
 	.about_col_2_conteiner > div:last-child{
-		margin-top: -585px;
+		margin-top: -632px;
 		width: 100%;
 		margin-left: 10px;
 	}
 	.about_col_2_conteiner > div:nth-child(4){
-		margin-top: 332px;
+		margin-top: 339px;
 	}
 
 /* ========================================================== article_list ========================================== */
@@ -230,10 +229,12 @@
 		margin-top:inherit;
 	}
 	/*================================================== article one ========================================== */
-	
+	.news_one_conteiner{
+		top: 281px;
+	}
 	.news_one .news_one_midlle{
 		margin-top: 0;
-		margin-bottom: -90px;
+		margin-bottom: -200px;
 	}
 	.news_one .inner_page_breadcrumbs{
 		width:100%;
@@ -268,7 +269,7 @@
 		margin-top: -810px;
 	}
 	 .page_block_7.news_one .page_outer_wrapper, .page_block_7.news_one .page_inner_wrapper{
-		 min-height: 240vh!important;
+		 min-height: 1827px!important;
 			background: none;
 			overflow:hidden;
 			
@@ -423,7 +424,7 @@
 		left: 9px;
 	}
 	.about_one .page_outer_wrapper{
-		min-height: 217vh;
+		height: 2500px;
 	}
      /*==========  hide bloks & elements  ==========*/
     .main_menu_wrapper  .logo.katalog_virtual{
@@ -459,15 +460,15 @@
     	margin-left: 0;
 	}
 	/* =============================== about ============= */
+
+	.partners_floo{
+		width: 82%;
+		margin-left: 11%;
+	}
 	.about_col_2_conteiner > div:last-child{
-		margin-top: -625px;
+		margin-top: -696px;
 		width: 100%;
 		margin-left: 10px;
-	}
-	.about_col_2_conteiner > div:last-child {
-    	margin-top: -625px;
-    	width: 100%;
-    	margin-left: 10px;
 	}
 	.about_col_2_conteiner{
 		margin-left: 40px;
@@ -505,6 +506,9 @@
 		width: 100%;
 	}
 	/* ======================================== articles list ===================================== */
+	.news_one_conteiner {
+		top: 360px;
+	}
 	.news_under_title h1 {
     	margin-right: 180px;
 	}
@@ -514,7 +518,7 @@
 	/* ============================================ article one ===================================== */
 	.news_one .articles_slider_controls_wrapper {
     	top: 35px;
-    	margin-left: 17%;
+    	margin-left: 2%;
 	}
 	.news_one_midlle .news_one_big_photo{
 		margin-top: 500px;

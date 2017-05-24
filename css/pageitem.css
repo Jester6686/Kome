@@ -18,26 +18,26 @@
     background: none;
 }
  .page_block.page_block_7.news_one, .news_one .page_outer_wrapper{
-    min-height: 150vh;
+    min-height: 1500px;
     background-image: url(../images/page_inner_wrapper.jpg);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 100% 2px;
 }
 .about_one .page_outer_wrapper{
-      min-height: 175vh;
-      height: auto;
+      height: 1675px;
+
       background: none;
 }
 .about_midlle, .news_one_midlle{
     width: 100%;
- min-height: 100vh;
- margin: 10vh 0 0 0;
+ min-height: 1000px;
+ margin: 100px 0 0 0;
  position: relative;
 
 }
 .news_list .page_outer_wrapper{
-      min-height: 170vh;
+      min-height: 1700px;
       height: auto;
           background-image: url(../images/page_inner_wrapper.jpg);
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@
     line-height: .6em; 
 }
 .about_conteiner{
-    margin: 35vh 0 0 0;
+    margin: 350px 0 0 0;
     width: 100%;
 }
 .about_underdigit, .about_txt_vertical{
@@ -87,7 +87,7 @@
     
 }
 .about_underdigit{
-    margin: 25px 0 10vh 110px;
+    margin: 25px 0 100px 110px;
     padding: 0;
     line-height: .7em;
 }
@@ -95,10 +95,10 @@
     margin: 5px 0 10vh 110px;
 }
 .about_underdigil_first{
-    margin: 18px 0 10vh 110px; 
+    margin: 18px 0 100px 110px;
 }
 .about_midlle_col1{
-    padding: 10vh 0 0 0;
+    padding: 80px 0 0 0;
     position: relative;
     width: 25%;
     float: left;
@@ -157,22 +157,22 @@ p{
 .line_after_about{
     width: 95%;
     margin-right: 1%;
-    top: 170vh;
+
 }
 .line_right_about{
     top: -2vh;
     height: 168%;
 }
 .news_one_midlle{
-    min-height: 55vh;
-    margin-top: 5vh;
+    min-height: 550px;
+    margin-top: 50px;
     
 }
 .news_one_conteiner{
     min-height: inherit;
     position: absolute;
 
-    top: 39vh;
+    top: 390px;
     left: 11vw;
 }
 .news_one_big_photo img{
@@ -350,7 +350,7 @@ li.news_item_onbottom:first-child{
     width: 45%;
     text-align: center;
     float: left;
-    margin-top: 18vh;
+    margin-top: 180px;
     z-index: 510;
 }
 .contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_slogan_wrapper::after{

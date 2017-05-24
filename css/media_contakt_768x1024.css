@@ -141,13 +141,14 @@
 		top: 300px;
     	z-index: 510;
 	}
+
 	.footer_slogan_wrapper span {
-		text-align: right;
+		text-align: center;
     	float: none;
 		width: 90%;
     	right: 10%;
 	}
-	.contact_phones {
+	.page_inner_wrapper .contact_phones {
 		position: absolute;
 		top: 700px;
     	margin-top: 0;
