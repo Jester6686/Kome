@@ -1,4 +1,4 @@
-@media  (max-width : 500px){
+@media  (max-width : 700px){
  /* ============================================ katalog ====================================== */
     .contact_section > .page_outer_wrapper, .contact_section > .page_outer_wrapper > .page_inner_wrapper {
         min-height: 1770px !important;
@@ -93,7 +93,7 @@
         height: 220px;
         color: #767676;
     }
-    .contact_phones, .contact_phones.wellcome_box {
+    .contact_phones, .contact_phones. wellcome_box {
         position: relative;
         top: 630px;
         margin-top: 0;
@@ -113,18 +113,20 @@
         margin-bottom: 0;
         padding-right: 30px;
     }
+
     .contact_phones span p, .contact_phones span a{
          font-size: 24px;
          margin-bottom: 0;
     }
-    .contact_phones.wellcome_box {
+    .contact_phones .wellcome_box {
+        float: none;
         top: 625px;
         right: 0;
         left: 0;
         margin: 0;
     }
     .page_inner_wrapper .contact_phones{
-        top: 736px;
+        top: 784px;
     }
     .contact_section > .page_outer_wrapper > .page_inner_wrapper > .footer_social_wrapper {
         width: 100%;
@@ -144,5 +146,9 @@
         width: 270px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .contact_phones.wellcome_box {
+        left: 0%;
+        top: 671px;
     }
 }

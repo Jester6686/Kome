@@ -1,4 +1,4 @@
-@media  (max-width : 380px){
+@media  (max-width : 700px){
    .section_footer, .block_6_popup_gallery_prev, .block_6_popup_gallery_next, .lSSlideOuter, .block_6_popup_gallery_close {
         display: none;
    }

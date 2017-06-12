@@ -39,6 +39,7 @@ $(document).ready(function () {
 //rounds main page anim and menu
     fullPageEnable();
  var tetsting = false;
+ if ($(window).width() > 1024 ){
     $(window).resize(function() {
         if ($(window).height() < $('.page_block_2 .page_inner_wrapper').height()) {
         	if (tetsting == false){
@@ -52,7 +53,7 @@ $(document).ready(function () {
             $('.fullpage-wrapper').addClass('fp-destroyed');
             tetsting = true;
             }
-        }else if ($(window).height() > $('.page_block_2 .page_inner_wrapper').height()) {
+        }else if ($(window).height() > $('.page_block_2 .page_inner_wrapper').height() &&  $('.fullpage-wrapper').hasClass('fp-destroyed')) {
 
 
             $('.page_outer_wrapper').css({
@@ -67,4 +68,5 @@ $(document).ready(function () {
 
 
     });
+ }
 });

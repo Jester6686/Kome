@@ -1,4 +1,4 @@
-@media  (max-width : 380px){
+@media  (max-width : 700px){
  /* ============================================ katalog ====================================== */
     .news_list_virtual .page_outer_wrapper, .news_list_virtual .page_inner_wrapper {
         min-height: 1520px!important;
@@ -23,7 +23,7 @@
         line-height: 35px;
         height: 41px;
     }
-    .page_title .page_title_under {
+    .page_block_7 .page_title .page_title_under {
         position: relative;
         font-size: 158px;
         line-height: 50px;

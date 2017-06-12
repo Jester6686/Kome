@@ -74,8 +74,12 @@
     .about_underdigit {
         margin: 25px 0 100px 80px;
     }
-    .big_digit, first_big_digit{
+
+    .big_digit{
         margin-left: 80px;
+    }
+    .first_big_digit{
+        margin-left: 50px;
     }
     .teen_digit {
         margin-left: 70px;
@@ -133,7 +137,7 @@
         margin-left: 21px;
     }
     .category_page_breadcrumbs span a{
-        background: url(../images/slider_3_link_gr.png) no-repeat right 0px top 10px;
+        background: url(../images/slider_3_link_gr.png) no-repeat right 0px top 11px;
     }
     .category_page_breadcrumbs span, .category_page_breadcrumbs span a{
         font-size: 22px;

@@ -137,6 +137,7 @@
 	}
 	.about_txt_body {
 		width:80%;
+		font-size: 21px;
 	}
 	.about_midlle_col1{
 		width: 25%;
@@ -167,7 +168,7 @@
 		margin-left: -45px;
 	}
 	.about_col_2_conteiner > div:last-child{
-		margin-top: -632px;
+		margin-top: -569px;
 		width: 100%;
 		margin-left: 10px;
 	}
@@ -466,7 +467,7 @@
 		margin-left: 11%;
 	}
 	.about_col_2_conteiner > div:last-child{
-		margin-top: -696px;
+		margin-top: -629px;
 		width: 100%;
 		margin-left: 10px;
 	}

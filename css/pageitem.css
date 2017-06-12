@@ -185,6 +185,8 @@ p{
 .news_one_top_txt_body{
     width: 36%;
     float: right;
+    font-size: 22px;
+    font-family: 'BebasNeueRegular';
     margin: 30px 2.5% 0 0;
     height: 450px;
     overflow: hidden;
@@ -243,6 +245,7 @@ margin: 0 2.5% 0 1.1%;
 .read_main_news, .read_bottom_news{
     left: 0;
     width: 100%;
+    bottom: 0;
 }
 .read_main_news a{
     right: 82%;
@@ -498,9 +501,9 @@ li.news_item_onbottom:first-child{
 	font-size: 24px;
 	font-family: 'BebasNeueBook';
 	letter-spacing: .1em;
-	opacity: 0.3;
+
 	padding: 0 15px;
-	color:#999999;
+
 	box-sizing:border-box;
 	text-align: center;
 }

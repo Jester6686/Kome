@@ -1,4 +1,4 @@
-@media  (max-width : 500px){
+@media  (max-width : 700px){
  /* ============================================ katalog ====================================== */
     .page_block_7 .page_outer_wrapper, .page_block_7 .page_inner_wrapper {
         min-height: 3650px;
@@ -16,7 +16,7 @@
         top: 120px;
         margin-right: 0;
         margin-left: 0;
-        left: -20px;
+        left: -6px;
     }
     .page_title.about_title .page_title_under {
         position: relative;
@@ -57,7 +57,7 @@
 
     }
     .about_col_2_conteiner > div:last-child {
-        margin-top: -770px;
+        margin-top: -505px;
         width: 100%;
         margin-left: 10px;
     }
@@ -88,5 +88,42 @@
     }
     .footer_map_text > span:last-child {
         margin-right: 10%;
+    }
+}
+
+@media  (max-width : 600px) {
+
+    .about_col_2_conteiner > div:last-child {
+        margin-top: -569px;
+    }
+}
+@media  (max-width : 500px) {
+
+    .about_col_2_conteiner > div:last-child {
+        margin-top: -610px;
+    }
+}
+@media  (max-width : 420px) {
+
+    .about_col_2_conteiner > div:last-child {
+        margin-top: -653px;;
+    }
+}
+@media  (max-width : 360px) {
+
+    .about_col_2_conteiner > div:last-child {
+        margin-top: -684px;
+    }
+}
+@media  (max-width : 320px) {
+
+    .about_col_2_conteiner > div:last-child {
+        margin-top: -767px;
+    }
+}
+@media  (max-width : 310px) {
+
+    .about_col_2_conteiner > div:last-child {
+        margin-top: -788px;
     }
 }

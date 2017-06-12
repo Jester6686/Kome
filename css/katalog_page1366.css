@@ -155,7 +155,12 @@
     .page_title_over_line_1, .page_title_over_line_2 {
         height: 1px;
     }
-
+    .page_title_over_line_1{
+        top: 0px;
+    }
+    .page_title_over_line_2{
+        bottom: 0px;
+    }
     .Midline {
         display: block;
         top: 49%;
@@ -233,14 +238,14 @@
     }
 
     .block_5_slider_links a {
-        font-size: 23px;
-        background: url(../images/slider_3_link.png) no-repeat right 4px top 6.5px;
+        font-size: 21px;
+        background: url(../images/slider_3_link.png) no-repeat right 7px;
         margin: 0 0px 11px 16px;
     }
 
     .block_5_slider_links span {
         font-size: 23px;
-        background: url(../images/slider_3_link.png) no-repeat right 4px top 6.5px;
+        background: url(../images/slider_3_link.png) no-repeat right 7px;
         margin: 0 6px 11px 0;
     }
 

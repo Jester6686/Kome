@@ -4,6 +4,22 @@
  }
 
 @media  (max-width : 1024px)  {
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+    acronym, address, big, cite, code, del, dfn, em, img,
+    ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+    tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+    form, label, legend, table, caption, tbody, tfoot, thead, tr,
+    th, td, article, aside, canvas, details, embed, figure, figcaption,
+    footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font-size-adjust: .6;
+        font-variant: small-caps;
+        vertical-align: baseline;
+    }
     @font-face {
         font-family: 'Oswald-ExtraLight';
         src:  url('../fonts/Oswald-ExtraLight.ttf')  format('truetype');
@@ -186,6 +202,7 @@
         background: #000000;
     }
     .main_menu_wrapper .main_menu_open{
+        display: inline-block;
         height: 100vh;
         background: #000000;
     }
@@ -390,6 +407,9 @@
         text-align: justify;
     }
     /* ================================================ page #3 ========================================== */
+    .page_block_3 .page_title{
+        top: -50px;
+    }
     .page_3_slider_text p {
         font-size: 22px;
     }
@@ -975,7 +995,7 @@
 }
 
 
-@media  (max-width : 800px)  {
+@media  (max-width : 800px) {
     .main_menu_closed .main_menu_phones a:last-child{
         left: 85%;
     }
@@ -1116,6 +1136,7 @@
          width: 60vw;
     }
    .page_block_4  .page_title_under {
+       left: 9px;
 
     }
     /* ========================================= page 5================================================= */
@@ -1195,7 +1216,7 @@
         width: 47%;
     }
     .page_block_7 .page_title .page_title_under{
-        left: 3px;
+        left: 8px;
     }
     /*============================================= page 8 =================================================== */
     .articles_slider_wrapper{
@@ -1234,8 +1255,11 @@
     }
     .articles_slider_controls_wrapper {
         bottom: -67px;
-        left: 25%;
+        left: 30%;
          width: 70%;
+    }
+    .articles_slider_item{
+        margin-bottom: 64px;
     }
     .articles_slider_text {
         width: 623px;

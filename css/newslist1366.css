@@ -143,7 +143,10 @@
         height: 83px;
         margin: -18px 12px -22px 0;
     }
-
+    .page_block_7 .page_title .page_title_under{
+        top: 45px;
+        left: 2px;
+    }
     .page_title .page_title_over > div > span:nth-child(1) > span:last-child,
     .page_title .page_title_over > div > span:nth-child(2) > span:last-child,
     .page_title .page_title_over > div > span:nth-child(3) > span:last-child,

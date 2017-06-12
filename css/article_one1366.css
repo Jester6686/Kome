@@ -70,7 +70,7 @@
         line-height: 18px;
     }
 }
-@media  (max-width: 1366px) and  (min-width: 1025px){
+@media  (max-width: 1400px) and  (min-width: 1025px){
     .page_title .page_title_under {
         font-size: 300px;
         line-height: 200px;
@@ -247,7 +247,7 @@
     }
     .articles_slider_controls_wrapper > a{
         margin-right: -5px;
-        background: url(../images/articles_slider_controls_all_a.png) no-repeat right 3px top 0;
+        background: url(../images/articles_slider_controls_all_a.png) no-repeat right 18px;
     }
 
     /**************Footer************/

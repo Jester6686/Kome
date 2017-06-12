@@ -1,4 +1,4 @@
-@media  (max-width : 500px){
+@media  (max-width : 700px){
  /* ============================================ katalog ====================================== */
     .page_block_7 .page_outer_wrapper, .page_block_7 .page_inner_wrapper {
         min-height: 1570px!important;
@@ -74,7 +74,7 @@
     }
     .news_one_midlle .news_one_big_photo img {
         height: 212px;
-        width: 312px
+        width: 312px;
         float: right;
         margin-right: 0;
         width: auto;
@@ -153,5 +153,10 @@
     }
     .footer_map_text > span:last-child {
         margin-right: 10%;
+    }
+}
+@media  (max-width : 700px) {
+    .page_no_switcher {
+        font-size: 21px;
     }
 }

@@ -52,7 +52,10 @@
         font-size: 27px;
     }
 }
-@media  (max-width: 1366px) and  (min-width: 1025px) {
+@media  (max-width: 1400px) and  (min-width: 1025px) {
+    .contact_section > .page_outer_wrapper{
+        min-height: 1015px;
+    }
 
     .page_title .page_title_under {
         font-size: 300px;
@@ -140,6 +143,12 @@
     .page_title_over_line_1, .page_title_over_line_2 {
         height: 1px;
     }
+    .page_title_over_line_1{
+        top: 0px;
+    }
+    .page_title_over_line_2{
+        bottom: 0px;
+    }
 
     .Midline {
         display: block;
@@ -153,6 +162,9 @@
     }
     .footer_slogan_wrapper span{
         text-align: right;
+    }
+    .order_on_contact .to_order_form .to_order_submit input{
+        left: 5px;
     }
     .order_on_contact .to_order_form .to_order_title{
         margin-top: 65px;
@@ -172,6 +184,10 @@
     }
     .category_page_breadcrumbs span, .category_page_breadcrumbs span a{
         font-size: 22px;
+
+    }
+    .category_page_breadcrumbs span a{
+        background: url('../images/slider_3_link_gr.png') no-repeat right 11px;
     }
     .contact_phones:before{
         width: 1px;

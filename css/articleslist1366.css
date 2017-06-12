@@ -9,12 +9,26 @@
 .section_footer > .page_outer_wrapper{
     height: 935px;
 }
+/*****************if not P*******/
+.articles_slider_controls_wrapper{
+    bottom: 0px;
+}
+.read_main_news a{
+    right: 80%;
+}
+.news_one_top_txt_body {
+    font-family: 'BebasNeueRegular';
+    font-size: 22px;
+    margin-top: 1em;
+    line-height: 1em;
+    letter-spacing: .02em;
+}
 @media  (max-width: 1800px) and  (min-width: 1025px) {
 
     .page_inner_wrapper{
         margin-left: 13%;
     }
-    p {
+    .news_one_top_txt_body {
         font-size: 20px;
     }
     .articles_list_title{
@@ -38,7 +52,7 @@
         font-size: 19px;
         line-height: 19px;
     }
-    p {
+    .news_one_top_txt_body {
         font-size: 19px;
         line-height: 19px;
     }
@@ -67,7 +81,7 @@
     .main_menu_closed .main_menu_contacts{
         margin-left: 6px;
     }
-    p{
+    .news_one_top_txt_body {
         font-size: 18px;
         line-height: 18px;
         word-spacing: 1px;
