@@ -33,8 +33,8 @@
       <file leaf-file-name="katalog_page1366.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/katalog_page1366.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1579">
-              <caret line="618" column="1" lean-forward="true" selection-start-line="618" selection-start-column="1" selection-end-line="618" selection-end-column="1" />
+            <state relative-caret-position="83">
+              <caret line="545" column="27" lean-forward="true" selection-start-line="545" selection-start-column="27" selection-end-line="545" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -503,7 +503,7 @@
       <workItem from="1497420573949" duration="18574000" />
       <workItem from="1497506251416" duration="8264000" />
       <workItem from="1497593155896" duration="5554000" />
-      <workItem from="1497853335572" duration="3203000" />
+      <workItem from="1497853335572" duration="3347000" />
     </task>
     <task id="LOCAL-00001" summary="first comit (second variant)">
       <created>1493463288409</created>
@@ -680,11 +680,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497871884997</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="upadate server 19.06">
+      <created>1497872157987</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1497872157987</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="593375000" />
+    <option name="totallyTimeSpent" value="593519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,9 +705,9 @@
   <component name="ToolWindowManager">
     <frame x="-1448" y="-7" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1153,8 +1160,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/katalog_page1366.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1579">
-          <caret line="618" column="1" lean-forward="true" selection-start-line="618" selection-start-column="1" selection-end-line="618" selection-end-column="1" />
+        <state relative-caret-position="83">
+          <caret line="545" column="27" lean-forward="true" selection-start-line="545" selection-start-column="27" selection-end-line="545" selection-end-column="27" />
           <folding />
         </state>
       </provider>
