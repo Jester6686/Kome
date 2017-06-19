@@ -183,11 +183,11 @@
         margin-left: 62px;
     }
     .category_page_breadcrumbs span, .category_page_breadcrumbs span a{
-        font-size: 22px;
-
+        font-size: 20px;
+        font-size-adjust: 0.6;
     }
     .category_page_breadcrumbs span a{
-        background: url('../images/slider_3_link_gr.png') no-repeat right 11px;
+        background: url('../images/slider_3_link_gr.png') no-repeat right 10px;
     }
     .contact_phones:before{
         width: 1px;

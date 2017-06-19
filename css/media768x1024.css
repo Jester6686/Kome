@@ -40,6 +40,20 @@
      .main_menu_closed .main_menu_contacts, .main_menu_closed .main_menu_links{
         display: none;
     }
+    /****************************test_perfomens*****************/
+    .main_menu_closed .main_menu_links{
+        top:0;
+        -webkit-transform: translate(0, 0%);
+        -moz-transform: translate(0, 0%);
+        -ms-transform: translate(0,0%);
+        -o-transform: translate(0,0%);
+        transform: translate(0, 0%);
+    }
+
+    .main_menu_closed .main_menu_contacts{
+        top: 0;
+    }
+
     .page_3_slider_hover .page_3_slider_text{
         background: rgba(102, 102, 102, 0);
     }
@@ -51,7 +65,7 @@
     }
     /* =============================== show blocks & elements ============= */
     .right_menu_wrapper{
-        height:  30%;
+        height:  250px;
     }
     .invisible_if_big, .main_menu_wrapper .logo{
 	    display: block;
@@ -86,7 +100,7 @@
 .page_title .page_title_over > div > span:nth-child(11n) > span:first-child,
 .page_title .page_title_over > div > span:nth-child(12n) > span:first-child {top: 0; opacity: 1;    margin: 0 0 0 0; height: 110%;     clear: both;}
     .page_title .page_title_over > div > span:nth-child(1) > span:first-child{
-        left: 5px;
+        left: 3px;
     }
     /* ============================= common elements =====================  */
     .page_title .page_title_over > div > span > span:first-child{
@@ -161,7 +175,7 @@
         color: #a7a7a7;
      }
     .right_menu_wrapper .gallery_right {
-        margin-top: 4vh;
+        margin-top: 70px;
      }
      .right_menu_wrapper .gallery_right >  ul > li:nth-child(2), .right_menu_wrapper .gallery_right >  ul  > li:last-child{
 		display: none;
@@ -241,6 +255,9 @@
     }
     .main_menu_open .main_menu_links li a{
         margin-bottom: 2.5vh;
+    }
+    .main_menu_wrapper .main_menu_open{
+        overflow: scroll;
     }
     .main_menu_wrapper .logo{
         position: absolute;
@@ -477,8 +494,11 @@
     }
 	.page_4_top_text{
         width: 60%;
+        margin: 0 0 0 0;
         margin-top: 203px;
         margin-right: 15px;
+        margin-bottom: 20px;
+
     }
     .page_4_gallery_container .page_4_gallery_item:nth-child(3){
             left: 66.666%;
@@ -593,7 +613,7 @@
         top: 350px !important;
     }
    .page_block_6 .page_title_under{
-    left: -25px;
+    left: -23px;
    }
     .block_6_slider_item{
         padding: 24px 5.46vw 0 7.8vw;
@@ -718,6 +738,12 @@
     }
 
    /*======================================================= page 7 =============================================== */
+    .page_block_7 .page_title .page_title_over > div > span:nth-child(1) > span:first-child{
+        left: 2px;
+    }
+    .page_block_7 .page_title .page_title_over > div > span:nth-child(1) > span:last-child{
+        left: 31px;
+    }
     .about_us_photo {
         margin: 166px 7% 15px 0;
          width: 37%;
@@ -798,6 +824,9 @@
          background-size: 100% 2px;
          background-color: #c1c1c1;
      }
+    .articles_slider_item{
+        margin-bottom: 60px;
+    }
     .page_block_8 .page_title .page_title_over {
         width: 60vw;
     }

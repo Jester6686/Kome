@@ -238,14 +238,14 @@
     }
 
     .block_5_slider_links a {
-        font-size: 21px;
-        background: url(../images/slider_3_link.png) no-repeat right 7px;
+        font-size: 20px;
+        background: url(../images/slider_3_link.png) no-repeat right 6px;
         margin: 0 0px 11px 16px;
     }
 
     .block_5_slider_links span {
-        font-size: 23px;
-        background: url(../images/slider_3_link.png) no-repeat right 7px;
+        font-size: 20px;
+        background: url(../images/slider_3_link.png) no-repeat right 6px;
         margin: 0 6px 11px 0;
     }
 
@@ -610,5 +610,10 @@
     .footer_copyright {
         margin-left: 64.5%;
         font-size: 19px;
+    }
+}
+@media (max-width: 1024px) and (min-width: 700px){
+    #section_katalog_footer{
+        display: block;
     }
 }

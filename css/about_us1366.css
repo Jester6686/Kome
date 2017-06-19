@@ -33,7 +33,7 @@
     }
     .partners_floo > img {
         float: inherit;
-        height: 80%;
+        height: 100%;
         width: 16%;
         margin: -30px 0 0 0%;
     }
@@ -42,6 +42,9 @@
     }
 }
 @media  (max-width: 1600px) and  (min-width: 1025px) {
+    .partners_floo > img{
+        margin: -15px 0 0 0%;
+    }
     .page_inner_wrapper{
         height: 1539px;
     }
@@ -67,6 +70,7 @@
     .partners_floo{
         width: 75%;
         padding: 1vw 0 0 0;
+
     }
     .about_underdigil_first{
         margin: 18px 0 130px 80px;
@@ -136,11 +140,9 @@
         margin-top: 86px;
         margin-left: 21px;
     }
-    .category_page_breadcrumbs span a{
-        background: url(../images/slider_3_link_gr.png) no-repeat right 0px top 11px;
-    }
+
     .category_page_breadcrumbs span, .category_page_breadcrumbs span a{
-        font-size: 22px;
+        font-size: 20px;
     }
     .about_title {
         top: 32px;

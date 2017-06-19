@@ -61,14 +61,15 @@
 .katalog_page_breadcrumbs span, .katalog_page_breadcrumbs span a {
 	font-weight: 700;
 	font-family: 'Oswald-ExtraLight';
-	font-size: 21px;
+	font-size: 20px;
 	letter-spacing: 0.05em;
 	color: #ffffff;
 	text-transform: lowercase;
 	text-decoration: none;
+	font-size-adjust: 0.6;
 }
 .katalog_page_breadcrumbs span a {
-	background: url('../images/slider_3_link.png') no-repeat right 11px;
+	background: url('../images/slider_3_link.png') no-repeat right 10px;
     padding-right:  20px;
 }
 .katalog_page_breadcrumbs > a {
@@ -133,9 +134,9 @@
    
 }
 .category_page_breadcrumbs span, .category_page_breadcrumbs span a {
-	font-size-adjust: 0.55;
+	font-size-adjust: 0.6;
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 20px;
 	letter-spacing: 0.04em;
 	font-family: 'Oswald-ExtraLight';
 	color: #9f9f9f;
@@ -143,9 +144,10 @@
 	text-decoration: none;
 }
 .category_page_breadcrumbs span a {
-	background: url('../images/slider_3_link_gr.png') no-repeat right 13px;
+	background: url('../images/slider_3_link_gr.png') no-repeat right 10px;
     padding-right:  15px;
 	margin-right: 5px;
+	font-size-adjust: 0.6;
 }
 .category_page_breadcrumbs span a:hover {
 	text-decoration: underline; 

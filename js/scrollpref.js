@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+
 	
 //This Use Full_Page_Scroll Master Plugin
 	//Create page scroll use the all main animation and some call-block animation and arrw 
@@ -39,7 +41,7 @@ $(document).ready(function () {
 //rounds main page anim and menu
     fullPageEnable();
  var tetsting = false;
- if ($(window).width() > 1024 ){
+ if ($(window).width() >= 1025 ){
     $(window).resize(function() {
         if ($(window).height() < $('.page_block_2 .page_inner_wrapper').height()) {
         	if (tetsting == false){
@@ -68,5 +70,10 @@ $(document).ready(function () {
 
 
     });
+ } else{
+     $('.page_block_1_svg').remove();
+     $('.go_to_block_2').remove();
+     $('#animetetest').remove();
+
  }
 });

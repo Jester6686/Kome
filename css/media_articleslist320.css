@@ -24,6 +24,7 @@
     }
     .page_block_7 .page_title .page_title_under{
         top: 61px;
+        left: 1px;
     }
    .news_list  .page_title.articles_list_title{
         top: 90px;
@@ -114,6 +115,7 @@
         display: block;
         top: 50px;
         right: 0;
+         height: 20px;
     }
      .page_no_switcher {
         position: relative;

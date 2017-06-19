@@ -33,8 +33,9 @@
     }
 
     .block_6_top_img_links span, .block_6_top_img_links a {
-        font-size: 23px;
-        background: url(../images/slider_3_link.png) no-repeat right 8px top 9px;
+        font-size: 20px;
+        background: url(../images/slider_3_link.png) no-repeat right 6px;
+        font-size-adjust: 0.5;
     }
 
     .main_menu_closed .open_menu_btn {
@@ -345,16 +346,16 @@
         display: none;
     }
     .page_3_slider_links span, .block_5_slider_links span, .page_4_gallery_item_links span {
-        font-size: 23px;
-        background: url(../images/slider_3_link.png) no-repeat right 8px ;
+        font-size: 20px;
+        background: url(../images/slider_3_link.png) no-repeat right 6px ;
         margin: 0 6px 11px 0;
         font-size-adjust: 0.5;
     }
     .page_3_slider_links a, .page_4_gallery_item_links a, .block_5_slider_links a {
-        font-size: 23px;
-        background: url(../images/slider_3_link.png) no-repeat right 8px ;
+        font-size: 20px;
+        background: url(../images/slider_3_link.png) no-repeat right 6px ;
         margin: 0 6px 11px 10px;
-        font-size-adjust: 0.55;
+        font-size-adjust: 0.5;
 
     }
     .tetsarow{
@@ -450,6 +451,12 @@
 
     }
     */
+    .page_4_top_text_after_right{
+        width: 1px;
+    }
+    .page_4_top_text_before, .page_4_top_text_after {
+        height: 1px;
+    }
     .page_block_4 .page_title .page_title_under{
         top: 43px;
         margin: 0 0 42px 0px;
@@ -635,7 +642,15 @@
     .block_5_slider_lines #block_5_slider > li {
         background-size: 1px 100%;
     }
-
+    .about_us_text {
+        border-bottom: 1px solid #c1c1c1;
+    }
+    .about_us_text div:first-child {
+        border-right: 1px solid #c1c1c1;
+    }
+    .about_us_text div:last-child {
+        border-left: 1px solid #c1c1c1;
+    }
 
 
     .page_block_5 .page_title {
@@ -692,13 +707,13 @@
     }
 
     .block_6_big_img_links a {
-        font-size: 23px;
-        background: url(../images/slider_3_link.png) no-repeat right 8px ;
+        font-size: 20px;
+        background: url(../images/slider_3_link.png) no-repeat right 6px ;
         font-size-adjust: 0.5;
     }
       .block_6_big_img_links span {
-          background: url(../images/slider_3_link.png) no-repeat right 8px ;
-        font-size: 23px;
+          background: url(../images/slider_3_link.png) no-repeat right 6px ;
+        font-size: 20px;
           font-size-adjust: 0.5;
     }
 

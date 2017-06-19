@@ -106,7 +106,7 @@
 @media  (max-width : 420px) {
 
     .about_col_2_conteiner > div:last-child {
-        margin-top: -653px;;
+        margin-top: -610px;;
     }
 }
 @media  (max-width : 360px) {
@@ -118,7 +118,7 @@
 @media  (max-width : 320px) {
 
     .about_col_2_conteiner > div:last-child {
-        margin-top: -767px;
+        margin-top: -710px;
     }
 }
 @media  (max-width : 310px) {

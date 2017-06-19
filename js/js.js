@@ -3,21 +3,28 @@ $(function(){
     if ($('body').is('.main_page') && $(window).width() > 1024 ) {
         new WOW().init();
     };
-    $(window).resize(function() {
-        if($(window).width() >1288){
-            var  new_height = $(window).height();
-            new_height = new_height - (new_height/100)*6 - 37;
+    if($(window).width() >1288) {
+        $(window).resize(function () {
+
+            var new_height = $(window).height();
+            new_height = new_height - (new_height / 100) * 6 - 37;
             $('.main_menu_contacts').css({top: new_height + 'px'});
 
             var title_width = $('.page_block_6 .page_title_under').width();
             var title_height = $('.page_block_6 .page_title_over').height();
             var title_pos = $('.page_block_6 .page_title_under').position();
-            $('.page_block_6 .page_title_over_level_2').css({left: (title_pos.left  + title_width*2 + 2) +"px", top:  (title_pos.top - title_height *.2 + 2 ) + 'px'});
-        }
-    });
+            $('.page_block_6 .page_title_over_level_2').css({
+                left: (title_pos.left + title_width * 2 + 2) + "px",
+                top: (title_pos.top - title_height * .2 + 2 ) + 'px'
+            });
+
+        });
+    }
     var normalBrowser = true;
     if ($('.page_block_1_svg').css('display') == 'none') {
+
         normalBrowser = false;
+        console.log(normalBrowser);
     }
 
     if ($(window).width() > 1920) {
@@ -338,7 +345,7 @@ $(function(){
             };
         }, 100);
     };
-    if( $(window).width() > 1024 )  // wo {} !!!
+    if( $(window).width() >= 1025 )  // wo {} !!!
         $('.page_title').on('inview', function(event, isInView) {
             var inscreen = $(event.target).find('.page_title_over').offset().top;
             inscreen -= $(document).scrollTop() ;
@@ -567,7 +574,7 @@ $(function(){
     );
     // if($(window).width() >1024) // wo { } !!
     $('.page_block_4').one('inview', function(event){
-        if ($(window).width() > 750) {
+        if ($(window).width() > 1024) {
             setTimeout(function(){
                 $('.page_4_gallery_wrapper').addClass('page_4_gallery_wrapper_active');
                 setTimeout(function(){
@@ -696,19 +703,20 @@ $(function(){
         width : (100 / sliderSixCounter) + '%'
     });
     function blockSixSizes() {
-        if($(window).width()> 1024 ){
+        var width = $(window).width();
+        if(width> 1024 ){
             $('.block_6_slider_prev, .block_6_slider_next').css({
 
                 /*top : (($('.block_6_slider').height() - 219) / 2) + 'px'*/
                 top : (($('.block_6_bottom_gallery .block_6_gallery_title').position().top) + 'px' )
             });
-        }else if($(window).width() > 750 ){
+        }else if(width > 750 ){
             $('.block_6_slider_prev, .block_6_slider_next').css({
 
                 /*top : (($('.block_6_slider').height() - 219) / 2) + 'px'*/
                 top : ('535px' )
             });
-        }else if($(window).width() > 640 ){
+        }else if(width > 640 ){
             $('.block_6_slider_prev, .block_6_slider_next').css({
 
                 /*top : (($('.block_6_slider').height() - 219) / 2) + 'px'*/
@@ -717,9 +725,10 @@ $(function(){
         }
     };
     blockSixSizes();
-    $(window).resize(function(){
-        blockSixSizes();
-    });
+    // $(window).resize(function(){
+    //
+    //     blockSixSizes();
+    // });
     var sliderSixCurrentLeft = 0;
     $('.block_6_slider_next').click(function(){
         if (sliderSixCurrentLeft > (0 - sliderSixCounter + 1)) {
@@ -1394,9 +1403,20 @@ $(function(){
             });
         }
     }
-    $(window).resize(function() {
-        popupGalleryresize();
-        telephoneCollresize();
-        OrderWrapperresize();
-    });
+     if ( $(window).width()>= 1025) {
+         $(window).resize(function () {
+             popupGalleryresize();
+             telephoneCollresize();
+             OrderWrapperresize();
+         });
+     }
+    setTimeout(function() {
+        $('.news_one .page_outer_wrapper').css({
+            minHeight: $('.news_one_conteiner').height() + 500 + 'px'
+        })
+
+        $(' .catalog_one_mode_sec2').css({
+            minHeight: $('.about_katalog_txt').height() + 100 + 'px'
+        })
+    }, 1)
 });
