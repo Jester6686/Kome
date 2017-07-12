@@ -271,8 +271,11 @@
 	.news_under_title h1 {
     	margin-right: 180px;
 	}
-	
-	/* ============================================ article one ===================================== */
+	.category_page_breadcrumbs{
+		width: 100%;
+	}
+
+		/* ============================================ article one ===================================== */
 	.news_one .articles_slider_controls_wrapper {
     	top: 35px;
     	margin-left: 17%;

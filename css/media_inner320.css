@@ -1,6 +1,6 @@
-@media  (max-width : 380px){
+@media  (max-width : 700px){
    .main_menu_wrapper  .logo.katalog_virtual, .main_menu_wrapper .logo.katalog_virtual {
-         left: 25%;
+         left: 30%;
     }
     .right_menu_wrapper .inner_page_inview ul {
         margin-left: 0;
@@ -15,6 +15,10 @@
     }
     .main_menu_closed .main_menu_phones .katalog_virtual, .lang_selector.inner_page_inview > span{
         display: block;
+    }
+    .right_menu_wrapper .lang_selector span{
+        font-size: 20pt;
+        margin-top: 8px;
     }
 
 }

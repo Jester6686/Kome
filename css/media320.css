@@ -2,7 +2,7 @@
 .visible_if_less_350{
     display: none;
 }
-@media  (max-width : 500px){
+@media  (max-width : 700px){
     .footer_slogan_wrapper::after,.allnews_slider_controls_wrapper::before, .page_block_9 .page_inner_wrapper::before, .page_block_9 .page_title_color_square, .block_6_gallery_container,.page_4_gallery_item_text span, .block_6_slider_prev, .block_6_slider_next, .page_4_gallery_container .page_4_gallery_item .page_4_gallery_item_bg > span, .page_4_top_text_after_right, .page_4_top_text_before, .page_4_top_text_after, .page_3_top_block_div_before, .page_3_top_block_div_after, .page_3_top_block_before , .page_3_top_block_after, .page_3_slider_wrapper span.page_3_slider_prev, .page_3_slider_wrapper span.page_3_slider_next, .articles_slider_controls_wrapper.visible_if_less_350.active,
     .articles_slider_controls_wrapper.visible_if_less_350::before, 
     .page_2_texts_after, .page_2_texts_after_right, .page_2_texts_before, 
@@ -12,6 +12,7 @@
    /* =========================================== commom elements ==================================== */
     .page_title {
         margin-left: 10px;
+
     }
     .page_title .page_title_over > div > span {
         font-size: 36px;
@@ -49,9 +50,11 @@
        height: 32px;
    }
    .main_menu_closed .main_menu_phones a:last-child {
-        top: 10px;
-       left: 71%;
-        width: 55px;
+       top: 10px;
+       left: 75%;
+       width: 49px;
+       background-position: 22px 7px;
+       background-size: auto 70%;
     }
     .page_2_texts.active{
         margin-top: 350px;
@@ -66,8 +69,8 @@
         margin: 0 0 0 10px;
     }
     .arrow_down_lang{
-        top: 25px;
-        left: 20px;
+        top: 17px;
+        left: 18px;
     }
     .open_menu_btn{
         font-size: 14.5px;
@@ -94,6 +97,9 @@
         width: 100%;
         height: 54px;
     }
+    .main_menu_wrapper .main_menu_open{
+        width: 153px;
+    }
     .main_menu_open .main_menu_links {
         margin-top: 5vh;
     }
@@ -111,6 +117,7 @@
     }
     .main_menu_open .main_menu_contacts > span > a{
         font-size: 22px;
+        padding-top: 3px;
     }
     .main_menu_open .main_menu_links li a{
         font-size: 22px;
@@ -121,11 +128,15 @@
     .open_menu_btn {
        margin-top: 10px;
     }
+    .main_menu_open .open_menu_btn > span > span:nth-child(2){
+        top: 7.6px;
+        left: 1px;
+    }
     .main_menu_open .open_menu_btn > span > span:nth-child(1){
         top: -5px;
     }
      .main_menu_open .open_menu_btn > span{
-        height: 18px;
+        height: 17px;
     }
     .main_menu_open .open_menu_btn > span > span:nth-child(3){
         top: 22px;

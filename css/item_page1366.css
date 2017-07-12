@@ -115,7 +115,7 @@
         margin-right: 5px;
     }
     .section_footer .page_outer_wrapper{
-        min-height: 90vh;
+        min-height: 580px;
     }
     .footer_social_wrapper{
         padding: 0 0 23px 0;
@@ -307,7 +307,7 @@
         line-height: 21px;
     }
     .section_footer .page_outer_wrapper {
-        min-height: 100vh;
+        min-height: 580px;
     }
     .footer_slogan_wrapper{
         font-size: 36px;
@@ -364,7 +364,7 @@
 @media (max-width: 1100px) and (min-width: 1025px){
 
     .section_footer .page_outer_wrapper {
-        min-height: 108vh;
+        min-height: 600px;
     }
     .page_inner_wrapper {
         width: 79%;

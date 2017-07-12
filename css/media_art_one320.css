@@ -1,4 +1,4 @@
-@media  (max-width : 500px){
+@media  (max-width : 700px){
  /* ============================================ katalog ====================================== */
     .news_one .news_one_midlle {
         margin-bottom: -327px;
@@ -32,8 +32,8 @@
        line-height: 22px;
    }
    .category_page_breadcrumbs span a{
-        background: url(../images/slider_3_link_gr.png) no-repeat right 10px;
-        padding-right: 8px;
+        background: url(../images/slider_3_link_gr.png) no-repeat right 13px;
+        padding-right: 10px;
         font-size: 23px;
         margin-right: 1px;
    }
@@ -101,5 +101,30 @@
     }
     .footer_map_text > span:last-child {
         margin-right: 10%;
+    }
+}
+@media (max-width: 320px) {
+
+    .page_block_7.news_one .page_outer_wrapper, .page_block_7.news_one .page_inner_wrapper {
+        min-height: 2084px !important;
+    }
+    .news_one_conteiner .news_one_top_txt_body{
+        height: 620px;
+        margin-top: -794px;
+    }
+    .news_one .news_one_midlle {
+        margin-bottom: -292px;
+    }
+    .news_one .articles_slider_controls_wrapper{
+        top: 361px;
+    }
+    .news_one_conteiner{
+        top: 294px;
+    }
+    .news_one .news_under_title{
+        margin-top: -946px;
+    }
+    .category_page_breadcrumbs span a{
+        font-size: 21px;
     }
 }
