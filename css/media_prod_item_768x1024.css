@@ -17,11 +17,34 @@
         margin: 0 0 0 0;
         height: 80px;
   }
+    #prod_gallery_title_one{
+        margin-left: -20.5vw!important;
+    }
   .block_6_slider_item {
+        margin-top: 0 !important;
         float: left;
         padding: 0 5.46vw 0 0;
         box-sizing: border-box;
   }
+    #section_katalog_footer{
+        display: block;
+    }
+
+    .block_6_big_img_links a{
+        left: -9px;
+        color: #9f9f9f;
+        display: block;
+        top: 69px;
+        position: relative;
+        background: url(../images/slider_3_link_gr.png) no-repeat right 6px;
+    }
+    #next {
+    -webkit-region-fragment: disable;
+    stroke-linejoin: 156!important;
+    backface-visibility: none;
+    wrap-option: 0 254 0 15%;
+    align-items: flex-start;
+     }
     .right_menu_wrapper   .inner_page_inview  ul{
         margin-left: 10px;
         margin-top: 8px;

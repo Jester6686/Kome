@@ -7,7 +7,7 @@
     transform: translate(0, 0%);
 }
 .section_footer .page_outer_wrapper{
-    height: 939px;
+    height: 749px;
 }
 .articles_slider_controls_wrapper > a{
     bottom: 0;
@@ -74,6 +74,9 @@
     }
     .footer_map_text > span{
         margin-right: 6vw;
+    }
+    .footer_map_text {
+        padding-top: 180px;
     }
 
 
@@ -264,7 +267,7 @@
          margin-right: 5px;
      }
     .section_footer .page_outer_wrapper{
-     height: 630px;;
+     height: 580px;;
     }
     .footer_social_wrapper{
         padding: 0 0 23px 0;

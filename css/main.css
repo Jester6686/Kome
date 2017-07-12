@@ -3663,6 +3663,10 @@ box-shadow: inset -20px -20px -20px -20px rgba(255,255,255,.75); */
 		font-size: 20px;
 		margin-top: 0px;
 	}
+	.page_4_top_text_inner{
+		font-size: 19px;
+		line-height: 19px;
+	}
 	.page_4_gallery_item_text span {
 		font-size: 40px;
 	}

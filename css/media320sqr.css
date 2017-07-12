@@ -302,19 +302,22 @@
         left: -5px;
     }
     .main_menu_open .open_menu_btn > span > span:nth-child(2){
-        top: 7.4px;
+        top: 8px;
         left: 0;
     }
-    .telephone_call_win .to_order_form{
-        margin-left: 21%;
+    .telephone_call_win .order_glow{
+        margin-left: 24%;
     }
-    .to_order_form {
+    .order_glow {
         margin: 0 0;
         margin-left: 27%;
         width: 100%;
         max-width: 320px;
      }
-     .slogan_content {
+    .to_order_form{
+        max-width: 320px;
+    }
+    .slogan_content {
          left: 0;
          width: 100%;
      }
@@ -1152,6 +1155,9 @@
     }
 }
 @media  (max-width : 350px){
+    .order_glow {
+
+    }
     .page_2_h320.visible_if_less_350{
         left: 26%;
     }

@@ -16,7 +16,7 @@
     min-height: 380px;
 }
 .section_footer > .page_outer_wrapper {
-    height: 935px;
+    height: 835px;
 }
 @media  (max-width: 1800px) and  (min-width: 1025px) {
 
@@ -44,7 +44,7 @@
         margin-right: 6vw;
     }
     .section_footer > .page_outer_wrapper {
-        height: 837px;
+        height: 737px;
     }
 
 }

@@ -7,7 +7,7 @@
     transform: translate(0, 0%);
 }
 .section_footer > .page_outer_wrapper{
-    height: 935px;
+    height: 835px;
 }
 /*****************if not P*******/
 .articles_slider_controls_wrapper{
@@ -66,8 +66,12 @@
         margin-right: 6vw;
     }
     .section_footer > .page_outer_wrapper {
-        height: 840px;
+        height: 740px;
     }
+    .footer_map_text{
+        padding-top: 180px;
+    }
+
 }
 @media (max-width: 1500px) and (min-width: 1025px) {
     .footer_map_text > span{
@@ -331,7 +335,7 @@
         margin-right: 5px;
     }
     .section_footer .page_outer_wrapper{
-        height: 675px;
+        height: 600px;
     }
     .footer_social_wrapper{
         padding: 3px 0 20px 0;

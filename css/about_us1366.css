@@ -12,7 +12,7 @@
     height: 1625px;
 }
 .section_footer .page_outer_wrapper{
-    height: 939px;
+    height: 839px;
 }
 @media  (max-width: 1800px) and  (min-width: 1025px) {
     p{
@@ -42,6 +42,9 @@
     }
 }
 @media  (max-width: 1600px) and  (min-width: 1025px) {
+    .line_after_about{
+        bottom: -13px;
+    }
     .partners_floo > img{
         margin: -15px 0 0 0%;
     }
@@ -52,7 +55,7 @@
         height: 1577px;
     }
     .section_footer .page_outer_wrapper{
-        height: 789px;
+        height: 740px;
     }
      p{
         font-size: 19px;
@@ -218,8 +221,9 @@
         height: 1px;
     }
     .line_after_about {
+        bottom: 0;
         width: 75%;
-        margin-right: 4%;
+        margin-right: 5%;
 
     }
 
@@ -322,8 +326,8 @@
         margin-right: 5px;
     }
     .section_footer .page_outer_wrapper{
-        min-height: 647px;
-        height: 605px;
+        min-height: 580px;
+        height: 580px;
     }
     .footer_social_wrapper{
         padding: 0 0 23px 0;

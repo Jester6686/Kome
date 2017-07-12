@@ -33,7 +33,7 @@
         font-style: normal;
     }
      /*==========  hide bloks & elements  ==========*/
-    .page_3_slider_links, .page_4_gallery_item_links, .block_6_big_img_links, .block_5_slider_links, .main_menu_closed .main_menu_phones .katalog_virtual, #section_katalog_footer, .catalog_one_mode_sec2, .katalog_page_breadcrumbs, .inner_page_logo, .block_6_gallery_title a, .go_to_block_2_start, .go_to_block_2, #image_move_container, .page_block_1_svg, .footer_map_wrapper::before, 
+    .main_menu_closed .main_menu_phones .katalog_virtual, #section_katalog_footer, .catalog_one_mode_sec2, .katalog_page_breadcrumbs, .inner_page_logo, .block_6_gallery_title a, .go_to_block_2_start, .go_to_block_2, #image_move_container, .page_block_1_svg, .footer_map_wrapper::before,
      .allnews_slider_text_right, .articles_slider_img_wrapper, .articles_slider_img_text, 
      .about_us_text div:last-child, .block_6_top_imgs, .block_5_slider_wrapper::after, 
      .block_5_slider_wrapper::before, .to_top, .hide1366, .page_2_top_text, .logo,  .header_social_wrapper, 
@@ -154,7 +154,9 @@
     .right_menu_wrapper .show_lang_selector ul{
         display: block;
     }
-    
+    .telephone_call_win .order_glow{
+        margin-left: 0%;
+    }
     .block_6_popup_slider_big_img {
         width: 100%;
         height: 500px;
@@ -456,6 +458,10 @@
         height: 94%;
 
     }
+    .page_3_slider_links a, .page_3_slider_links span{
+        font-size: 20px;
+        background: url(../images/slider_3_link.png) no-repeat right 6px;
+    }
     /* ==================================================== page $4 ======================================== */
     .page_block_4 .page_inner_wrapper{
         top: 53px;
@@ -579,7 +585,9 @@
         margin: 20px 0 10px 0;
     }
     .block_5_slider_links a, .block_5_slider_links span {
-        font-size: 24px;
+        font-size: 20px;
+        background: url(../images/slider_3_link.png) no-repeat right 6px;
+
     }
     #block_5_slider .block_5_slider_item_hover .block_5_slider_text p{
         font-size: 22px;
@@ -735,6 +743,10 @@
     }
     .page_block_6 .page_title .page_title_over{
         width: 33vw;
+    }
+    .block_6_big_img_links a, .block_6_big_img_links span{
+        font-size: 20px;
+        background: url(../images/slider_3_link.png) no-repeat right 6px;
     }
 
    /*======================================================= page 7 =============================================== */
@@ -1382,7 +1394,7 @@
         margin-left: 6%;
     }
     .section_footer .page_outer_wrapper{
-        min-height: 830px;
+        min-height: 580px;
     }
     .footer_menu li a {
          font-size: 22px;
