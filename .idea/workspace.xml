@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b99e28-6064-46d9-a084-fbbc46559c76" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_us.html" afterPath="$PROJECT_DIR$/about_us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article_one.html" afterPath="$PROJECT_DIR$/article_one.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articleslist.html" afterPath="$PROJECT_DIR$/articleslist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categor_page.html" afterPath="$PROJECT_DIR$/categor_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categor_page_wo_t.html" afterPath="$PROJECT_DIR$/categor_page_wo_t.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contakt.html" afterPath="$PROJECT_DIR$/contakt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/about_us1366.css" afterPath="$PROJECT_DIR$/css/about_us1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/article_one1366.css" afterPath="$PROJECT_DIR$/css/article_one1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/articleslist1366.css" afterPath="$PROJECT_DIR$/css/articleslist1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/categor_page1366.css" afterPath="$PROJECT_DIR$/css/categor_page1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/contakt1366.css" afterPath="$PROJECT_DIR$/css/contakt1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/item_page1366.css" afterPath="$PROJECT_DIR$/css/item_page1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/katalog_page1366.css" afterPath="$PROJECT_DIR$/css/katalog_page1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media320sqr.css" afterPath="$PROJECT_DIR$/css/media320sqr.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media768x1024.css" afterPath="$PROJECT_DIR$/css/media768x1024.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media_categor768x1024.css" afterPath="$PROJECT_DIR$/css/media_categor768x1024.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media_prod_item_768x1024.css" afterPath="$PROJECT_DIR$/css/media_prod_item_768x1024.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/news1366.css" afterPath="$PROJECT_DIR$/css/news1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/newslist1366.css" afterPath="$PROJECT_DIR$/css/newslist1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/prod_item1366.css" afterPath="$PROJECT_DIR$/css/prod_item1366.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/item_page.html" afterPath="$PROJECT_DIR$/item_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.js" afterPath="$PROJECT_DIR$/js/js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/katalog_page.html" afterPath="$PROJECT_DIR$/katalog_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.html" afterPath="$PROJECT_DIR$/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newslist.html" afterPath="$PROJECT_DIR$/newslist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod_item.html" afterPath="$PROJECT_DIR$/prod_item.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/js/index_sections.html" afterPath="$PROJECT_DIR$/test2/js/index_sections.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/katalog_page.html" afterPath="$PROJECT_DIR$/test2/katalog_page.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -113,8 +84,8 @@
       <file leaf-file-name="about_us.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+            <state relative-caret-position="410">
+              <caret line="39" column="76" lean-forward="false" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -254,6 +225,7 @@
     <option name="width" value="1456" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -269,6 +241,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,8 +285,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -520,7 +492,8 @@
       <workItem from="1499405547522" duration="7207000" />
       <workItem from="1499663635213" duration="1554000" />
       <workItem from="1499749373375" duration="8832000" />
-      <workItem from="1499839446998" duration="911000" />
+      <workItem from="1499839446998" duration="1802000" />
+      <workItem from="1499841980753" duration="588000" />
     </task>
     <task id="LOCAL-00001" summary="first comit (second variant)">
       <created>1493463288409</created>
@@ -746,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497873484993</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="upadate server 19.06">
+      <created>1499840912502</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1499840912502</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="679916000" />
+    <option name="totallyTimeSpent" value="681395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,17 +743,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1448" y="-7" width="1456" height="876" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21791255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270525" sideWeight="0.50564176" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270525" sideWeight="0.49435824" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270525" sideWeight="0.49435824" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1242,8 +1221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about_us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        <state relative-caret-position="410">
+          <caret line="39" column="76" lean-forward="false" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
           <folding />
         </state>
       </provider>
